@@ -1,0 +1,1 @@
+['Artist ASANO HIROSHI。', 'asanohiroshio', 8750, 4390, 'ASANO HIROSHI。（Painter、Contemporary Art Artist、Photographer）', False]

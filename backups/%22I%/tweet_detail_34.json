@@ -1,0 +1,452 @@
+{
+    "data": {
+        "threaded_conversation_with_injections_v2": {
+            "instructions": [
+                {
+                    "type": "TimelineAddEntries",
+                    "entries": [
+                        {
+                            "entryId": "tweet-1894850830052048936",
+                            "sortIndex": "7328521206802726871",
+                            "content": {
+                                "entryType": "TimelineTimelineItem",
+                                "__typename": "TimelineTimelineItem",
+                                "itemContent": {
+                                    "itemType": "TimelineTweet",
+                                    "__typename": "TimelineTweet",
+                                    "tweet_results": {
+                                        "result": {
+                                            "__typename": "Tweet",
+                                            "rest_id": "1894850830052048936",
+                                            "has_birdwatch_notes": false,
+                                            "core": {
+                                                "user_results": {
+                                                    "result": {
+                                                        "__typename": "User",
+                                                        "id": "VXNlcjoxNDgxOTA3NjQ4MzM3NTIyNjkx",
+                                                        "rest_id": "1481907648337522691",
+                                                        "affiliates_highlighted_label": {},
+                                                        "has_graduated_access": true,
+                                                        "parody_commentary_fan_label": "None",
+                                                        "is_blue_verified": false,
+                                                        "profile_image_shape": "Circle",
+                                                        "legacy": {
+                                                            "following": false,
+                                                            "can_dm": false,
+                                                            "can_media_tag": true,
+                                                            "created_at": "Fri Jan 14 08:34:59 +0000 2022",
+                                                            "default_profile": true,
+                                                            "default_profile_image": false,
+                                                            "description": "",
+                                                            "entities": {
+                                                                "description": {
+                                                                    "urls": []
+                                                                }
+                                                            },
+                                                            "fast_followers_count": 0,
+                                                            "favourites_count": 1,
+                                                            "followers_count": 0,
+                                                            "friends_count": 2,
+                                                            "has_custom_timelines": false,
+                                                            "is_translator": false,
+                                                            "listed_count": 0,
+                                                            "location": "",
+                                                            "media_count": 0,
+                                                            "name": "Mohad Khan",
+                                                            "normal_followers_count": 0,
+                                                            "pinned_tweet_ids_str": [],
+                                                            "possibly_sensitive": false,
+                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1481907688388898820/-BKO5oBy_normal.png",
+                                                            "profile_interstitial_type": "",
+                                                            "screen_name": "mohadk2004",
+                                                            "statuses_count": 5,
+                                                            "translator_type": "none",
+                                                            "verified": false,
+                                                            "want_retweets": false,
+                                                            "withheld_in_countries": []
+                                                        },
+                                                        "tipjar_settings": {}
+                                                    }
+                                                }
+                                            },
+                                            "card": {
+                                                "rest_id": "https://t.co/6XR9mxIdmJ",
+                                                "legacy": {
+                                                    "binding_values": [
+                                                        {
+                                                            "key": "description",
+                                                            "value": {
+                                                                "string_value": "Discover, sell and buy NFTs on Rarible! Our aggregated NFT marketplace for Ethereum NFTs and Polygon NFTs powers brands, collections and creator marketplaces.",
+                                                                "type": "STRING"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "domain",
+                                                            "value": {
+                                                                "string_value": "rarible.com",
+                                                                "type": "STRING"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "vanity_url",
+                                                            "value": {
+                                                                "scribe_key": "vanity_url",
+                                                                "string_value": "rarible.com",
+                                                                "type": "STRING"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "title",
+                                                            "value": {
+                                                                "string_value": "Untitled",
+                                                                "type": "STRING"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "card_url",
+                                                            "value": {
+                                                                "scribe_key": "card_url",
+                                                                "string_value": "https://t.co/6XR9mxIdmJ",
+                                                                "type": "STRING"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "card_platform": {
+                                                        "platform": {
+                                                            "audience": {
+                                                                "name": "production"
+                                                            },
+                                                            "device": {
+                                                                "name": "Swift",
+                                                                "version": "12"
+                                                            }
+                                                        }
+                                                    },
+                                                    "name": "summary_large_image",
+                                                    "url": "https://t.co/6XR9mxIdmJ",
+                                                    "user_refs_results": []
+                                                }
+                                            },
+                                            "unmention_data": {},
+                                            "edit_control": {
+                                                "edit_tweet_ids": [
+                                                    "1894850830052048936"
+                                                ],
+                                                "editable_until_msecs": "1740606217000",
+                                                "is_edit_eligible": true,
+                                                "edits_remaining": "5"
+                                            },
+                                            "is_translatable": false,
+                                            "views": {
+                                                "count": "10",
+                                                "state": "EnabledWithCount"
+                                            },
+                                            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                            "grok_analysis_button": false,
+                                            "legacy": {
+                                                "bookmark_count": 0,
+                                                "bookmarked": false,
+                                                "created_at": "Wed Feb 26 20:43:37 +0000 2025",
+                                                "conversation_id_str": "1894850830052048936",
+                                                "display_text_range": [
+                                                    0,
+                                                    86
+                                                ],
+                                                "entities": {
+                                                    "hashtags": [
+                                                        {
+                                                            "indices": [
+                                                                65,
+                                                                73
+                                                            ],
+                                                            "text": "rarible"
+                                                        }
+                                                    ],
+                                                    "symbols": [],
+                                                    "timestamps": [],
+                                                    "urls": [
+                                                        {
+                                                            "display_url": "rarible.com/token/0xc91544\u2026",
+                                                            "expanded_url": "https://rarible.com/token/0xc9154424b823b10579895ccbe442d41b9abd96ed:13278239262032362456788192320044891246004458771498471249611015864237682589699",
+                                                            "url": "https://t.co/6XR9mxIdmJ",
+                                                            "indices": [
+                                                                41,
+                                                                64
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "user_mentions": [
+                                                        {
+                                                            "id_str": "1160222700104757249",
+                                                            "name": "Rarible",
+                                                            "screen_name": "rarible",
+                                                            "indices": [
+                                                                78,
+                                                                86
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "favorite_count": 0,
+                                                "favorited": false,
+                                                "full_text": "I've just created \"Aeropex\" collectible! https://t.co/6XR9mxIdmJ #rarible via @rarible",
+                                                "is_quote_status": false,
+                                                "lang": "en",
+                                                "possibly_sensitive": false,
+                                                "possibly_sensitive_editable": true,
+                                                "quote_count": 0,
+                                                "reply_count": 0,
+                                                "retweet_count": 0,
+                                                "retweeted": false,
+                                                "user_id_str": "1481907648337522691",
+                                                "id_str": "1894850830052048936"
+                                            },
+                                            "quick_promote_eligibility": {
+                                                "eligibility": "IneligibleNotProfessional"
+                                            }
+                                        }
+                                    },
+                                    "tweetDisplayType": "Tweet",
+                                    "hasModeratedReplies": false
+                                }
+                            }
+                        },
+                        {
+                            "entryId": "tweetdetailrelatedtweets-1894832256268591243",
+                            "sortIndex": "1",
+                            "content": {
+                                "entryType": "TimelineTimelineModule",
+                                "__typename": "TimelineTimelineModule",
+                                "items": [
+                                    {
+                                        "entryId": "tweetdetailrelatedtweets-1894832256268591243-tweet-1894832256268591243",
+                                        "item": {
+                                            "itemContent": {
+                                                "itemType": "TimelineTweet",
+                                                "__typename": "TimelineTweet",
+                                                "tweet_results": {
+                                                    "result": {
+                                                        "__typename": "Tweet",
+                                                        "rest_id": "1894832256268591243",
+                                                        "has_birdwatch_notes": false,
+                                                        "core": {
+                                                            "user_results": {
+                                                                "result": {
+                                                                    "__typename": "User",
+                                                                    "id": "VXNlcjoxNDgxOTA3NjQ4MzM3NTIyNjkx",
+                                                                    "rest_id": "1481907648337522691",
+                                                                    "affiliates_highlighted_label": {},
+                                                                    "has_graduated_access": true,
+                                                                    "parody_commentary_fan_label": "None",
+                                                                    "is_blue_verified": false,
+                                                                    "profile_image_shape": "Circle",
+                                                                    "legacy": {
+                                                                        "following": false,
+                                                                        "can_dm": false,
+                                                                        "can_media_tag": true,
+                                                                        "created_at": "Fri Jan 14 08:34:59 +0000 2022",
+                                                                        "default_profile": true,
+                                                                        "default_profile_image": false,
+                                                                        "description": "",
+                                                                        "entities": {
+                                                                            "description": {
+                                                                                "urls": []
+                                                                            }
+                                                                        },
+                                                                        "fast_followers_count": 0,
+                                                                        "favourites_count": 1,
+                                                                        "followers_count": 0,
+                                                                        "friends_count": 2,
+                                                                        "has_custom_timelines": false,
+                                                                        "is_translator": false,
+                                                                        "listed_count": 0,
+                                                                        "location": "",
+                                                                        "media_count": 0,
+                                                                        "name": "Mohad Khan",
+                                                                        "normal_followers_count": 0,
+                                                                        "pinned_tweet_ids_str": [],
+                                                                        "possibly_sensitive": false,
+                                                                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1481907688388898820/-BKO5oBy_normal.png",
+                                                                        "profile_interstitial_type": "",
+                                                                        "screen_name": "mohadk2004",
+                                                                        "statuses_count": 5,
+                                                                        "translator_type": "none",
+                                                                        "verified": false,
+                                                                        "want_retweets": false,
+                                                                        "withheld_in_countries": []
+                                                                    },
+                                                                    "tipjar_settings": {}
+                                                                }
+                                                            }
+                                                        },
+                                                        "card": {
+                                                            "rest_id": "https://t.co/KiG7cxHYVP",
+                                                            "legacy": {
+                                                                "binding_values": [
+                                                                    {
+                                                                        "key": "description",
+                                                                        "value": {
+                                                                            "string_value": "Discover, sell and buy NFTs on Rarible! Our aggregated NFT marketplace for Ethereum NFTs and Polygon NFTs powers brands, collections and creator marketplaces.",
+                                                                            "type": "STRING"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "key": "domain",
+                                                                        "value": {
+                                                                            "string_value": "rarible.com",
+                                                                            "type": "STRING"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "key": "vanity_url",
+                                                                        "value": {
+                                                                            "scribe_key": "vanity_url",
+                                                                            "string_value": "rarible.com",
+                                                                            "type": "STRING"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "key": "title",
+                                                                        "value": {
+                                                                            "string_value": "Monu",
+                                                                            "type": "STRING"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "key": "card_url",
+                                                                        "value": {
+                                                                            "scribe_key": "card_url",
+                                                                            "string_value": "https://t.co/KiG7cxHYVP",
+                                                                            "type": "STRING"
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "card_platform": {
+                                                                    "platform": {
+                                                                        "audience": {
+                                                                            "name": "production"
+                                                                        },
+                                                                        "device": {
+                                                                            "name": "Swift",
+                                                                            "version": "12"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "name": "summary_large_image",
+                                                                "url": "https://t.co/KiG7cxHYVP",
+                                                                "user_refs_results": []
+                                                            }
+                                                        },
+                                                        "unmention_data": {},
+                                                        "edit_control": {
+                                                            "edit_tweet_ids": [
+                                                                "1894832256268591243"
+                                                            ],
+                                                            "editable_until_msecs": "1740601788000",
+                                                            "is_edit_eligible": true,
+                                                            "edits_remaining": "5"
+                                                        },
+                                                        "is_translatable": false,
+                                                        "views": {
+                                                            "count": "13",
+                                                            "state": "EnabledWithCount"
+                                                        },
+                                                        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                                        "grok_analysis_button": false,
+                                                        "legacy": {
+                                                            "bookmark_count": 0,
+                                                            "bookmarked": false,
+                                                            "created_at": "Wed Feb 26 19:29:48 +0000 2025",
+                                                            "conversation_id_str": "1894832256268591243",
+                                                            "display_text_range": [
+                                                                0,
+                                                                94
+                                                            ],
+                                                            "entities": {
+                                                                "hashtags": [
+                                                                    {
+                                                                        "indices": [
+                                                                            38,
+                                                                            46
+                                                                        ],
+                                                                        "text": "rarible"
+                                                                    }
+                                                                ],
+                                                                "symbols": [],
+                                                                "timestamps": [],
+                                                                "urls": [
+                                                                    {
+                                                                        "display_url": "rarible.com/user/0x1d5b379\u2026",
+                                                                        "expanded_url": "https://rarible.com/user/0x1d5b379369093053882ffe24a88ce097305cd55f",
+                                                                        "url": "https://t.co/KiG7cxHYVP",
+                                                                        "indices": [
+                                                                            71,
+                                                                            94
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "user_mentions": []
+                                                            },
+                                                            "favorite_count": 0,
+                                                            "favorited": false,
+                                                            "full_text": "I\u2019m verifying my Twitter account with #rarible. Check out my profile:  https://t.co/KiG7cxHYVP",
+                                                            "is_quote_status": false,
+                                                            "lang": "en",
+                                                            "possibly_sensitive": false,
+                                                            "possibly_sensitive_editable": true,
+                                                            "quote_count": 0,
+                                                            "reply_count": 0,
+                                                            "retweet_count": 0,
+                                                            "retweeted": false,
+                                                            "user_id_str": "1481907648337522691",
+                                                            "id_str": "1894832256268591243"
+                                                        },
+                                                        "quick_promote_eligibility": {
+                                                            "eligibility": "IneligibleNotProfessional"
+                                                        }
+                                                    }
+                                                },
+                                                "tweetDisplayType": "Tweet"
+                                            },
+                                            "clientEventInfo": {
+                                                "component": "related_tweet",
+                                                "details": {
+                                                    "conversationDetails": {
+                                                        "conversationSection": "RelatedTweet"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ],
+                                "displayType": "Vertical",
+                                "header": {
+                                    "displayType": "Classic",
+                                    "text": "Discover more",
+                                    "socialContext": {
+                                        "type": "TimelineGeneralContext",
+                                        "contextType": "TextOnly",
+                                        "text": "Sourced from across X"
+                                    },
+                                    "sticky": true
+                                },
+                                "clientEventInfo": {
+                                    "component": "related_tweet",
+                                    "details": {
+                                        "conversationDetails": {
+                                            "conversationSection": "RelatedTweet"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "TimelineTerminateTimeline",
+                    "direction": "Top"
+                }
+            ]
+        }
+    }
+}

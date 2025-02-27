@@ -1,0 +1,3 @@
+['Q_🤍', 'its_q_bbyyy', 6670, 1275, "Woman💃🏻in Web3 since Jan. '21 • NFA, DYOR, yada-yada • Views are my own", False]
+['Sepimnft', 'sepimnft', 7334, 7954, '🔺Art Speaks🔺Traveler,Abstract Expressionist focusing on figurative painting, FND,KO,OS,OBJKT,SOL,NFTBali2023,NFTNYC23,24 , Genesis artist in Vitruveo', False]
+['Sepimnft', 'sepimnft', 7334, 7954, '🔺Art Speaks🔺Traveler,Abstract Expressionist focusing on figurative painting, FND,KO,OS,OBJKT,SOL,NFTBali2023,NFTNYC23,24 , Genesis artist in Vitruveo', False]

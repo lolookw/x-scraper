@@ -1,0 +1,2 @@
+['Moonshot', 'moonshot', 144501, 0, 'Buy & Sell Memes with Apple Pay. Live on App Store and Google Play in 130+ Countries | Get support: https://t.co/ps0RZ56vvv', True]
+['Leonidas 🧡 $DOG', 'LeonidasNFT', 250580, 6059, 'Ordfluencer | Runemaster | Building @ord_io | Host @TheOrdinalShow', True]

@@ -1,0 +1,588 @@
+{
+    "data": {
+        "threaded_conversation_with_injections_v2": {
+            "instructions": [
+                {
+                    "type": "TimelineAddEntries",
+                    "entries": [
+                        {
+                            "entryId": "tweet-1894777519200764385",
+                            "sortIndex": "7328594517654011422",
+                            "content": {
+                                "entryType": "TimelineTimelineItem",
+                                "__typename": "TimelineTimelineItem",
+                                "itemContent": {
+                                    "itemType": "TimelineTweet",
+                                    "__typename": "TimelineTweet",
+                                    "tweet_results": {
+                                        "result": {
+                                            "__typename": "Tweet",
+                                            "rest_id": "1894777519200764385",
+                                            "has_birdwatch_notes": false,
+                                            "core": {
+                                                "user_results": {
+                                                    "result": {
+                                                        "__typename": "User",
+                                                        "id": "VXNlcjoxNTkzMjM1ODYyMzIxNDM0NjI0",
+                                                        "rest_id": "1593235862321434624",
+                                                        "affiliates_highlighted_label": {},
+                                                        "has_graduated_access": true,
+                                                        "parody_commentary_fan_label": "None",
+                                                        "is_blue_verified": false,
+                                                        "profile_image_shape": "Circle",
+                                                        "legacy": {
+                                                            "following": false,
+                                                            "can_dm": false,
+                                                            "can_media_tag": true,
+                                                            "created_at": "Thu Nov 17 13:33:49 +0000 2022",
+                                                            "default_profile": true,
+                                                            "default_profile_image": false,
+                                                            "description": "",
+                                                            "entities": {
+                                                                "description": {
+                                                                    "urls": []
+                                                                }
+                                                            },
+                                                            "fast_followers_count": 0,
+                                                            "favourites_count": 15,
+                                                            "followers_count": 10,
+                                                            "friends_count": 52,
+                                                            "has_custom_timelines": false,
+                                                            "is_translator": false,
+                                                            "listed_count": 0,
+                                                            "location": "",
+                                                            "media_count": 0,
+                                                            "name": "Harpal Tank",
+                                                            "normal_followers_count": 10,
+                                                            "pinned_tweet_ids_str": [],
+                                                            "possibly_sensitive": false,
+                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1593235862321434624/1668849867",
+                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1892110173080342528/vKbiZMKK_normal.jpg",
+                                                            "profile_interstitial_type": "",
+                                                            "screen_name": "Harpal_Tank_07",
+                                                            "statuses_count": 25,
+                                                            "translator_type": "none",
+                                                            "verified": false,
+                                                            "want_retweets": false,
+                                                            "withheld_in_countries": []
+                                                        },
+                                                        "tipjar_settings": {}
+                                                    }
+                                                }
+                                            },
+                                            "card": {
+                                                "rest_id": "https://t.co/fZlLjaYRzF",
+                                                "legacy": {
+                                                    "binding_values": [
+                                                        {
+                                                            "key": "photo_image_full_size_large",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 419,
+                                                                    "width": 800,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=800x419"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "thumbnail_image",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 144,
+                                                                    "width": 144,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=144x144"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "description",
+                                                            "value": {
+                                                                "string_value": "This black meta robot nft.",
+                                                                "type": "STRING"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "domain",
+                                                            "value": {
+                                                                "string_value": "rarible.com",
+                                                                "type": "STRING"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "thumbnail_image_large",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 320,
+                                                                    "width": 320,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=800x320_1"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "summary_photo_image_small",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 202,
+                                                                    "width": 386,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=386x202"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "thumbnail_image_original",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 1000,
+                                                                    "width": 1000,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=orig"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "photo_image_full_size_small",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 202,
+                                                                    "width": 386,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=386x202"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "summary_photo_image_large",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 419,
+                                                                    "width": 800,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=800x419"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "thumbnail_image_small",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 100,
+                                                                    "width": 100,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=100x100"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "thumbnail_image_x_large",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 1000,
+                                                                    "width": 1000,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=png&name=2048x2048_2_exp"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "photo_image_full_size_original",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 1000,
+                                                                    "width": 1000,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=orig"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "vanity_url",
+                                                            "value": {
+                                                                "scribe_key": "vanity_url",
+                                                                "string_value": "rarible.com",
+                                                                "type": "STRING"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "photo_image_full_size",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 314,
+                                                                    "width": 600,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=600x314"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "thumbnail_image_color",
+                                                            "value": {
+                                                                "image_color_value": {
+                                                                    "palette": [
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 255,
+                                                                                "green": 255,
+                                                                                "red": 255
+                                                                            },
+                                                                            "percentage": 55.9
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 58,
+                                                                                "green": 53,
+                                                                                "red": 58
+                                                                            },
+                                                                            "percentage": 39.9
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 144,
+                                                                                "green": 113,
+                                                                                "red": 150
+                                                                            },
+                                                                            "percentage": 0.93
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 138,
+                                                                                "green": 147,
+                                                                                "red": 81
+                                                                            },
+                                                                            "percentage": 0.59
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 66,
+                                                                                "green": 58,
+                                                                                "red": 87
+                                                                            },
+                                                                            "percentage": 0.16
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": "IMAGE_COLOR"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "title",
+                                                            "value": {
+                                                                "string_value": "Meta Robot",
+                                                                "type": "STRING"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "summary_photo_image_color",
+                                                            "value": {
+                                                                "image_color_value": {
+                                                                    "palette": [
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 255,
+                                                                                "green": 255,
+                                                                                "red": 255
+                                                                            },
+                                                                            "percentage": 55.9
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 58,
+                                                                                "green": 53,
+                                                                                "red": 58
+                                                                            },
+                                                                            "percentage": 39.9
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 144,
+                                                                                "green": 113,
+                                                                                "red": 150
+                                                                            },
+                                                                            "percentage": 0.93
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 138,
+                                                                                "green": 147,
+                                                                                "red": 81
+                                                                            },
+                                                                            "percentage": 0.59
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 66,
+                                                                                "green": 58,
+                                                                                "red": 87
+                                                                            },
+                                                                            "percentage": 0.16
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": "IMAGE_COLOR"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "summary_photo_image_x_large",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 1000,
+                                                                    "width": 1000,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=png&name=2048x2048_2_exp"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "summary_photo_image",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 314,
+                                                                    "width": 600,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=600x314"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "photo_image_full_size_color",
+                                                            "value": {
+                                                                "image_color_value": {
+                                                                    "palette": [
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 255,
+                                                                                "green": 255,
+                                                                                "red": 255
+                                                                            },
+                                                                            "percentage": 55.9
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 58,
+                                                                                "green": 53,
+                                                                                "red": 58
+                                                                            },
+                                                                            "percentage": 39.9
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 144,
+                                                                                "green": 113,
+                                                                                "red": 150
+                                                                            },
+                                                                            "percentage": 0.93
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 138,
+                                                                                "green": 147,
+                                                                                "red": 81
+                                                                            },
+                                                                            "percentage": 0.59
+                                                                        },
+                                                                        {
+                                                                            "rgb": {
+                                                                                "blue": 66,
+                                                                                "green": 58,
+                                                                                "red": 87
+                                                                            },
+                                                                            "percentage": 0.16
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": "IMAGE_COLOR"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "photo_image_full_size_x_large",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 1000,
+                                                                    "width": 1000,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=png&name=2048x2048_2_exp"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "card_url",
+                                                            "value": {
+                                                                "scribe_key": "card_url",
+                                                                "string_value": "https://t.co/fZlLjaYRzF",
+                                                                "type": "STRING"
+                                                            }
+                                                        },
+                                                        {
+                                                            "key": "summary_photo_image_original",
+                                                            "value": {
+                                                                "image_value": {
+                                                                    "height": 1000,
+                                                                    "width": 1000,
+                                                                    "url": "https://pbs.twimg.com/card_img/1894777257887137792/pQjSHUZT?format=jpg&name=orig"
+                                                                },
+                                                                "type": "IMAGE"
+                                                            }
+                                                        }
+                                                    ],
+                                                    "card_platform": {
+                                                        "platform": {
+                                                            "audience": {
+                                                                "name": "production"
+                                                            },
+                                                            "device": {
+                                                                "name": "Swift",
+                                                                "version": "12"
+                                                            }
+                                                        }
+                                                    },
+                                                    "name": "summary_large_image",
+                                                    "url": "https://t.co/fZlLjaYRzF",
+                                                    "user_refs_results": []
+                                                }
+                                            },
+                                            "unmention_data": {},
+                                            "edit_control": {
+                                                "edit_tweet_ids": [
+                                                    "1894777519200764385"
+                                                ],
+                                                "editable_until_msecs": "1740588738000",
+                                                "is_edit_eligible": true,
+                                                "edits_remaining": "5"
+                                            },
+                                            "is_translatable": false,
+                                            "views": {
+                                                "count": "35",
+                                                "state": "EnabledWithCount"
+                                            },
+                                            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                            "grok_analysis_button": false,
+                                            "legacy": {
+                                                "bookmark_count": 0,
+                                                "bookmarked": false,
+                                                "created_at": "Wed Feb 26 15:52:18 +0000 2025",
+                                                "conversation_id_str": "1894777519200764385",
+                                                "display_text_range": [
+                                                    0,
+                                                    111
+                                                ],
+                                                "entities": {
+                                                    "hashtags": [
+                                                        {
+                                                            "indices": [
+                                                                68,
+                                                                76
+                                                            ],
+                                                            "text": "rarible"
+                                                        },
+                                                        {
+                                                            "indices": [
+                                                                90,
+                                                                94
+                                                            ],
+                                                            "text": "NFT"
+                                                        },
+                                                        {
+                                                            "indices": [
+                                                                95,
+                                                                102
+                                                            ],
+                                                            "text": "nftart"
+                                                        },
+                                                        {
+                                                            "indices": [
+                                                                103,
+                                                                111
+                                                            ],
+                                                            "text": "NFTDrop"
+                                                        }
+                                                    ],
+                                                    "symbols": [],
+                                                    "timestamps": [],
+                                                    "urls": [
+                                                        {
+                                                            "display_url": "rarible.com/token/0xc91544\u2026",
+                                                            "expanded_url": "https://rarible.com/token/0xc9154424b823b10579895ccbe442d41b9abd96ed:87877609505964282198380521968779235643082200260859996925281614692532522844168",
+                                                            "url": "https://t.co/fZlLjaYRzF",
+                                                            "indices": [
+                                                                44,
+                                                                67
+                                                            ]
+                                                        }
+                                                    ],
+                                                    "user_mentions": [
+                                                        {
+                                                            "id_str": "1160222700104757249",
+                                                            "name": "Rarible",
+                                                            "screen_name": "rarible",
+                                                            "indices": [
+                                                                81,
+                                                                89
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "favorite_count": 3,
+                                                "favorited": false,
+                                                "full_text": "I've just created \"Meta Robot\" collectible! https://t.co/fZlLjaYRzF #rarible via @rarible #NFT #nftart #NFTDrop",
+                                                "is_quote_status": false,
+                                                "lang": "en",
+                                                "possibly_sensitive": false,
+                                                "possibly_sensitive_editable": true,
+                                                "quote_count": 0,
+                                                "reply_count": 0,
+                                                "retweet_count": 0,
+                                                "retweeted": false,
+                                                "user_id_str": "1593235862321434624",
+                                                "id_str": "1894777519200764385"
+                                            },
+                                            "quick_promote_eligibility": {
+                                                "eligibility": "IneligibleNotProfessional"
+                                            }
+                                        }
+                                    },
+                                    "tweetDisplayType": "Tweet",
+                                    "hasModeratedReplies": false
+                                }
+                            }
+                        },
+                        {
+                            "entryId": "tweetdetailrelatedtweets-5844985990905270636",
+                            "sortIndex": "1",
+                            "content": {
+                                "entryType": "TimelineTimelineModule",
+                                "__typename": "TimelineTimelineModule",
+                                "items": [],
+                                "displayType": "Vertical",
+                                "header": {
+                                    "displayType": "Classic",
+                                    "text": "Discover more",
+                                    "socialContext": {
+                                        "type": "TimelineGeneralContext",
+                                        "contextType": "TextOnly",
+                                        "text": "Sourced from across X"
+                                    },
+                                    "sticky": true
+                                },
+                                "clientEventInfo": {
+                                    "component": "related_tweet",
+                                    "details": {
+                                        "conversationDetails": {
+                                            "conversationSection": "RelatedTweet"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "TimelineTerminateTimeline",
+                    "direction": "Top"
+                }
+            ]
+        }
+    }
+}

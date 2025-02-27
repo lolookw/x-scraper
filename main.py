@@ -6,6 +6,6 @@ if __name__=="__main__":
     #print(busquedas)
     driver = get_users(busquedas, mail, username, password)
     #driver = login(mail, username, password)
-    #filter_users(driver, mail, username, password)
+    filter_users()
     #send_messages(driver)
     

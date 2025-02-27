@@ -45,7 +45,7 @@ def get_users(busquedas, mail,  username, password):
         time.sleep(3)
         temp_list = get_data(driver, url[23:28], scrl_post, scrl_comment)
         driver.quit()
-        temp_list = list(set(temp_list))
+        temp_list = list(set(tuple(sublist) for sublist in temp_list))
         final_list.extend(temp_list)
         with open(f"./backups/{url[23:28]}/final_{url[23:28]}.txt", "w", encoding="utf-8") as f: 
             for item in temp_list:
@@ -101,8 +101,6 @@ def get_data(driver, busqueda, scrl_post, scrl_comment):
                                         original_user_data.get("can_dm", False)  # Asegúrate de que este dato también se captura
                                     ]
                                     users_list.append(user_info)
-                            else:
-                                print("❌ No se encontraron datos 'core' para este tweet.")
 
 
                             # 2. Obtener usuarios de las respuestas (dentro de "items")
@@ -126,8 +124,6 @@ def get_data(driver, busqueda, scrl_post, scrl_comment):
 
             print(f"✅ Usuarios extraídos del TweetDetail en {post_url}")
 
-        else:
-            print(f"❌ No se pudo extraer datos desde TweetDetail en {post_url}")
 
         # Guardar en archivo cada 10 tweets
         if index % 10 == 0:
@@ -136,7 +132,7 @@ def get_data(driver, busqueda, scrl_post, scrl_comment):
                     f.write(f"{item}\n")  
 
     # Guardar la lista final
-    with open("./users_list.json", "w", encoding="utf-8") as f:
+    with open(f"./backups/{busqueda}/users_list.json", "w", encoding="utf-8") as f:
         json.dump(users_list, f, indent=4)
 
     return users_list
@@ -156,16 +152,18 @@ def extract_tweet_detail_from_logs(driver):
                 url = log_message["params"]["response"]["url"]
                 if "TweetDetail" in url:
                     request_id = log_message["params"]["requestId"]
+                    response_body = None
                     try:
                         response_body = driver.execute_cdp_cmd("Network.getResponseBody", {"requestId": request_id})
                     except Exception as e:
                         print(f"Error al obtener el cuerpo de la respuesta: {e}")
-                    try:
-                        return json.loads(response_body["body"])
-                    except json.JSONDecodeError:
-                        print("❌ Error al decodificar JSON de TweetDetail")
-            else:
-                print("❌ No response data available in the log message")
+                    if response_body and "body" in response_body:
+                        try:
+                            return json.loads(response_body["body"])
+                        except json.JSONDecodeError:
+                            print("❌ Error al decodificar JSON de TweetDetail")
+                    else:
+                        print("❌ No se pudo obtener el cuerpo de la respuesta")
     
     return None
 
@@ -204,56 +202,64 @@ def element_exists(driver:webdriver, by:By, ref:str, time=4, refresh=False):
         pass
     return ret
 
-def filter_users(driver, mail, username, password):
-        if not os.path.exists('./backups/filtrados'):
-            os.makedirs('./backups/filtrados')
-        not_found = set()
-        checked_users = []
-        cont_usuarios_no_cargados = 0
-        with open ("./users_list.txt", encoding="utf-8") as f:
-            lines = f.readlines()
-            users = [line.strip() for line in lines]
-        for index, user in enumerate(users):
-            if index%50==0 and index!=0:
-                with open(f"./backups/filtrados/backup_{index}.txt", "w", encoding="utf-8") as f:
-                    for user in checked_users:
-                        f.write(f"{user}\n")
-                driver.quit()
-                driver = login(mail, username, password)
-            print(f"USER #{index}: {user}")
-            driver.get(f"https://x.com/{user}")
-            time.sleep(2.66)
-            followers_count_raw = element_exists(driver, By.XPATH, f"//a[@href='/{user}/verified_followers']")
-            if followers_count_raw:
-                followers_count = followers_count_raw.text
-                if("M" in followers_count):
-                    print(f"USER: {user} no pasó los requisitos (M)")
-                    continue
-                if("K" in followers_count):
-                    if int(followers_count.split(" ")[0].split(".")[0].strip("K"))<35:
-                        checked_users.append(user)
-                    else:
-                        print(f"USER: {user} no pasó los requisitos (K)")
+def filter_users():
+    tier_A = []
+    tier_B = []
+    users = []
 
-                elif "Followers" not in followers_count:
-                    print(f"USER: {user} no pasó los requisitos (1 solo Follower)")
-                    continue
-                elif int(followers_count.replace(" Followers", "").replace(",","").strip()) > 5:
-                        checked_users.append(user)
+    # Palabras clave que indican que el usuario es un artista NFT
+    keywords_tier_A = [
+        "nft artist", "crypto artist", "digital artist", "3d artist", "illustrator",
+        "painter", "visual artist", "concept artist", "generative art", "ai art",
+        "motion graphics", "pixel art", "artista nft", "web3 artist"
+    ]
+
+    # Frases que indican que buscan crecer o vender su arte
+    growth_phrases = [
+        "open for commissions", "dm for collabs", "looking to grow", "building my brand",
+        "web3 creator", "exploring nfts", "sharing my art", "join my community",
+        "collector-friendly"
+    ]
+
+    # Marketplaces donde suelen vender su arte
+    marketplaces = [
+        "foundation", "superrare", "opensea", "knownorigin", "tezos", "manifold",
+        "objkt", "zora", "nifty gateway"
+    ]
+
+    with open("./users_list.txt", encoding="utf-8") as f:
+        lines = f.readlines()
+
+    for line in lines:
+        line = line.strip("()\n ")
+        data = eval(line)
+        users.append(data)
+
+    for user in users:
+        name, username, followers, following, description, dm = user
+        
+        if dm and 25 < followers < 50000:
+            desc_lower = description.lower()
+
+            is_artist = any(keyword in desc_lower for keyword in keywords_tier_A)
+            is_growing = any(phrase in desc_lower for phrase in growth_phrases)
+            sells_art = any(market in desc_lower for market in marketplaces)
+
+            if is_artist or is_growing or sells_art:
+                tier_A.append(user)
             else:
-                if user not in not_found:
-                    not_found.add(user)
-                    users.append(user)
-                print(f"USER: {user} no se encontró número de seguidores. Contador = {cont_usuarios_no_cargados+1}")
-                cont_usuarios_no_cargados += 1
-                continue
-        with open(f"./checked_users_list.txt", "w", encoding="utf-8") as f:
-            for user in checked_users:
-                f.write(f"{user}\n") 
-        print(f"Usuarios no cargados: {cont_usuarios_no_cargados}")
-        print(f"Usuarios recibidos: {len(users)-len(not_found)}, Usuarios que pasaron el filtro: {len(checked_users)}")
-        driver.quit()
-        return
+                tier_B.append(user)
+
+    with open("./tier_A.txt", "w", encoding="utf-8") as f:
+        for user in tier_A:
+            f.write(f"{user}\n")
+
+    with open("./tier_B.txt", "w", encoding="utf-8") as f:
+        for user in tier_B:
+            f.write(f"{user}\n")
+
+    return
+
 
 
 def login(mail, username, password):

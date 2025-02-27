@@ -1,0 +1,1 @@
+['DEVILFISH NFT', 'DevilFish_NFT', 18369, 226, 'Want to play in free to play games?\n\nJoin the community:\n\nhttps://t.co/Na32JnaTzz', True]
