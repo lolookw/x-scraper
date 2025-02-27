@@ -102,7 +102,7 @@ def get_data(driver, busqueda, scrl_post, scrl_comment):
                                     ]
                                     users_list.append(user_info)
                             else:
-                                print("❌ No se encontraron datos 'core' para este tweet.")
+                                print(" No se encontraron datos 'core' para este tweet.")
 
 
                             # 2. Obtener usuarios de las respuestas (dentro de "items")
@@ -127,7 +127,7 @@ def get_data(driver, busqueda, scrl_post, scrl_comment):
             print(f"✅ Usuarios extraídos del TweetDetail en {post_url}")
 
         else:
-            print(f"❌ No se pudo extraer datos desde TweetDetail en {post_url}")
+            print(f"No se pudo extraer datos desde TweetDetail en {post_url}")
 
         # Guardar en archivo cada 10 tweets
         if index % 10 == 0:
@@ -163,9 +163,9 @@ def extract_tweet_detail_from_logs(driver):
                     try:
                         return json.loads(response_body["body"])
                     except json.JSONDecodeError:
-                        print("❌ Error al decodificar JSON de TweetDetail")
+                        print("Error al decodificar JSON de TweetDetail")
             else:
-                print("❌ No response data available in the log message")
+                print(" No response data available in the log message")
     
     return None
 
