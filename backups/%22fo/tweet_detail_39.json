@@ -1,0 +1,612 @@
+[
+    {
+        "data": {
+            "threaded_conversation_with_injections_v2": {
+                "instructions": [
+                    {
+                        "type": "TimelineAddEntries",
+                        "entries": [
+                            {
+                                "entryId": "tweet-1894374603092279572",
+                                "sortIndex": "7328997433762496235",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1894374603092279572",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNDMyNDAyNjM4ODY4Mzg5ODky",
+                                                            "rest_id": "1432402638868389892",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": true,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": false,
+                                                                "can_media_tag": false,
+                                                                "created_at": "Mon Aug 30 17:59:51 +0000 2021",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "Grand patron of the digital arts \ud83c\udf39 Art: @kdean \u2694\ufe0f Business: @gbmedici Join 31,000+ readers of my Medici Minutes newsletter here \u2199\ufe0f \u269c\ufe0f\ud83d\udd34\ud83d\udd34\u269c\ufe0f\ud83d\udd34\u269c\ufe0f\ud83d\udd34\ud83d\udd34 \u269c\ufe0f",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": []
+                                                                    },
+                                                                    "url": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "linktr.ee/cozomomedici",
+                                                                                "expanded_url": "https://linktr.ee/cozomomedici",
+                                                                                "url": "https://t.co/4yo3z8Wvm7",
+                                                                                "indices": [
+                                                                                    0,
+                                                                                    23
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 153451,
+                                                                "followers_count": 305235,
+                                                                "friends_count": 2140,
+                                                                "has_custom_timelines": true,
+                                                                "is_translator": false,
+                                                                "listed_count": 3677,
+                                                                "location": "Bellagio, 22021, Italia",
+                                                                "media_count": 2069,
+                                                                "name": "Cozomo de\u2019 Medici",
+                                                                "normal_followers_count": 305235,
+                                                                "pinned_tweet_ids_str": [
+                                                                    "1625206526800703488"
+                                                                ],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1432402638868389892/1713455163",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1868751567706521600/LENjrHXD_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "CozomoMedici",
+                                                                "statuses_count": 16461,
+                                                                "translator_type": "none",
+                                                                "url": "https://t.co/4yo3z8Wvm7",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1894374603092279572"
+                                                    ],
+                                                    "editable_until_msecs": "1740492675000",
+                                                    "is_edit_eligible": true,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "26823",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                "grok_analysis_button": true,
+                                                "legacy": {
+                                                    "bookmark_count": 63,
+                                                    "bookmarked": false,
+                                                    "created_at": "Tue Feb 25 13:11:15 +0000 2025",
+                                                    "conversation_id_str": "1894374603092279572",
+                                                    "display_text_range": [
+                                                        0,
+                                                        237
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [
+                                                            {
+                                                                "indices": [
+                                                                    4,
+                                                                    12
+                                                                ],
+                                                                "text": "ArtTank"
+                                                            }
+                                                        ],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [],
+                                                        "user_mentions": [
+                                                            {
+                                                                "id_str": "1227923263533305857",
+                                                                "name": "Rollbit",
+                                                                "screen_name": "rollbit",
+                                                                "indices": [
+                                                                    88,
+                                                                    96
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 868,
+                                                    "favorited": false,
+                                                    "full_text": "Gm, #ArtTank is back\n\nEach week we acquire art for Medici Emerging, in partnership with @rollbit \n\nWe\u2019re looking for great art on any chain, any platform \n\nArtists, drop your art + link to buy below. Acquisitions announced Thursday \ud83d\udc47\u2694\ufe0f\ud83d\uddbc\ufe0f",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "quote_count": 3,
+                                                    "reply_count": 1002,
+                                                    "retweet_count": 142,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1432402638868389892",
+                                                    "id_str": "1894374603092279572"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet",
+                                        "hasModeratedReplies": false
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "tweet-1895254956816638335",
+                                "sortIndex": "7328117080038137472",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895254956816638335",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNjE3NTUwMDc2MDQxMjIwMDk2",
+                                                            "rest_id": "1617550076041220096",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": true,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Mon Jan 23 15:49:45 +0000 2023",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "\ud835\ude8c\ud835\ude98\ud835\ude96\ud835\ude99\ud835\ude9e\ud835\ude9d\ud835\ude8e\ud835\ude9b \ud835\ude9c\ud835\ude8c\ud835\ude92\ud835\ude8e\ud835\ude97\ud835\ude8c\ud835\ude8e \ud835\ude9d\ud835\ude8e\ud835\ude8a\ud835\ude8c\ud835\ude91\ud835\ude8e\ud835\ude9b & \ud835\ude8a\ud835\ude9b\ud835\ude9d\ud835\ude92\ud835\ude9c\ud835\ude9d \ud835\udea0\ud835\ude8e\ud835\ude95\ud835\ude8c\ud835\ude98\ud835\ude96\ud835\ude8e \ud835\ude9d\ud835\ude98 \ud835\ude96\ud835\udea2 \ud835\udea0\ud835\ude98\ud835\ude9b\ud835\ude95\ud835\ude8d \ud83d\udda4 tg:anastasiiagil https://t.co/QGfMz1cnaW",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "objkt.com/@anastasiiagil",
+                                                                                "expanded_url": "https://objkt.com/@anastasiiagil",
+                                                                                "url": "https://t.co/QGfMz1cnaW",
+                                                                                "indices": [
+                                                                                    73,
+                                                                                    96
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "url": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "anastasiiagil.tilda.ws",
+                                                                                "expanded_url": "https://anastasiiagil.tilda.ws/",
+                                                                                "url": "https://t.co/fgXvJK4MFs",
+                                                                                "indices": [
+                                                                                    0,
+                                                                                    23
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 85963,
+                                                                "followers_count": 2510,
+                                                                "friends_count": 2443,
+                                                                "has_custom_timelines": true,
+                                                                "is_translator": false,
+                                                                "listed_count": 11,
+                                                                "location": "",
+                                                                "media_count": 3925,
+                                                                "name": "Anastas\u0131\u0131a G\u0131l | NFT NYC 2024",
+                                                                "normal_followers_count": 2510,
+                                                                "pinned_tweet_ids_str": [
+                                                                    "1846008815399195134"
+                                                                ],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1617550076041220096/1714605035",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1796307462464602113/9o3-fLeU_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "AnastasiiaGil",
+                                                                "statuses_count": 25946,
+                                                                "translator_type": "none",
+                                                                "url": "https://t.co/fgXvJK4MFs",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895254956816638335"
+                                                    ],
+                                                    "editable_until_msecs": "1740702568000",
+                                                    "is_edit_eligible": false,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "17",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                                "grok_analysis_button": false,
+                                                "legacy": {
+                                                    "bookmark_count": 0,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 23:29:28 +0000 2025",
+                                                    "conversation_id_str": "1894374603092279572",
+                                                    "display_text_range": [
+                                                        23,
+                                                        300
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [
+                                                            {
+                                                                "indices": [
+                                                                    27,
+                                                                    35
+                                                                ],
+                                                                "text": "ArtTank"
+                                                            }
+                                                        ],
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/Um5wn1I2Wl",
+                                                                "expanded_url": "https://x.com/AnastasiiaGil/status/1895254956816638335/photo/1",
+                                                                "id_str": "1895254840520867840",
+                                                                "indices": [
+                                                                    301,
+                                                                    324
+                                                                ],
+                                                                "media_key": "3_1895254840520867840",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gk1MPGgWAAA4KTj.png",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/Um5wn1I2Wl",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 200,
+                                                                                "y": 46,
+                                                                                "h": 425,
+                                                                                "w": 425
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 200,
+                                                                                "y": 46,
+                                                                                "h": 425,
+                                                                                "w": 425
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 161,
+                                                                                "y": 37,
+                                                                                "h": 342,
+                                                                                "w": 342
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 200,
+                                                                                "y": 46,
+                                                                                "h": 425,
+                                                                                "w": 425
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 844,
+                                                                        "w": 842,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 844,
+                                                                        "w": 842,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 678,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 844,
+                                                                    "width": 842,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 842,
+                                                                            "h": 472
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 842,
+                                                                            "h": 842
+                                                                        },
+                                                                        {
+                                                                            "x": 102,
+                                                                            "y": 0,
+                                                                            "w": 740,
+                                                                            "h": 844
+                                                                        },
+                                                                        {
+                                                                            "x": 274,
+                                                                            "y": 0,
+                                                                            "w": 422,
+                                                                            "h": 844
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 842,
+                                                                            "h": 844
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "allow_download_status": {
+                                                                    "allow_download": true
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895254840520867840"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "foundation.app/mint/eth/0xb10\u2026",
+                                                                "expanded_url": "https://foundation.app/mint/eth/0xb1099aFaD7a4c3D14c2e82AF11314b7136125812/7",
+                                                                "url": "https://t.co/5yaDPecEJD",
+                                                                "indices": [
+                                                                    277,
+                                                                    300
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "user_mentions": [
+                                                            {
+                                                                "id_str": "1432402638868389892",
+                                                                "name": "Cozomo de\u2019 Medici",
+                                                                "screen_name": "CozomoMedici",
+                                                                "indices": [
+                                                                    0,
+                                                                    13
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1227923263533305857",
+                                                                "name": "Rollbit",
+                                                                "screen_name": "rollbit",
+                                                                "indices": [
+                                                                    14,
+                                                                    22
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    "extended_entities": {
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/Um5wn1I2Wl",
+                                                                "expanded_url": "https://x.com/AnastasiiaGil/status/1895254956816638335/photo/1",
+                                                                "id_str": "1895254840520867840",
+                                                                "indices": [
+                                                                    301,
+                                                                    324
+                                                                ],
+                                                                "media_key": "3_1895254840520867840",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gk1MPGgWAAA4KTj.png",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/Um5wn1I2Wl",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 200,
+                                                                                "y": 46,
+                                                                                "h": 425,
+                                                                                "w": 425
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 200,
+                                                                                "y": 46,
+                                                                                "h": 425,
+                                                                                "w": 425
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 161,
+                                                                                "y": 37,
+                                                                                "h": 342,
+                                                                                "w": 342
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 200,
+                                                                                "y": 46,
+                                                                                "h": 425,
+                                                                                "w": 425
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 844,
+                                                                        "w": 842,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 844,
+                                                                        "w": 842,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 678,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 844,
+                                                                    "width": 842,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 842,
+                                                                            "h": 472
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 842,
+                                                                            "h": 842
+                                                                        },
+                                                                        {
+                                                                            "x": 102,
+                                                                            "y": 0,
+                                                                            "w": 740,
+                                                                            "h": 844
+                                                                        },
+                                                                        {
+                                                                            "x": 274,
+                                                                            "y": 0,
+                                                                            "w": 422,
+                                                                            "h": 844
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 842,
+                                                                            "h": 844
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "allow_download_status": {
+                                                                    "allow_download": true
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895254840520867840"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 1,
+                                                    "favorited": false,
+                                                    "full_text": "@CozomoMedici @rollbit gm\ud83d\udda4 #ArtTank\n\n\"silently scream.\"  \n\nthey call ur reality a disease that differs from generally accepted norms, they expect you to behave as if everything is fine with you, they don't perceive that this is you, that this is ur world.  \n\n1/1 - 0.0669 ETH\n\nhttps://t.co/5yaDPecEJD https://t.co/Um5wn1I2Wl",
+                                                    "in_reply_to_screen_name": "CozomoMedici",
+                                                    "in_reply_to_status_id_str": "1894374603092279572",
+                                                    "in_reply_to_user_id_str": "1432402638868389892",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 0,
+                                                    "reply_count": 0,
+                                                    "retweet_count": 0,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1617550076041220096",
+                                                    "id_str": "1895254956816638335"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TimelineTerminateTimeline",
+                        "direction": "Top"
+                    }
+                ]
+            }
+        }
+    }
+]

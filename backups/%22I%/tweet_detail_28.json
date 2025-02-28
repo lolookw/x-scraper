@@ -1,0 +1,253 @@
+[
+    {
+        "data": {
+            "threaded_conversation_with_injections_v2": {
+                "instructions": [
+                    {
+                        "type": "TimelineAddEntries",
+                        "entries": [
+                            {
+                                "entryId": "tweet-1895217865340727427",
+                                "sortIndex": "7328154171514048380",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895217865340727427",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjozMDY0MDQ2ODEz",
+                                                            "rest_id": "3064046813",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": false,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Thu Feb 26 19:51:16 +0000 2015",
+                                                                "default_profile": false,
+                                                                "default_profile_image": false,
+                                                                "description": "writer of horror and science fiction don't ask for money because youit  if you want or like my NFT items  you must look my website enclosed not ask link",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": []
+                                                                    },
+                                                                    "url": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "rarible.com/wayneexpole567\u2026",
+                                                                                "expanded_url": "https://rarible.com/wayneexpole5678/owned",
+                                                                                "url": "https://t.co/qZImnSiGLI",
+                                                                                "indices": [
+                                                                                    0,
+                                                                                    23
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 66,
+                                                                "followers_count": 1084,
+                                                                "friends_count": 7436,
+                                                                "has_custom_timelines": true,
+                                                                "is_translator": false,
+                                                                "listed_count": 8,
+                                                                "location": "England, United Kingdom",
+                                                                "media_count": 496,
+                                                                "name": "Wayne Official website and NFT platform",
+                                                                "normal_followers_count": 1084,
+                                                                "pinned_tweet_ids_str": [
+                                                                    "1889031834526437461"
+                                                                ],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/3064046813/1553966822",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/981261550118932482/b--Eq7-P_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "waynefanpop",
+                                                                "statuses_count": 5753,
+                                                                "translator_type": "none",
+                                                                "url": "https://t.co/qZImnSiGLI",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "professional": {
+                                                                "rest_id": "1492600750534496266",
+                                                                "professional_type": "Creator",
+                                                                "category": [
+                                                                    {
+                                                                        "id": 1041,
+                                                                        "name": "Digital Creator",
+                                                                        "icon_name": "IconBriefcaseStroke"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "card": {
+                                                    "rest_id": "https://t.co/auFzY2ENOk",
+                                                    "legacy": {
+                                                        "binding_values": [
+                                                            {
+                                                                "key": "description",
+                                                                "value": {
+                                                                    "string_value": "Discover, sell and buy NFTs on Rarible! Our aggregated NFT marketplace for Ethereum NFTs and Polygon NFTs powers brands, collections and creator marketplaces.",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "domain",
+                                                                "value": {
+                                                                    "string_value": "rarible.com",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "vanity_url",
+                                                                "value": {
+                                                                    "scribe_key": "vanity_url",
+                                                                    "string_value": "rarible.com",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "title",
+                                                                "value": {
+                                                                    "string_value": "Untitled",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "card_url",
+                                                                "value": {
+                                                                    "scribe_key": "card_url",
+                                                                    "string_value": "https://t.co/auFzY2ENOk",
+                                                                    "type": "STRING"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "card_platform": {
+                                                            "platform": {
+                                                                "audience": {
+                                                                    "name": "production"
+                                                                },
+                                                                "device": {
+                                                                    "name": "Swift",
+                                                                    "version": "12"
+                                                                }
+                                                            }
+                                                        },
+                                                        "name": "summary_large_image",
+                                                        "url": "https://t.co/auFzY2ENOk",
+                                                        "user_refs_results": []
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895217865340727427"
+                                                    ],
+                                                    "editable_until_msecs": "1740693725000",
+                                                    "is_edit_eligible": true,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "9",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                                "grok_analysis_button": false,
+                                                "legacy": {
+                                                    "bookmark_count": 0,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 21:02:05 +0000 2025",
+                                                    "conversation_id_str": "1895217865340727427",
+                                                    "display_text_range": [
+                                                        0,
+                                                        125
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [
+                                                            {
+                                                                "indices": [
+                                                                    104,
+                                                                    112
+                                                                ],
+                                                                "text": "rarible"
+                                                            }
+                                                        ],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "rarible.com/token/0xb66a60\u2026",
+                                                                "expanded_url": "https://rarible.com/token/0xb66a603f4cfe17e3d27b87a8bfcad319856518b8:25892835130339058054794877785463853073350312291801795955510236866241181515868",
+                                                                "url": "https://t.co/auFzY2ENOk",
+                                                                "indices": [
+                                                                    80,
+                                                                    103
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "user_mentions": [
+                                                            {
+                                                                "id_str": "1160222700104757249",
+                                                                "name": "Rarible",
+                                                                "screen_name": "rarible",
+                                                                "indices": [
+                                                                    117,
+                                                                    125
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 1,
+                                                    "favorited": false,
+                                                    "full_text": "I've just created \"Illuminated Corridor of a Futuristic Spaceship\" collectible! https://t.co/auFzY2ENOk #rarible via @rarible",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 0,
+                                                    "reply_count": 0,
+                                                    "retweet_count": 0,
+                                                    "retweeted": false,
+                                                    "user_id_str": "3064046813",
+                                                    "id_str": "1895217865340727427"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet",
+                                        "hasModeratedReplies": false
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TimelineTerminateTimeline",
+                        "direction": "Top"
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,0 +1,1079 @@
+[
+    {
+        "data": {
+            "threaded_conversation_with_injections_v2": {
+                "instructions": [
+                    {
+                        "type": "TimelineAddEntries",
+                        "entries": [
+                            {
+                                "entryId": "tweet-1894547600675840355",
+                                "sortIndex": "7328824436178935452",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1894547600675840355",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNDM1Njg3MzI0MDg4NjMxMjk2",
+                                                            "rest_id": "1435687324088631296",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": true,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": false,
+                                                                "can_media_tag": false,
+                                                                "created_at": "Wed Sep 08 19:32:03 +0000 2021",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "Woman\ud83d\udc83\ud83c\udffbin Web3 since Jan. '21 \u2022 NFA, DYOR, yada-yada \u2022 Views are my own",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": []
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 68820,
+                                                                "followers_count": 6679,
+                                                                "friends_count": 1275,
+                                                                "has_custom_timelines": true,
+                                                                "is_translator": false,
+                                                                "listed_count": 14,
+                                                                "location": "Another World ",
+                                                                "media_count": 2136,
+                                                                "name": "Q_\ud83e\udd0d",
+                                                                "normal_followers_count": 6679,
+                                                                "pinned_tweet_ids_str": [
+                                                                    "1894821308644630700"
+                                                                ],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1435687324088631296/1734146055",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1885140179591323648/57zksWmB_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "its_q_bbyyy",
+                                                                "statuses_count": 11430,
+                                                                "translator_type": "none",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "tipjar_settings": {
+                                                                "is_enabled": true,
+                                                                "ethereum_handle": "0x0ad0478fc9518c97082a31ce0a786db0e69ea96b",
+                                                                "venmo_handle": "pameladawnx"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1894547600675840355"
+                                                    ],
+                                                    "editable_until_msecs": "1740533921000",
+                                                    "is_edit_eligible": true,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "4612",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                "grok_analysis_button": true,
+                                                "legacy": {
+                                                    "bookmark_count": 11,
+                                                    "bookmarked": false,
+                                                    "created_at": "Wed Feb 26 00:38:41 +0000 2025",
+                                                    "conversation_id_str": "1894547600675840355",
+                                                    "display_text_range": [
+                                                        0,
+                                                        41
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [],
+                                                        "user_mentions": []
+                                                    },
+                                                    "favorite_count": 185,
+                                                    "favorited": false,
+                                                    "full_text": "I'm looking for a new 1:1 to be my pfp...",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "quote_count": 1,
+                                                    "reply_count": 147,
+                                                    "retweet_count": 14,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1435687324088631296",
+                                                    "id_str": "1894547600675840355"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet",
+                                        "hasModeratedReplies": false
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "tweet-1895230328354283858",
+                                "sortIndex": "7328141708500491949",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895230328354283858",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNDU4ODMxODcwODU1MTA2NTYx",
+                                                            "rest_id": "1458831870855106561",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": true,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Thu Nov 11 16:20:24 +0000 2021",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "visual artist\ud83c\udf3cnft artist\ud83c\udf3c\nyou can see my nfts in foundation and objkt by link\ud83d\udc47\ud83c\udffb",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": []
+                                                                    },
+                                                                    "url": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "linktr.ee/aydanamavar",
+                                                                                "expanded_url": "https://linktr.ee/aydanamavar",
+                                                                                "url": "https://t.co/YVVQr0ASlk",
+                                                                                "indices": [
+                                                                                    0,
+                                                                                    23
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 26906,
+                                                                "followers_count": 1027,
+                                                                "friends_count": 2987,
+                                                                "has_custom_timelines": true,
+                                                                "is_translator": false,
+                                                                "listed_count": 6,
+                                                                "location": "",
+                                                                "media_count": 4853,
+                                                                "name": "Ayda Namavar",
+                                                                "normal_followers_count": 1027,
+                                                                "pinned_tweet_ids_str": [
+                                                                    "1845961525044900339"
+                                                                ],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1458831870855106561/1702730687",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1810795818858717184/0OrpPGDJ_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "AydaNamavar",
+                                                                "statuses_count": 26381,
+                                                                "translator_type": "none",
+                                                                "url": "https://t.co/YVVQr0ASlk",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "professional": {
+                                                                "rest_id": "1615306000851996674",
+                                                                "professional_type": "Creator",
+                                                                "category": [
+                                                                    {
+                                                                        "id": 1017,
+                                                                        "name": "Artist",
+                                                                        "icon_name": "IconBriefcaseStroke"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895230328354283858"
+                                                    ],
+                                                    "editable_until_msecs": "1740696696000",
+                                                    "is_edit_eligible": false,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "17",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                                "grok_analysis_button": false,
+                                                "legacy": {
+                                                    "bookmark_count": 0,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 21:51:36 +0000 2025",
+                                                    "conversation_id_str": "1894547600675840355",
+                                                    "display_text_range": [
+                                                        13,
+                                                        85
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [],
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/bhfRkQM3TI",
+                                                                "expanded_url": "https://x.com/AydaNamavar/status/1895230328354283858/photo/1",
+                                                                "id_str": "1895230324398841856",
+                                                                "indices": [
+                                                                    86,
+                                                                    109
+                                                                ],
+                                                                "media_key": "3_1895230324398841856",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gk018E1XYAAv1IN.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/bhfRkQM3TI",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 520,
+                                                                                "y": 158,
+                                                                                "h": 89,
+                                                                                "w": 89
+                                                                            },
+                                                                            {
+                                                                                "x": 520,
+                                                                                "y": 480,
+                                                                                "h": 100,
+                                                                                "w": 100
+                                                                            },
+                                                                            {
+                                                                                "x": 1498,
+                                                                                "y": 840,
+                                                                                "h": 98,
+                                                                                "w": 98
+                                                                            },
+                                                                            {
+                                                                                "x": 669,
+                                                                                "y": 636,
+                                                                                "h": 218,
+                                                                                "w": 218
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 335,
+                                                                                "y": 101,
+                                                                                "h": 57,
+                                                                                "w": 57
+                                                                            },
+                                                                            {
+                                                                                "x": 335,
+                                                                                "y": 309,
+                                                                                "h": 64,
+                                                                                "w": 64
+                                                                            },
+                                                                            {
+                                                                                "x": 965,
+                                                                                "y": 541,
+                                                                                "h": 63,
+                                                                                "w": 63
+                                                                            },
+                                                                            {
+                                                                                "x": 431,
+                                                                                "y": 409,
+                                                                                "h": 140,
+                                                                                "w": 140
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 189,
+                                                                                "y": 57,
+                                                                                "h": 32,
+                                                                                "w": 32
+                                                                            },
+                                                                            {
+                                                                                "x": 189,
+                                                                                "y": 175,
+                                                                                "h": 36,
+                                                                                "w": 36
+                                                                            },
+                                                                            {
+                                                                                "x": 547,
+                                                                                "y": 306,
+                                                                                "h": 35,
+                                                                                "w": 35
+                                                                            },
+                                                                            {
+                                                                                "x": 244,
+                                                                                "y": 232,
+                                                                                "h": 79,
+                                                                                "w": 79
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 520,
+                                                                                "y": 158,
+                                                                                "h": 89,
+                                                                                "w": 89
+                                                                            },
+                                                                            {
+                                                                                "x": 520,
+                                                                                "y": 480,
+                                                                                "h": 100,
+                                                                                "w": 100
+                                                                            },
+                                                                            {
+                                                                                "x": 1498,
+                                                                                "y": 840,
+                                                                                "h": 98,
+                                                                                "w": 98
+                                                                            },
+                                                                            {
+                                                                                "x": 669,
+                                                                                "y": 636,
+                                                                                "h": 218,
+                                                                                "w": 218
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1202,
+                                                                        "w": 1862,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 775,
+                                                                        "w": 1200,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 439,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1202,
+                                                                    "width": 1862,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1862,
+                                                                            "h": 1043
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1202,
+                                                                            "h": 1202
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1054,
+                                                                            "h": 1202
+                                                                        },
+                                                                        {
+                                                                            "x": 25,
+                                                                            "y": 0,
+                                                                            "w": 601,
+                                                                            "h": 1202
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1862,
+                                                                            "h": 1202
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895230324398841856"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "symbols": [
+                                                            {
+                                                                "indices": [
+                                                                    57,
+                                                                    61
+                                                                ],
+                                                                "text": "eth"
+                                                            }
+                                                        ],
+                                                        "timestamps": [],
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "foundation.app/mint/eth/0x2F2\u2026",
+                                                                "expanded_url": "https://foundation.app/mint/eth/0x2F205D91D9489655800fd288aBa0D8A564e0D683/1",
+                                                                "url": "https://t.co/IDFEI1F9FX",
+                                                                "indices": [
+                                                                    62,
+                                                                    85
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "user_mentions": [
+                                                            {
+                                                                "id_str": "1435687324088631296",
+                                                                "name": "Q_\ud83e\udd0d",
+                                                                "screen_name": "its_q_bbyyy",
+                                                                "indices": [
+                                                                    0,
+                                                                    12
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    "extended_entities": {
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/bhfRkQM3TI",
+                                                                "expanded_url": "https://x.com/AydaNamavar/status/1895230328354283858/photo/1",
+                                                                "id_str": "1895230324398841856",
+                                                                "indices": [
+                                                                    86,
+                                                                    109
+                                                                ],
+                                                                "media_key": "3_1895230324398841856",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gk018E1XYAAv1IN.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/bhfRkQM3TI",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 520,
+                                                                                "y": 158,
+                                                                                "h": 89,
+                                                                                "w": 89
+                                                                            },
+                                                                            {
+                                                                                "x": 520,
+                                                                                "y": 480,
+                                                                                "h": 100,
+                                                                                "w": 100
+                                                                            },
+                                                                            {
+                                                                                "x": 1498,
+                                                                                "y": 840,
+                                                                                "h": 98,
+                                                                                "w": 98
+                                                                            },
+                                                                            {
+                                                                                "x": 669,
+                                                                                "y": 636,
+                                                                                "h": 218,
+                                                                                "w": 218
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 335,
+                                                                                "y": 101,
+                                                                                "h": 57,
+                                                                                "w": 57
+                                                                            },
+                                                                            {
+                                                                                "x": 335,
+                                                                                "y": 309,
+                                                                                "h": 64,
+                                                                                "w": 64
+                                                                            },
+                                                                            {
+                                                                                "x": 965,
+                                                                                "y": 541,
+                                                                                "h": 63,
+                                                                                "w": 63
+                                                                            },
+                                                                            {
+                                                                                "x": 431,
+                                                                                "y": 409,
+                                                                                "h": 140,
+                                                                                "w": 140
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 189,
+                                                                                "y": 57,
+                                                                                "h": 32,
+                                                                                "w": 32
+                                                                            },
+                                                                            {
+                                                                                "x": 189,
+                                                                                "y": 175,
+                                                                                "h": 36,
+                                                                                "w": 36
+                                                                            },
+                                                                            {
+                                                                                "x": 547,
+                                                                                "y": 306,
+                                                                                "h": 35,
+                                                                                "w": 35
+                                                                            },
+                                                                            {
+                                                                                "x": 244,
+                                                                                "y": 232,
+                                                                                "h": 79,
+                                                                                "w": 79
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 520,
+                                                                                "y": 158,
+                                                                                "h": 89,
+                                                                                "w": 89
+                                                                            },
+                                                                            {
+                                                                                "x": 520,
+                                                                                "y": 480,
+                                                                                "h": 100,
+                                                                                "w": 100
+                                                                            },
+                                                                            {
+                                                                                "x": 1498,
+                                                                                "y": 840,
+                                                                                "h": 98,
+                                                                                "w": 98
+                                                                            },
+                                                                            {
+                                                                                "x": 669,
+                                                                                "y": 636,
+                                                                                "h": 218,
+                                                                                "w": 218
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1202,
+                                                                        "w": 1862,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 775,
+                                                                        "w": 1200,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 439,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1202,
+                                                                    "width": 1862,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1862,
+                                                                            "h": 1043
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1202,
+                                                                            "h": 1202
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1054,
+                                                                            "h": 1202
+                                                                        },
+                                                                        {
+                                                                            "x": 25,
+                                                                            "y": 0,
+                                                                            "w": 601,
+                                                                            "h": 1202
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1862,
+                                                                            "h": 1202
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895230324398841856"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 1,
+                                                    "favorited": false,
+                                                    "full_text": "@its_q_bbyyy Hi\ud83c\udf38\nSuperstitions 1\n1/1\nIn foundation \n0.20 $eth\nhttps://t.co/IDFEI1F9FX https://t.co/bhfRkQM3TI",
+                                                    "in_reply_to_screen_name": "its_q_bbyyy",
+                                                    "in_reply_to_status_id_str": "1894547600675840355",
+                                                    "in_reply_to_user_id_str": "1435687324088631296",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 0,
+                                                    "reply_count": 1,
+                                                    "retweet_count": 0,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1458831870855106561",
+                                                    "id_str": "1895230328354283858"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet"
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895230687080521925",
+                                "sortIndex": "7328141708500491939",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895230687080521925-tweet-1895230687080521925",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895230687080521925",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxODcyNTI2NzMzODA4NjcyNzY4",
+                                                                        "rest_id": "1872526733808672768",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": false,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": false,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Fri Dec 27 06:15:52 +0000 2024",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "\u0e40\u0e2d\u0e25\u0e1f\u0e4c \u0e21\u0e31\u0e04\u0e40\u0e04\u0e34\u0e25",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 6,
+                                                                            "followers_count": 1,
+                                                                            "friends_count": 12,
+                                                                            "has_custom_timelines": false,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 0,
+                                                                            "location": "Jefferson",
+                                                                            "media_count": 38,
+                                                                            "name": "Dominique Sanchez",
+                                                                            "normal_followers_count": 1,
+                                                                            "pinned_tweet_ids_str": [],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1872526733808672768/1735894632",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1875104083561869312/MuypdM_S_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "DominiquesSh",
+                                                                            "statuses_count": 67,
+                                                                            "translator_type": "none",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895230687080521925"
+                                                                ],
+                                                                "editable_until_msecs": "1740696782000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "2",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 21:53:02 +0000 2025",
+                                                                "conversation_id_str": "1894547600675840355",
+                                                                "display_text_range": [
+                                                                    26,
+                                                                    63
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "media": [
+                                                                        {
+                                                                            "display_url": "pic.x.com/oQmC4Dq4Vo",
+                                                                            "expanded_url": "https://x.com/DominiquesSh/status/1895230687080521925/photo/1",
+                                                                            "id_str": "1895230662744887296",
+                                                                            "indices": [
+                                                                                64,
+                                                                                87
+                                                                            ],
+                                                                            "media_key": "3_1895230662744887296",
+                                                                            "media_url_https": "https://pbs.twimg.com/media/Gk02PxRWUAALrzm.jpg",
+                                                                            "type": "photo",
+                                                                            "url": "https://t.co/oQmC4Dq4Vo",
+                                                                            "ext_media_availability": {
+                                                                                "status": "Available"
+                                                                            },
+                                                                            "features": {
+                                                                                "large": {
+                                                                                    "faces": []
+                                                                                },
+                                                                                "medium": {
+                                                                                    "faces": []
+                                                                                },
+                                                                                "small": {
+                                                                                    "faces": []
+                                                                                },
+                                                                                "orig": {
+                                                                                    "faces": []
+                                                                                }
+                                                                            },
+                                                                            "sizes": {
+                                                                                "large": {
+                                                                                    "h": 554,
+                                                                                    "w": 1285,
+                                                                                    "resize": "fit"
+                                                                                },
+                                                                                "medium": {
+                                                                                    "h": 517,
+                                                                                    "w": 1200,
+                                                                                    "resize": "fit"
+                                                                                },
+                                                                                "small": {
+                                                                                    "h": 293,
+                                                                                    "w": 680,
+                                                                                    "resize": "fit"
+                                                                                },
+                                                                                "thumb": {
+                                                                                    "h": 150,
+                                                                                    "w": 150,
+                                                                                    "resize": "crop"
+                                                                                }
+                                                                            },
+                                                                            "original_info": {
+                                                                                "height": 554,
+                                                                                "width": 1285,
+                                                                                "focus_rects": [
+                                                                                    {
+                                                                                        "x": 148,
+                                                                                        "y": 0,
+                                                                                        "w": 989,
+                                                                                        "h": 554
+                                                                                    },
+                                                                                    {
+                                                                                        "x": 365,
+                                                                                        "y": 0,
+                                                                                        "w": 554,
+                                                                                        "h": 554
+                                                                                    },
+                                                                                    {
+                                                                                        "x": 399,
+                                                                                        "y": 0,
+                                                                                        "w": 486,
+                                                                                        "h": 554
+                                                                                    },
+                                                                                    {
+                                                                                        "x": 504,
+                                                                                        "y": 0,
+                                                                                        "w": 277,
+                                                                                        "h": 554
+                                                                                    },
+                                                                                    {
+                                                                                        "x": 0,
+                                                                                        "y": 0,
+                                                                                        "w": 1285,
+                                                                                        "h": 554
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "allow_download_status": {
+                                                                                "allow_download": true
+                                                                            },
+                                                                            "media_results": {
+                                                                                "result": {
+                                                                                    "media_key": "3_1895230662744887296"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1458831870855106561",
+                                                                            "name": "Ayda Namavar",
+                                                                            "screen_name": "AydaNamavar",
+                                                                            "indices": [
+                                                                                0,
+                                                                                12
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id_str": "1435687324088631296",
+                                                                            "name": "Q_\ud83e\udd0d",
+                                                                            "screen_name": "its_q_bbyyy",
+                                                                            "indices": [
+                                                                                13,
+                                                                                25
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "extended_entities": {
+                                                                    "media": [
+                                                                        {
+                                                                            "display_url": "pic.x.com/oQmC4Dq4Vo",
+                                                                            "expanded_url": "https://x.com/DominiquesSh/status/1895230687080521925/photo/1",
+                                                                            "id_str": "1895230662744887296",
+                                                                            "indices": [
+                                                                                64,
+                                                                                87
+                                                                            ],
+                                                                            "media_key": "3_1895230662744887296",
+                                                                            "media_url_https": "https://pbs.twimg.com/media/Gk02PxRWUAALrzm.jpg",
+                                                                            "type": "photo",
+                                                                            "url": "https://t.co/oQmC4Dq4Vo",
+                                                                            "ext_media_availability": {
+                                                                                "status": "Available"
+                                                                            },
+                                                                            "features": {
+                                                                                "large": {
+                                                                                    "faces": []
+                                                                                },
+                                                                                "medium": {
+                                                                                    "faces": []
+                                                                                },
+                                                                                "small": {
+                                                                                    "faces": []
+                                                                                },
+                                                                                "orig": {
+                                                                                    "faces": []
+                                                                                }
+                                                                            },
+                                                                            "sizes": {
+                                                                                "large": {
+                                                                                    "h": 554,
+                                                                                    "w": 1285,
+                                                                                    "resize": "fit"
+                                                                                },
+                                                                                "medium": {
+                                                                                    "h": 517,
+                                                                                    "w": 1200,
+                                                                                    "resize": "fit"
+                                                                                },
+                                                                                "small": {
+                                                                                    "h": 293,
+                                                                                    "w": 680,
+                                                                                    "resize": "fit"
+                                                                                },
+                                                                                "thumb": {
+                                                                                    "h": 150,
+                                                                                    "w": 150,
+                                                                                    "resize": "crop"
+                                                                                }
+                                                                            },
+                                                                            "original_info": {
+                                                                                "height": 554,
+                                                                                "width": 1285,
+                                                                                "focus_rects": [
+                                                                                    {
+                                                                                        "x": 148,
+                                                                                        "y": 0,
+                                                                                        "w": 989,
+                                                                                        "h": 554
+                                                                                    },
+                                                                                    {
+                                                                                        "x": 365,
+                                                                                        "y": 0,
+                                                                                        "w": 554,
+                                                                                        "h": 554
+                                                                                    },
+                                                                                    {
+                                                                                        "x": 399,
+                                                                                        "y": 0,
+                                                                                        "w": 486,
+                                                                                        "h": 554
+                                                                                    },
+                                                                                    {
+                                                                                        "x": 504,
+                                                                                        "y": 0,
+                                                                                        "w": 277,
+                                                                                        "h": 554
+                                                                                    },
+                                                                                    {
+                                                                                        "x": 0,
+                                                                                        "y": 0,
+                                                                                        "w": 1285,
+                                                                                        "h": 554
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "allow_download_status": {
+                                                                                "allow_download": true
+                                                                            },
+                                                                            "media_results": {
+                                                                                "result": {
+                                                                                    "media_key": "3_1895230662744887296"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 0,
+                                                                "favorited": false,
+                                                                "full_text": "@AydaNamavar @its_q_bbyyy Thanks, Mate! \ud83c\udf1f Love this insight! \ud83d\ude4c\ud83d\udd2e https://t.co/oQmC4Dq4Vo",
+                                                                "in_reply_to_screen_name": "AydaNamavar",
+                                                                "in_reply_to_status_id_str": "1895230328354283858",
+                                                                "in_reply_to_user_id_str": "1458831870855106561",
+                                                                "is_quote_status": false,
+                                                                "lang": "en",
+                                                                "possibly_sensitive": false,
+                                                                "possibly_sensitive_editable": true,
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "1872526733808672768",
+                                                                "id_str": "1895230687080521925"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFIgKiEBkgAEKAAIAAAAABwCASAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TimelineTerminateTimeline",
+                        "direction": "Top"
+                    }
+                ]
+            }
+        }
+    }
+]

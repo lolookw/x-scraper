@@ -1,0 +1,451 @@
+[
+    {
+        "data": {
+            "threaded_conversation_with_injections_v2": {
+                "instructions": [
+                    {
+                        "type": "TimelineAddEntries",
+                        "entries": [
+                            {
+                                "entryId": "tweet-1895239566472224833",
+                                "sortIndex": "7328132470382550974",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895239566472224833",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNTc4NDAwOTgyNjYwMDUwOTU2",
+                                                            "rest_id": "1578400982660050956",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": false,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Fri Oct 07 15:05:45 +0000 2022",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "\u25b2\u25cf https://t.co/J4FCWl2JsF\n\u25b2\u25cf\u25a0 https://t.co/fjhTtVaI9z\n\u2693\ufe0f https://t.co/aKoreDHD5M\nObjkt https://t.co/Ffek78XWVG\u2026",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "knownorigin.io/kairos-tsg",
+                                                                                "expanded_url": "http://knownorigin.io/kairos-tsg",
+                                                                                "url": "https://t.co/J4FCWl2JsF",
+                                                                                "indices": [
+                                                                                    3,
+                                                                                    26
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "display_url": "foundation.app/@Kairos.tsg",
+                                                                                "expanded_url": "http://foundation.app/@Kairos.tsg",
+                                                                                "url": "https://t.co/fjhTtVaI9z",
+                                                                                "indices": [
+                                                                                    31,
+                                                                                    54
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "display_url": "opensea.io/Kairos_tsg",
+                                                                                "expanded_url": "http://opensea.io/Kairos_tsg",
+                                                                                "url": "https://t.co/aKoreDHD5M",
+                                                                                "indices": [
+                                                                                    58,
+                                                                                    81
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "display_url": "objkt.com/profile/kairos",
+                                                                                "expanded_url": "http://objkt.com/profile/kairos",
+                                                                                "url": "https://t.co/Ffek78XWVG",
+                                                                                "indices": [
+                                                                                    88,
+                                                                                    111
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "url": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "kairostsg.tez.page",
+                                                                                "expanded_url": "https://kairostsg.tez.page/",
+                                                                                "url": "https://t.co/MdsKM0aBjh",
+                                                                                "indices": [
+                                                                                    0,
+                                                                                    23
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 3127,
+                                                                "followers_count": 859,
+                                                                "friends_count": 677,
+                                                                "has_custom_timelines": false,
+                                                                "is_translator": false,
+                                                                "listed_count": 5,
+                                                                "location": "Metaverse",
+                                                                "media_count": 17204,
+                                                                "name": "tsg kairos",
+                                                                "normal_followers_count": 859,
+                                                                "pinned_tweet_ids_str": [
+                                                                    "1855198215202578833"
+                                                                ],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1578400982660050956/1665155904",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1578404377903366144/UahRQW_G_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "KairosTsg",
+                                                                "statuses_count": 20161,
+                                                                "translator_type": "none",
+                                                                "url": "https://t.co/MdsKM0aBjh",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895239566472224833"
+                                                    ],
+                                                    "editable_until_msecs": "1740698899000",
+                                                    "is_edit_eligible": true,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "12",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"https://botbird.net/\" rel=\"nofollow\">KairosTsg1643399691642736645</a>",
+                                                "grok_analysis_button": false,
+                                                "legacy": {
+                                                    "bookmark_count": 0,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 22:28:19 +0000 2025",
+                                                    "conversation_id_str": "1895239566472224833",
+                                                    "display_text_range": [
+                                                        0,
+                                                        199
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [
+                                                            {
+                                                                "indices": [
+                                                                    143,
+                                                                    154
+                                                                ],
+                                                                "text": "Generative"
+                                                            },
+                                                            {
+                                                                "indices": [
+                                                                    155,
+                                                                    159
+                                                                ],
+                                                                "text": "NFT"
+                                                            },
+                                                            {
+                                                                "indices": [
+                                                                    160,
+                                                                    164
+                                                                ],
+                                                                "text": "art"
+                                                            },
+                                                            {
+                                                                "indices": [
+                                                                    165,
+                                                                    175
+                                                                ],
+                                                                "text": "modernart"
+                                                            }
+                                                        ],
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/ULwlJmfXB6",
+                                                                "expanded_url": "https://x.com/KairosTsg/status/1895239566472224833/photo/1",
+                                                                "id_str": "1895239562558922752",
+                                                                "indices": [
+                                                                    200,
+                                                                    223
+                                                                ],
+                                                                "media_key": "3_1895239562558922752",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gk0-VzqXYAAM8Lu.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/ULwlJmfXB6",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": []
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1191,
+                                                                        "w": 1191,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1191,
+                                                                        "w": 1191,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1191,
+                                                                    "width": 1191,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 351,
+                                                                            "w": 1191,
+                                                                            "h": 667
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1191,
+                                                                            "h": 1191
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1045,
+                                                                            "h": 1191
+                                                                        },
+                                                                        {
+                                                                            "x": 29,
+                                                                            "y": 0,
+                                                                            "w": 596,
+                                                                            "h": 1191
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1191,
+                                                                            "h": 1191
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895239562558922752"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "foundation.app/collection/tsc\u2026",
+                                                                "expanded_url": "https://foundation.app/collection/tscape",
+                                                                "url": "https://t.co/eYXi3eaaoU",
+                                                                "indices": [
+                                                                    119,
+                                                                    142
+                                                                ]
+                                                            },
+                                                            {
+                                                                "display_url": "mtbrs.net/ps_kairostsg_S\u2026",
+                                                                "expanded_url": "https://mtbrs.net/ps_kairostsg_Stratumk15_jpg",
+                                                                "url": "https://t.co/nRkykbtxiS",
+                                                                "indices": [
+                                                                    176,
+                                                                    199
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "user_mentions": []
+                                                    },
+                                                    "extended_entities": {
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/ULwlJmfXB6",
+                                                                "expanded_url": "https://x.com/KairosTsg/status/1895239566472224833/photo/1",
+                                                                "id_str": "1895239562558922752",
+                                                                "indices": [
+                                                                    200,
+                                                                    223
+                                                                ],
+                                                                "media_key": "3_1895239562558922752",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gk0-VzqXYAAM8Lu.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/ULwlJmfXB6",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": []
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1191,
+                                                                        "w": 1191,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1191,
+                                                                        "w": 1191,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1191,
+                                                                    "width": 1191,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 351,
+                                                                            "w": 1191,
+                                                                            "h": 667
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1191,
+                                                                            "h": 1191
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1045,
+                                                                            "h": 1191
+                                                                        },
+                                                                        {
+                                                                            "x": 29,
+                                                                            "y": 0,
+                                                                            "w": 596,
+                                                                            "h": 1191
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1191,
+                                                                            "h": 1191
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895239562558922752"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 2,
+                                                    "favorited": false,
+                                                    "full_text": "Stratum#15  \u201cGemstone of Paul Klee\u201d\n\nIn his dreamy paintings, an atmosphere of peace and a tension of beauty coexist.\n\nhttps://t.co/eYXi3eaaoU\n#Generative #NFT #art #modernart https://t.co/nRkykbtxiS https://t.co/ULwlJmfXB6",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 0,
+                                                    "reply_count": 1,
+                                                    "retweet_count": 0,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1578400982660050956",
+                                                    "id_str": "1895239566472224833"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet",
+                                        "hasModeratedReplies": false
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "cursor-showmorethreadsprompt-4807285704824979196",
+                                "sortIndex": "7328132470382550964",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTimelineCursor",
+                                        "__typename": "TimelineTimelineCursor",
+                                        "value": "CgAAAKAcGQYlBhEVEAAA",
+                                        "cursorType": "ShowMoreThreadsPrompt",
+                                        "displayTreatment": {
+                                            "actionText": "Show",
+                                            "labelText": "Show additional replies, including those that may contain offensive content"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TimelineTerminateTimeline",
+                        "direction": "Top"
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -30,7 +30,7 @@ if __name__ == "__main__":
     mail, username, password, _ = load_config()
     driver = login(mail, username, password)
     if driver:
-        usernames = load_usernames("drop.txt")
+        usernames = load_usernames("users_list2.txt")
         print(usernames)
         open_user_pages(driver, usernames)
         driver.quit()

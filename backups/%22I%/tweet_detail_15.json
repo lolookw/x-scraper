@@ -1,0 +1,272 @@
+[
+    {
+        "data": {
+            "threaded_conversation_with_injections_v2": {
+                "instructions": [
+                    {
+                        "type": "TimelineAddEntries",
+                        "entries": [
+                            {
+                                "entryId": "tweet-1895063080322617523",
+                                "sortIndex": "7328308956532158284",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895063080322617523",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNjQ1MDM0MzgzMjIzNTMzNTcw",
+                                                            "rest_id": "1645034383223533570",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": false,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Sun Apr 09 12:02:33 +0000 2023",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "Reddio",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": []
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 133,
+                                                                "followers_count": 117,
+                                                                "friends_count": 381,
+                                                                "has_custom_timelines": false,
+                                                                "is_translator": false,
+                                                                "listed_count": 0,
+                                                                "location": "",
+                                                                "media_count": 1,
+                                                                "name": "bistva1 (\u2738,\u2738)(\u00d8,G)",
+                                                                "normal_followers_count": 117,
+                                                                "pinned_tweet_ids_str": [],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1645034383223533570/1683467582",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1645034574211063808/qYvstr4a_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "twbist1",
+                                                                "statuses_count": 251,
+                                                                "translator_type": "none",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "card": {
+                                                    "rest_id": "https://t.co/87UuKPx7E4",
+                                                    "legacy": {
+                                                        "binding_values": [
+                                                            {
+                                                                "key": "description",
+                                                                "value": {
+                                                                    "string_value": "Discover, sell and buy NFTs on Rarible! Our aggregated NFT marketplace for Ethereum NFTs and Polygon NFTs powers brands, collections and creator marketplaces.",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "domain",
+                                                                "value": {
+                                                                    "string_value": "rarible.com",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "vanity_url",
+                                                                "value": {
+                                                                    "scribe_key": "vanity_url",
+                                                                    "string_value": "rarible.com",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "title",
+                                                                "value": {
+                                                                    "string_value": "Rarible - NFT Marketplace for Brands, Communities and Traders",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "card_url",
+                                                                "value": {
+                                                                    "scribe_key": "card_url",
+                                                                    "string_value": "https://t.co/87UuKPx7E4",
+                                                                    "type": "STRING"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "card_platform": {
+                                                            "platform": {
+                                                                "audience": {
+                                                                    "name": "production"
+                                                                },
+                                                                "device": {
+                                                                    "name": "Swift",
+                                                                    "version": "12"
+                                                                }
+                                                            }
+                                                        },
+                                                        "name": "summary_large_image",
+                                                        "url": "https://t.co/87UuKPx7E4",
+                                                        "user_refs_results": []
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895063080322617523"
+                                                    ],
+                                                    "editable_until_msecs": "1740656821000",
+                                                    "is_edit_eligible": true,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "12",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                                "grok_analysis_button": false,
+                                                "legacy": {
+                                                    "bookmark_count": 0,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 10:47:01 +0000 2025",
+                                                    "conversation_id_str": "1895063080322617523",
+                                                    "display_text_range": [
+                                                        0,
+                                                        82
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [
+                                                            {
+                                                                "indices": [
+                                                                    61,
+                                                                    69
+                                                                ],
+                                                                "text": "rarible"
+                                                            }
+                                                        ],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "rarible.com/token/0xc91544\u2026",
+                                                                "expanded_url": "https://rarible.com/token/0xc9154424b823b10579895ccbe442d41b9abd96ed:72824428579164990097231004146620191655540556116136782114529703963745228685314",
+                                                                "url": "https://t.co/87UuKPx7E4",
+                                                                "indices": [
+                                                                    37,
+                                                                    60
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "user_mentions": [
+                                                            {
+                                                                "id_str": "1160222700104757249",
+                                                                "name": "Rarible",
+                                                                "screen_name": "rarible",
+                                                                "indices": [
+                                                                    74,
+                                                                    82
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 1,
+                                                    "favorited": false,
+                                                    "full_text": "I've just created \"CAT\" collectible! https://t.co/87UuKPx7E4 #rarible via @rarible",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 0,
+                                                    "reply_count": 1,
+                                                    "retweet_count": 0,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1645034383223533570",
+                                                    "id_str": "1895063080322617523"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet",
+                                        "hasModeratedReplies": false
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "tweetdetailrelatedtweets-2583882330634825894",
+                                "sortIndex": "1",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [],
+                                    "displayType": "Vertical",
+                                    "header": {
+                                        "displayType": "Classic",
+                                        "text": "Discover more",
+                                        "socialContext": {
+                                            "type": "TimelineGeneralContext",
+                                            "contextType": "TextOnly",
+                                            "text": "Sourced from across X"
+                                        },
+                                        "sticky": true
+                                    },
+                                    "clientEventInfo": {
+                                        "component": "related_tweet",
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "RelatedTweet"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "cursor-showmorethreadsprompt-6710128129168216986",
+                                "sortIndex": "7328308956532158263",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTimelineCursor",
+                                        "__typename": "TimelineTimelineCursor",
+                                        "value": "EwAAAPAEHBkWzMKtrsXS5dtHJQYRFRAAAA",
+                                        "cursorType": "ShowMoreThreadsPrompt",
+                                        "displayTreatment": {
+                                            "actionText": "Show",
+                                            "labelText": "Show additional replies, including those that may contain offensive content"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TimelineTerminateTimeline",
+                        "direction": "Top"
+                    }
+                ]
+            }
+        }
+    }
+]

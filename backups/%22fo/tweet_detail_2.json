@@ -1,0 +1,1051 @@
+[
+    {
+        "data": {
+            "threaded_conversation_with_injections_v2": {
+                "instructions": [
+                    {
+                        "type": "TimelineAddEntries",
+                        "entries": [
+                            {
+                                "entryId": "tweet-1895109812347666775",
+                                "sortIndex": "7328262224507109032",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895109812347666775",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxMjU0NTQ5NjY4NDA0NTI3MTA0",
+                                                            "rest_id": "1254549668404527104",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": true,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Sun Apr 26 23:15:44 +0000 2020",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "am visual and creative artist...my joy,my smile,my happiness everything is in my art\ud83e\udd70 i love painting \u2665\ufe0f am proud to be an artist and am proud of African",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": []
+                                                                    },
+                                                                    "url": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "deviantart.com/oluwatobiart",
+                                                                                "expanded_url": "http://www.deviantart.com/oluwatobiart",
+                                                                                "url": "https://t.co/kdAlw1Uzwl",
+                                                                                "indices": [
+                                                                                    0,
+                                                                                    23
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 4511,
+                                                                "followers_count": 151,
+                                                                "friends_count": 325,
+                                                                "has_custom_timelines": false,
+                                                                "is_translator": false,
+                                                                "listed_count": 1,
+                                                                "location": "Osun, Nigeria",
+                                                                "media_count": 507,
+                                                                "name": "Oluwatobi Samuel Akinrinola",
+                                                                "normal_followers_count": 151,
+                                                                "pinned_tweet_ids_str": [
+                                                                    "1880522814387782124"
+                                                                ],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1254549668404527104/1588113944",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1830469573772029952/00z0HgR4_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "oluwatobi_art1",
+                                                                "statuses_count": 2179,
+                                                                "translator_type": "none",
+                                                                "url": "https://t.co/kdAlw1Uzwl",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895109812347666775"
+                                                    ],
+                                                    "editable_until_msecs": "1740667963000",
+                                                    "is_edit_eligible": true,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "65",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                "grok_analysis_button": true,
+                                                "quoted_status_result": {
+                                                    "result": {
+                                                        "__typename": "Tweet",
+                                                        "rest_id": "1895001270240383182",
+                                                        "has_birdwatch_notes": false,
+                                                        "core": {
+                                                            "user_results": {
+                                                                "result": {
+                                                                    "__typename": "User",
+                                                                    "id": "VXNlcjoxNjUwNDc4MDc0MzkwMjc0MDU0",
+                                                                    "rest_id": "1650478074390274054",
+                                                                    "affiliates_highlighted_label": {},
+                                                                    "has_graduated_access": true,
+                                                                    "parody_commentary_fan_label": "None",
+                                                                    "is_blue_verified": true,
+                                                                    "profile_image_shape": "Circle",
+                                                                    "legacy": {
+                                                                        "following": false,
+                                                                        "can_dm": true,
+                                                                        "can_media_tag": true,
+                                                                        "created_at": "Mon Apr 24 12:34:25 +0000 2023",
+                                                                        "default_profile": true,
+                                                                        "default_profile_image": false,
+                                                                        "description": "Alhumdulillah\ud83d\udc96\nArtist #Ridnime\nObjkt,OS,Rarible,Exchange Art,Foundation #SavageNation \n#Sneketoshi  \n#FreePalestine #madenft1\n\n2ND ACC @Ridminn",
+                                                                        "entities": {
+                                                                            "description": {
+                                                                                "urls": []
+                                                                            },
+                                                                            "url": {
+                                                                                "urls": [
+                                                                                    {
+                                                                                        "display_url": "linktr.ee/ridnime",
+                                                                                        "expanded_url": "https://linktr.ee/ridnime",
+                                                                                        "url": "https://t.co/QEgSha9jmZ",
+                                                                                        "indices": [
+                                                                                            0,
+                                                                                            23
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "fast_followers_count": 0,
+                                                                        "favourites_count": 195571,
+                                                                        "followers_count": 6080,
+                                                                        "friends_count": 5140,
+                                                                        "has_custom_timelines": false,
+                                                                        "is_translator": false,
+                                                                        "listed_count": 19,
+                                                                        "location": "",
+                                                                        "media_count": 10392,
+                                                                        "name": "Ridnime \ud83c\uddf5\ud83c\uddf8",
+                                                                        "normal_followers_count": 6080,
+                                                                        "pinned_tweet_ids_str": [
+                                                                            "1889032279462474039"
+                                                                        ],
+                                                                        "possibly_sensitive": false,
+                                                                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1650478074390274054/1729186253",
+                                                                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1846987824932823040/5PJp95ec_normal.jpg",
+                                                                        "profile_interstitial_type": "",
+                                                                        "screen_name": "Ridnime",
+                                                                        "statuses_count": 184871,
+                                                                        "translator_type": "none",
+                                                                        "url": "https://t.co/QEgSha9jmZ",
+                                                                        "verified": false,
+                                                                        "want_retweets": false,
+                                                                        "withheld_in_countries": []
+                                                                    },
+                                                                    "professional": {
+                                                                        "rest_id": "1687291971990069248",
+                                                                        "professional_type": "Creator",
+                                                                        "category": [
+                                                                            {
+                                                                                "id": 1017,
+                                                                                "name": "Artist",
+                                                                                "icon_name": "IconBriefcaseStroke"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "tipjar_settings": {}
+                                                                }
+                                                            }
+                                                        },
+                                                        "unmention_data": {},
+                                                        "edit_control": {
+                                                            "edit_tweet_ids": [
+                                                                "1895001270240383182"
+                                                            ],
+                                                            "editable_until_msecs": "1740642084000",
+                                                            "is_edit_eligible": true,
+                                                            "edits_remaining": "5"
+                                                        },
+                                                        "is_translatable": false,
+                                                        "views": {
+                                                            "count": "1890",
+                                                            "state": "EnabledWithCount"
+                                                        },
+                                                        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                                        "grok_analysis_button": true,
+                                                        "legacy": {
+                                                            "bookmark_count": 2,
+                                                            "bookmarked": false,
+                                                            "created_at": "Thu Feb 27 06:41:24 +0000 2025",
+                                                            "conversation_id_str": "1895001270240383182",
+                                                            "display_text_range": [
+                                                                0,
+                                                                56
+                                                            ],
+                                                            "entities": {
+                                                                "hashtags": [],
+                                                                "media": [
+                                                                    {
+                                                                        "display_url": "pic.x.com/JL2EkNCnWT",
+                                                                        "expanded_url": "https://x.com/Ridnime/status/1895001270240383182/photo/1",
+                                                                        "id_str": "1895001267245666304",
+                                                                        "indices": [
+                                                                            57,
+                                                                            80
+                                                                        ],
+                                                                        "media_key": "3_1895001267245666304",
+                                                                        "media_url_https": "https://pbs.twimg.com/media/GkxlnMcX0AAGJjQ.jpg",
+                                                                        "type": "photo",
+                                                                        "url": "https://t.co/JL2EkNCnWT",
+                                                                        "ext_media_availability": {
+                                                                            "status": "Available"
+                                                                        },
+                                                                        "features": {
+                                                                            "large": {
+                                                                                "faces": []
+                                                                            },
+                                                                            "medium": {
+                                                                                "faces": []
+                                                                            },
+                                                                            "small": {
+                                                                                "faces": []
+                                                                            },
+                                                                            "orig": {
+                                                                                "faces": []
+                                                                            }
+                                                                        },
+                                                                        "sizes": {
+                                                                            "large": {
+                                                                                "h": 1337,
+                                                                                "w": 1080,
+                                                                                "resize": "fit"
+                                                                            },
+                                                                            "medium": {
+                                                                                "h": 1200,
+                                                                                "w": 969,
+                                                                                "resize": "fit"
+                                                                            },
+                                                                            "small": {
+                                                                                "h": 680,
+                                                                                "w": 549,
+                                                                                "resize": "fit"
+                                                                            },
+                                                                            "thumb": {
+                                                                                "h": 150,
+                                                                                "w": 150,
+                                                                                "resize": "crop"
+                                                                            }
+                                                                        },
+                                                                        "original_info": {
+                                                                            "height": 1337,
+                                                                            "width": 1080,
+                                                                            "focus_rects": [
+                                                                                {
+                                                                                    "x": 0,
+                                                                                    "y": 399,
+                                                                                    "w": 1080,
+                                                                                    "h": 605
+                                                                                },
+                                                                                {
+                                                                                    "x": 0,
+                                                                                    "y": 161,
+                                                                                    "w": 1080,
+                                                                                    "h": 1080
+                                                                                },
+                                                                                {
+                                                                                    "x": 0,
+                                                                                    "y": 86,
+                                                                                    "w": 1080,
+                                                                                    "h": 1231
+                                                                                },
+                                                                                {
+                                                                                    "x": 411,
+                                                                                    "y": 0,
+                                                                                    "w": 669,
+                                                                                    "h": 1337
+                                                                                },
+                                                                                {
+                                                                                    "x": 0,
+                                                                                    "y": 0,
+                                                                                    "w": 1080,
+                                                                                    "h": 1337
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "media_results": {
+                                                                            "result": {
+                                                                                "media_key": "3_1895001267245666304"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "symbols": [],
+                                                                "timestamps": [],
+                                                                "urls": [],
+                                                                "user_mentions": []
+                                                            },
+                                                            "extended_entities": {
+                                                                "media": [
+                                                                    {
+                                                                        "display_url": "pic.x.com/JL2EkNCnWT",
+                                                                        "expanded_url": "https://x.com/Ridnime/status/1895001270240383182/photo/1",
+                                                                        "id_str": "1895001267245666304",
+                                                                        "indices": [
+                                                                            57,
+                                                                            80
+                                                                        ],
+                                                                        "media_key": "3_1895001267245666304",
+                                                                        "media_url_https": "https://pbs.twimg.com/media/GkxlnMcX0AAGJjQ.jpg",
+                                                                        "type": "photo",
+                                                                        "url": "https://t.co/JL2EkNCnWT",
+                                                                        "ext_media_availability": {
+                                                                            "status": "Available"
+                                                                        },
+                                                                        "features": {
+                                                                            "large": {
+                                                                                "faces": []
+                                                                            },
+                                                                            "medium": {
+                                                                                "faces": []
+                                                                            },
+                                                                            "small": {
+                                                                                "faces": []
+                                                                            },
+                                                                            "orig": {
+                                                                                "faces": []
+                                                                            }
+                                                                        },
+                                                                        "sizes": {
+                                                                            "large": {
+                                                                                "h": 1337,
+                                                                                "w": 1080,
+                                                                                "resize": "fit"
+                                                                            },
+                                                                            "medium": {
+                                                                                "h": 1200,
+                                                                                "w": 969,
+                                                                                "resize": "fit"
+                                                                            },
+                                                                            "small": {
+                                                                                "h": 680,
+                                                                                "w": 549,
+                                                                                "resize": "fit"
+                                                                            },
+                                                                            "thumb": {
+                                                                                "h": 150,
+                                                                                "w": 150,
+                                                                                "resize": "crop"
+                                                                            }
+                                                                        },
+                                                                        "original_info": {
+                                                                            "height": 1337,
+                                                                            "width": 1080,
+                                                                            "focus_rects": [
+                                                                                {
+                                                                                    "x": 0,
+                                                                                    "y": 399,
+                                                                                    "w": 1080,
+                                                                                    "h": 605
+                                                                                },
+                                                                                {
+                                                                                    "x": 0,
+                                                                                    "y": 161,
+                                                                                    "w": 1080,
+                                                                                    "h": 1080
+                                                                                },
+                                                                                {
+                                                                                    "x": 0,
+                                                                                    "y": 86,
+                                                                                    "w": 1080,
+                                                                                    "h": 1231
+                                                                                },
+                                                                                {
+                                                                                    "x": 411,
+                                                                                    "y": 0,
+                                                                                    "w": 669,
+                                                                                    "h": 1337
+                                                                                },
+                                                                                {
+                                                                                    "x": 0,
+                                                                                    "y": 0,
+                                                                                    "w": 1080,
+                                                                                    "h": 1337
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "media_results": {
+                                                                            "result": {
+                                                                                "media_key": "3_1895001267245666304"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "favorite_count": 103,
+                                                            "favorited": false,
+                                                            "full_text": "Share your Thursday Art \ud83c\udfad \n\nTag friends, Repost and like https://t.co/JL2EkNCnWT",
+                                                            "is_quote_status": false,
+                                                            "lang": "en",
+                                                            "possibly_sensitive": false,
+                                                            "possibly_sensitive_editable": true,
+                                                            "quote_count": 2,
+                                                            "reply_count": 66,
+                                                            "retweet_count": 18,
+                                                            "retweeted": false,
+                                                            "user_id_str": "1650478074390274054",
+                                                            "id_str": "1895001270240383182"
+                                                        }
+                                                    }
+                                                },
+                                                "legacy": {
+                                                    "bookmark_count": 0,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 13:52:43 +0000 2025",
+                                                    "conversation_id_str": "1895109812347666775",
+                                                    "display_text_range": [
+                                                        0,
+                                                        26
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [],
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/CmPaaZPQil",
+                                                                "expanded_url": "https://x.com/oluwatobi_art1/status/1895109812347666775/photo/1",
+                                                                "id_str": "1895109799513088000",
+                                                                "indices": [
+                                                                    27,
+                                                                    50
+                                                                ],
+                                                                "media_key": "3_1895109799513088000",
+                                                                "media_url_https": "https://pbs.twimg.com/media/GkzIUmpW4AAm0bZ.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/CmPaaZPQil",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": []
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1024,
+                                                                        "w": 747,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1024,
+                                                                        "w": 747,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 496,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1024,
+                                                                    "width": 747,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 226,
+                                                                            "w": 747,
+                                                                            "h": 418
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 62,
+                                                                            "w": 747,
+                                                                            "h": 747
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 9,
+                                                                            "w": 747,
+                                                                            "h": 852
+                                                                        },
+                                                                        {
+                                                                            "x": 128,
+                                                                            "y": 0,
+                                                                            "w": 512,
+                                                                            "h": 1024
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 747,
+                                                                            "h": 1024
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "allow_download_status": {
+                                                                    "allow_download": true
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895109799513088000"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [],
+                                                        "user_mentions": []
+                                                    },
+                                                    "extended_entities": {
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/CmPaaZPQil",
+                                                                "expanded_url": "https://x.com/oluwatobi_art1/status/1895109812347666775/photo/1",
+                                                                "id_str": "1895109799513088000",
+                                                                "indices": [
+                                                                    27,
+                                                                    50
+                                                                ],
+                                                                "media_key": "3_1895109799513088000",
+                                                                "media_url_https": "https://pbs.twimg.com/media/GkzIUmpW4AAm0bZ.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/CmPaaZPQil",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": []
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1024,
+                                                                        "w": 747,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1024,
+                                                                        "w": 747,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 496,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1024,
+                                                                    "width": 747,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 226,
+                                                                            "w": 747,
+                                                                            "h": 418
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 62,
+                                                                            "w": 747,
+                                                                            "h": 747
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 9,
+                                                                            "w": 747,
+                                                                            "h": 852
+                                                                        },
+                                                                        {
+                                                                            "x": 128,
+                                                                            "y": 0,
+                                                                            "w": 512,
+                                                                            "h": 1024
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 747,
+                                                                            "h": 1024
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "allow_download_status": {
+                                                                    "allow_download": true
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895109799513088000"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 4,
+                                                    "favorited": false,
+                                                    "full_text": "Share your Thursday Art \u2764\ufe0f https://t.co/CmPaaZPQil",
+                                                    "is_quote_status": true,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 0,
+                                                    "quoted_status_id_str": "1895001270240383182",
+                                                    "quoted_status_permalink": {
+                                                        "url": "https://t.co/DMEjPzkaHF",
+                                                        "expanded": "https://twitter.com/ridnime/status/1895001270240383182",
+                                                        "display": "x.com/ridnime/status\u2026"
+                                                    },
+                                                    "reply_count": 1,
+                                                    "retweet_count": 1,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1254549668404527104",
+                                                    "id_str": "1895109812347666775"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet",
+                                        "hasModeratedReplies": false
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "tweet-1895159440174653801",
+                                "sortIndex": "7328212596680122006",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895159440174653801",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNDkyNDQ1NDIwODE5MjU5Mzkz",
+                                                            "rest_id": "1492445420819259393",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": true,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": false,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Sat Feb 12 10:28:27 +0000 2022",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "Building a multi-chain museum filled with bizarre mutant creatures!",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": []
+                                                                    },
+                                                                    "url": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "bento.me/mmmutants",
+                                                                                "expanded_url": "https://bento.me/mmmutants",
+                                                                                "url": "https://t.co/EiZuoQ9gW9",
+                                                                                "indices": [
+                                                                                    0,
+                                                                                    23
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 54719,
+                                                                "followers_count": 2317,
+                                                                "friends_count": 270,
+                                                                "has_custom_timelines": false,
+                                                                "is_translator": false,
+                                                                "listed_count": 1,
+                                                                "location": "Metaverse",
+                                                                "media_count": 296,
+                                                                "name": "MMM",
+                                                                "normal_followers_count": 2317,
+                                                                "pinned_tweet_ids_str": [
+                                                                    "1895310143186968674"
+                                                                ],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1492445420819259393/1729685315",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1849060533548326912/MxD--iO4_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "mmmutants",
+                                                                "statuses_count": 49012,
+                                                                "translator_type": "none",
+                                                                "url": "https://t.co/EiZuoQ9gW9",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "professional": {
+                                                                "rest_id": "1492451499548581895",
+                                                                "professional_type": "Business",
+                                                                "category": [
+                                                                    {
+                                                                        "id": 21,
+                                                                        "name": "Museum",
+                                                                        "icon_name": "IconBriefcaseStroke"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895159440174653801"
+                                                    ],
+                                                    "editable_until_msecs": "1740679795000",
+                                                    "is_edit_eligible": false,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "4",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                                "grok_analysis_button": false,
+                                                "legacy": {
+                                                    "bookmark_count": 0,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 17:09:55 +0000 2025",
+                                                    "conversation_id_str": "1895109812347666775",
+                                                    "display_text_range": [
+                                                        16,
+                                                        213
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [],
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/oPiU2mt1WP",
+                                                                "expanded_url": "https://x.com/mmmutants/status/1895159440174653801/photo/1",
+                                                                "id_str": "1895159211157245952",
+                                                                "indices": [
+                                                                    214,
+                                                                    237
+                                                                ],
+                                                                "media_key": "3_1895159211157245952",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gkz1QvXWUAAmQor.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/oPiU2mt1WP",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": []
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1920,
+                                                                        "w": 1920,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1200,
+                                                                        "w": 1200,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1920,
+                                                                    "width": 1920,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1920,
+                                                                            "h": 1075
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1920,
+                                                                            "h": 1920
+                                                                        },
+                                                                        {
+                                                                            "x": 118,
+                                                                            "y": 0,
+                                                                            "w": 1684,
+                                                                            "h": 1920
+                                                                        },
+                                                                        {
+                                                                            "x": 480,
+                                                                            "y": 0,
+                                                                            "w": 960,
+                                                                            "h": 1920
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1920,
+                                                                            "h": 1920
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "allow_download_status": {
+                                                                    "allow_download": true
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895159211157245952"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "foundation.app/collection/MMM\u2026",
+                                                                "expanded_url": "https://foundation.app/collection/MMMGallery01",
+                                                                "url": "https://t.co/D4K6YuYmUK",
+                                                                "indices": [
+                                                                    190,
+                                                                    213
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "user_mentions": [
+                                                            {
+                                                                "id_str": "1254549668404527104",
+                                                                "name": "Oluwatobi Samuel Akinrinola",
+                                                                "screen_name": "oluwatobi_art1",
+                                                                "indices": [
+                                                                    0,
+                                                                    15
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    "extended_entities": {
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/oPiU2mt1WP",
+                                                                "expanded_url": "https://x.com/mmmutants/status/1895159440174653801/photo/1",
+                                                                "id_str": "1895159211157245952",
+                                                                "indices": [
+                                                                    214,
+                                                                    237
+                                                                ],
+                                                                "media_key": "3_1895159211157245952",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gkz1QvXWUAAmQor.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/oPiU2mt1WP",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": []
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1920,
+                                                                        "w": 1920,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1200,
+                                                                        "w": 1200,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1920,
+                                                                    "width": 1920,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1920,
+                                                                            "h": 1075
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1920,
+                                                                            "h": 1920
+                                                                        },
+                                                                        {
+                                                                            "x": 118,
+                                                                            "y": 0,
+                                                                            "w": 1684,
+                                                                            "h": 1920
+                                                                        },
+                                                                        {
+                                                                            "x": 480,
+                                                                            "y": 0,
+                                                                            "w": 960,
+                                                                            "h": 1920
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1920,
+                                                                            "h": 1920
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "allow_download_status": {
+                                                                    "allow_download": true
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895159211157245952"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 0,
+                                                    "favorited": false,
+                                                    "full_text": "@oluwatobi_art1 GM! I appreciate the chance!  \u2b50\ufe0f\n\nMeta Mutant 044\n\n\u2736 Collection: MMM, Gallery 01\n\u2737 1:1 Artwork / Available on FND\n\u2738 Mixed-media / No AI Used!\n\u2739 Min Offer: 0.0123 \u039e\n\n\ud83d\udd17 Link \u21b4\nhttps://t.co/D4K6YuYmUK https://t.co/oPiU2mt1WP",
+                                                    "in_reply_to_screen_name": "oluwatobi_art1",
+                                                    "in_reply_to_status_id_str": "1895109812347666775",
+                                                    "in_reply_to_user_id_str": "1254549668404527104",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 0,
+                                                    "reply_count": 0,
+                                                    "retweet_count": 0,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1492445420819259393",
+                                                    "id_str": "1895159440174653801"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TimelineTerminateTimeline",
+                        "direction": "Top"
+                    }
+                ]
+            }
+        }
+    }
+]

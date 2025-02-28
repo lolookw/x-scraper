@@ -1,0 +1,4 @@
+('Omega Wolf 🎥🐺', 'OmegaOnChain', 93, 103, "Content Wolf || Web3 Creator || Video Editor \n\nLET'S GROW THE PACK!\n\nTip Card: https://t.co/l1dyxA9ZkD", True)
+('AaronSosa.eth |.tez', 'aaronsosaphoto', 10369, 7732, 'Photographer | Visual Artist | #NFTartist | #NFTcollector | Educator | Founder at PFF IMAGO @imago_pff | My NFTs in https://t.co/a4AF6uCIX3', True)
+('Moyy', 'psychstoryNFT', 164, 157, '🚀 Psychologist & NFT Artist | 📌 https://t.co/bnTqje1LYw #NFTArt #CryptoPsychology #DigitalCollectibles', True)
+('Morteza Yousefi | NFT Artist', 'morteza_yousefy', 15627, 3698, '🟥⬜️ 🟥🟥 Drip Artist 💧\n⭐️ 3D Artist\n⭐️ Photographer\n⭐️ Pixel Art\n⭐️ AI Artwork\n\n#NFT_Shill #NFTShill', True)

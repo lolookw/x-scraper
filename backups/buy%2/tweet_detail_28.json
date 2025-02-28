@@ -1,0 +1,2079 @@
+[
+    {
+        "data": {
+            "threaded_conversation_with_injections_v2": {
+                "instructions": [
+                    {
+                        "type": "TimelineAddEntries",
+                        "entries": [
+                            {
+                                "entryId": "tweet-1895133886453047802",
+                                "sortIndex": "7328238150401728005",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895133886453047802",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNzc4MDk5NjI4MTMyNTE5OTM2",
+                                                            "rest_id": "1778099628132519936",
+                                                            "affiliates_highlighted_label": {
+                                                                "label": {
+                                                                    "badge": {
+                                                                        "url": "https://pbs.twimg.com/semantic_core_img/1428827730364096519/4ZXpTBhS?format=png&name=orig"
+                                                                    },
+                                                                    "description": "Automated",
+                                                                    "longDescription": {
+                                                                        "text": "Automated by @retardiosolana",
+                                                                        "entities": [
+                                                                            {
+                                                                                "fromIndex": 13,
+                                                                                "toIndex": 28,
+                                                                                "ref": {
+                                                                                    "type": "TimelineRichTextMention",
+                                                                                    "screen_name": "retardiosolana",
+                                                                                    "mention_results": {
+                                                                                        "result": {
+                                                                                            "__typename": "UserUnavailable",
+                                                                                            "reason": "Suspended",
+                                                                                            "message": "User is suspended"
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "userLabelType": "AutomatedLabel"
+                                                                }
+                                                            },
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": false,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Wed Apr 10 16:36:14 +0000 2024",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "One Cousin = Love on the Solami blockchain \u2764\ufe0f\ud83e\udd21\n\nBot developed by: https://t.co/Y634IpWKX1",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "t.me/giu_hub",
+                                                                                "expanded_url": "https://t.me/giu_hub",
+                                                                                "url": "https://t.co/Y634IpWKX1",
+                                                                                "indices": [
+                                                                                    66,
+                                                                                    89
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "url": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "tensor.trade/trade/retardio\u2026",
+                                                                                "expanded_url": "https://www.tensor.trade/trade/retardio_cousins",
+                                                                                "url": "https://t.co/oeiLjD8U0g",
+                                                                                "indices": [
+                                                                                    0,
+                                                                                    23
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 0,
+                                                                "followers_count": 1449,
+                                                                "friends_count": 2,
+                                                                "has_custom_timelines": false,
+                                                                "is_translator": false,
+                                                                "listed_count": 3,
+                                                                "location": "",
+                                                                "media_count": 6542,
+                                                                "name": "Retardio Sales Bot",
+                                                                "normal_followers_count": 1449,
+                                                                "pinned_tweet_ids_str": [],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1778099628132519936/1712794809",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1778100525373796352/nsDr2-Pm_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "retardionftbot",
+                                                                "statuses_count": 6542,
+                                                                "translator_type": "none",
+                                                                "url": "https://t.co/oeiLjD8U0g",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895133886453047802"
+                                                    ],
+                                                    "editable_until_msecs": "1740673703000",
+                                                    "is_edit_eligible": true,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "17733",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"https://retardionfts.com\" rel=\"nofollow\">1778204117531254784retardionft</a>",
+                                                "grok_analysis_button": false,
+                                                "legacy": {
+                                                    "bookmark_count": 2,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 15:28:23 +0000 2025",
+                                                    "conversation_id_str": "1895133886453047802",
+                                                    "display_text_range": [
+                                                        0,
+                                                        238
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [],
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/ePBtxR4Byd",
+                                                                "expanded_url": "https://x.com/retardionftbot/status/1895133886453047802/photo/1",
+                                                                "id_str": "1895133881411452928",
+                                                                "indices": [
+                                                                    239,
+                                                                    262
+                                                                ],
+                                                                "media_key": "3_1895133881411452928",
+                                                                "media_url_https": "https://pbs.twimg.com/media/GkzeOWtWQAAXyb2.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/ePBtxR4Byd",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": []
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1796,
+                                                                        "w": 1796,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1200,
+                                                                        "w": 1200,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1796,
+                                                                    "width": 1796,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 790,
+                                                                            "w": 1796,
+                                                                            "h": 1006
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1796,
+                                                                            "h": 1796
+                                                                        },
+                                                                        {
+                                                                            "x": 221,
+                                                                            "y": 0,
+                                                                            "w": 1575,
+                                                                            "h": 1796
+                                                                        },
+                                                                        {
+                                                                            "x": 898,
+                                                                            "y": 0,
+                                                                            "w": 898,
+                                                                            "h": 1796
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1796,
+                                                                            "h": 1796
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895133881411452928"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "solscan.io/tx/2GsEKrdKaCs\u2026",
+                                                                "expanded_url": "https://solscan.io/tx/2GsEKrdKaCsR3Smn2eSjq9qtpqEHX1Jtv8mXd7qKpyoQFRMPLZbcMhZupioSZ9RK3xYZ72r5L2VFEUbJJ5uRZFxN",
+                                                                "url": "https://t.co/EFincTSdQI",
+                                                                "indices": [
+                                                                    140,
+                                                                    163
+                                                                ]
+                                                            },
+                                                            {
+                                                                "display_url": "bit.ly/SniperMP",
+                                                                "expanded_url": "https://bit.ly/SniperMP",
+                                                                "url": "https://t.co/L2AAm3x2um",
+                                                                "indices": [
+                                                                    180,
+                                                                    203
+                                                                ]
+                                                            },
+                                                            {
+                                                                "display_url": "bit.ly/MagicEdenMP",
+                                                                "expanded_url": "https://bit.ly/MagicEdenMP",
+                                                                "url": "https://t.co/fVtFz3NQxQ",
+                                                                "indices": [
+                                                                    215,
+                                                                    238
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "user_mentions": []
+                                                    },
+                                                    "extended_entities": {
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/ePBtxR4Byd",
+                                                                "expanded_url": "https://x.com/retardionftbot/status/1895133886453047802/photo/1",
+                                                                "id_str": "1895133881411452928",
+                                                                "indices": [
+                                                                    239,
+                                                                    262
+                                                                ],
+                                                                "media_key": "3_1895133881411452928",
+                                                                "media_url_https": "https://pbs.twimg.com/media/GkzeOWtWQAAXyb2.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/ePBtxR4Byd",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "large": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": []
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": []
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1796,
+                                                                        "w": 1796,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1200,
+                                                                        "w": 1200,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 680,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1796,
+                                                                    "width": 1796,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 790,
+                                                                            "w": 1796,
+                                                                            "h": 1006
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1796,
+                                                                            "h": 1796
+                                                                        },
+                                                                        {
+                                                                            "x": 221,
+                                                                            "y": 0,
+                                                                            "w": 1575,
+                                                                            "h": 1796
+                                                                        },
+                                                                        {
+                                                                            "x": 898,
+                                                                            "y": 0,
+                                                                            "w": 898,
+                                                                            "h": 1796
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1796,
+                                                                            "h": 1796
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895133881411452928"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 70,
+                                                    "favorited": false,
+                                                    "full_text": "New Retardio Cousins NFT buy!\n\n\ud83e\udd21 Retardio Cousins #2303\n\n\ud83d\udcb5 Price: 25.00 SOL ($3,463.57)\n\ud83e\udef5 Buyer: 9Jg...pTs\n\ud83c\uddfa\ud83c\uddec Marketplace: Magic Eden\n\ud83d\udd17 TX: https://t.co/EFincTSdQI\n\nBuy on Sniper: https://t.co/L2AAm3x2um\nBuy on ME: https://t.co/fVtFz3NQxQ https://t.co/ePBtxR4Byd",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 6,
+                                                    "reply_count": 29,
+                                                    "retweet_count": 3,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1778099628132519936",
+                                                    "id_str": "1895133886453047802"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet",
+                                        "hasModeratedReplies": false
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895331406693441724",
+                                "sortIndex": "7328238150401727995",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895331406693441724-tweet-1895331406693441724",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895331406693441724",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxNDgzODg4ODk0NzQ3NzYyNjkx",
+                                                                        "rest_id": "1483888894747762691",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": false,
+                                                                            "created_at": "Wed Jan 19 19:47:46 +0000 2022",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "Just a degen tryna make it\u2506Solana Bull Poster\u2506nothing I say is financial advice \u2506Retardio World Order \ud83c\udf0e",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 104439,
+                                                                            "followers_count": 5826,
+                                                                            "friends_count": 2124,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 43,
+                                                                            "location": "",
+                                                                            "media_count": 1401,
+                                                                            "name": "Vince B",
+                                                                            "normal_followers_count": 5826,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1826264900890722454"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1483888894747762691/1710010124",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1875303166574518272/lcxBnzAY_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "TheVinceB_",
+                                                                            "statuses_count": 51158,
+                                                                            "translator_type": "none",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "professional": {
+                                                                            "rest_id": "1615340116112822272",
+                                                                            "professional_type": "Business",
+                                                                            "category": [
+                                                                                {
+                                                                                    "id": 958,
+                                                                                    "name": "Entrepreneur",
+                                                                                    "icon_name": "IconBriefcaseStroke"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895331406693441724"
+                                                                ],
+                                                                "editable_until_msecs": "1740720795000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "6",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Fri Feb 28 04:33:15 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    22
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 1,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot Lmaooo",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "ht",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "1483888894747762691",
+                                                                "id_str": "1895331406693441724"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFQACiGAHgAUKAAIAAAAAFADACAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895133970616197482",
+                                "sortIndex": "7328238150401727985",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895133970616197482-tweet-1895133970616197482",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895133970616197482",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjo5NDI3MDA5NzY=",
+                                                                        "rest_id": "942700976",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": false,
+                                                                            "created_at": "Mon Nov 12 02:44:13 +0000 2012",
+                                                                            "default_profile": false,
+                                                                            "default_profile_image": false,
+                                                                            "description": "Bad Luck Moch#8888 | Data Scientist by trade | retardio \ud83e\udd21",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 70293,
+                                                                            "followers_count": 900,
+                                                                            "friends_count": 3583,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 11,
+                                                                            "location": "",
+                                                                            "media_count": 1891,
+                                                                            "name": "Bad Luck Moch",
+                                                                            "normal_followers_count": 900,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1281124103991132160"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/942700976/1740450310",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1855890060790661120/wVjdKOSa_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "badluckmoch",
+                                                                            "statuses_count": 57023,
+                                                                            "translator_type": "none",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895133970616197482"
+                                                                ],
+                                                                "editable_until_msecs": "1740673723000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "361",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 15:28:43 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    24
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 7,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot Huh wait",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "en",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "942700976",
+                                                                "id_str": "1895133970616197482"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFQgKiKIDgAUKAAIAAAAAFADACAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895171281298882812",
+                                "sortIndex": "7328238150401727975",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895171281298882812-tweet-1895171281298882812",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895171281298882812",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjo4ODM3Mzc1NDMzMTcxMDI1OTI=",
+                                                                        "rest_id": "883737543317102592",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": false,
+                                                                            "can_media_tag": false,
+                                                                            "created_at": "Sat Jul 08 17:20:24 +0000 2017",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "crashing out",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 261340,
+                                                                            "followers_count": 2196,
+                                                                            "friends_count": 2860,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 16,
+                                                                            "location": "Rekt",
+                                                                            "media_count": 1484,
+                                                                            "name": "t",
+                                                                            "normal_followers_count": 2196,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1621695722411155456"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/883737543317102592/1739312767",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1883250167547121664/U6sL1bJQ_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "teeistyping",
+                                                                            "statuses_count": 19943,
+                                                                            "translator_type": "none",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895171281298882812"
+                                                                ],
+                                                                "editable_until_msecs": "1740682618000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "176",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 17:56:58 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    22
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 2,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot No way",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "en",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "883737543317102592",
+                                                                "id_str": "1895171281298882812"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFQgKiSQDgAUKAAIAAAAAFADACAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895138489496117280",
+                                "sortIndex": "7328238150401727965",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895138489496117280-tweet-1895138489496117280",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895138489496117280",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxNTAyMTk0NTY4Mzg0NjMwNzkw",
+                                                                        "rest_id": "1502194568384630790",
+                                                                        "affiliates_highlighted_label": {
+                                                                            "label": {
+                                                                                "url": {
+                                                                                    "url": "https://twitter.com/TravelSwap_xyz",
+                                                                                    "urlType": "DeepLink"
+                                                                                },
+                                                                                "badge": {
+                                                                                    "url": "https://pbs.twimg.com/profile_images/1881446052407959552/-11EpeQH_bigger.jpg"
+                                                                                },
+                                                                                "description": "TravelSwap",
+                                                                                "userLabelType": "BusinessLabel",
+                                                                                "userLabelDisplayType": "Badge"
+                                                                            }
+                                                                        },
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "Parody",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Fri Mar 11 08:07:59 +0000 2022",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "reincarnated @retiredroadman (1m)",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 13483,
+                                                                            "followers_count": 5895,
+                                                                            "friends_count": 685,
+                                                                            "has_custom_timelines": false,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 20,
+                                                                            "location": "",
+                                                                            "media_count": 1254,
+                                                                            "name": "sk (gaza mode)",
+                                                                            "normal_followers_count": 5895,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1895158988808868240"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1502194568384630790/1730991050",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1891886926220689408/mgqEiJyI_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "ineedliquid",
+                                                                            "statuses_count": 5408,
+                                                                            "translator_type": "none",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895138489496117280"
+                                                                ],
+                                                                "editable_until_msecs": "1740674800000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "351",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 15:46:40 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    27
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 12,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot Carti sold.",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "it",
+                                                                "quote_count": 0,
+                                                                "reply_count": 1,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "1502194568384630790",
+                                                                "id_str": "1895138489496117280"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFQgCCigDgBUKAAIAAAAAFACCCAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895138983971004416",
+                                "sortIndex": "7328238150401727955",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895138983971004416-tweet-1895138983971004416",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895138983971004416",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjo5NzU5OTY4NzE0MTUwOTUyOTc=",
+                                                                        "rest_id": "975996871415095297",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Tue Mar 20 07:26:02 +0000 2018",
+                                                                            "default_profile": false,
+                                                                            "default_profile_image": false,
+                                                                            "description": "retar dio\n\n\ud83e\udef7\ud83e\udd21\ud83e\udef8",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 41009,
+                                                                            "followers_count": 891,
+                                                                            "friends_count": 1494,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 8,
+                                                                            "location": "trenches",
+                                                                            "media_count": 3972,
+                                                                            "name": "LFGOOO",
+                                                                            "normal_followers_count": 891,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1814399767595888907"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/975996871415095297/1740603809",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1894855826449272832/0TfCPP5Y_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "lfgooo",
+                                                                            "statuses_count": 12245,
+                                                                            "translator_type": "none",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {
+                                                                            "is_enabled": true,
+                                                                            "bitcoin_handle": "bc1qs2ymm6026mxmrzdzqrunclv9jzk5ngg60f24s6",
+                                                                            "ethereum_handle": "0xC5c24EC32A740e5D8A681d4F24528AC65315721e"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895138983971004416"
+                                                                ],
+                                                                "editable_until_msecs": "1740674918000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "272",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 15:48:38 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    31
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 2,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot gg wp cousin \ud83e\udef0\ud83e\udd21",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "en",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "975996871415095297",
+                                                                "id_str": "1895138983971004416"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFQgKjDADgAUKAAIAAAAAFACQCAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895134568681709680",
+                                "sortIndex": "7328238150401727945",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895134568681709680-tweet-1895134568681709680",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895134568681709680",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjozOTczMjI3NTY3",
+                                                                        "rest_id": "3973227567",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": false,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Fri Oct 16 16:35:35 +0000 2015",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "@retardiosolana \nfather of 1 \nretar dio",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 7838,
+                                                                            "followers_count": 2225,
+                                                                            "friends_count": 403,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 6,
+                                                                            "location": "",
+                                                                            "media_count": 1078,
+                                                                            "name": "Luis",
+                                                                            "normal_followers_count": 2225,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1880666927909220629"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/3973227567/1737220815",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1880666521032171520/hAGO6B-t_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "luisabreu96",
+                                                                            "statuses_count": 6195,
+                                                                            "translator_type": "none",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895134568681709680"
+                                                                ],
+                                                                "editable_until_msecs": "1740673865000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "356",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 15:31:05 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    20
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 5,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot holy",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "en",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "3973227567",
+                                                                "id_str": "1895134568681709680"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFQgKiCADgAUKAAIAAAAAFACgCAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895134112689627343",
+                                "sortIndex": "7328238150401727935",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895134112689627343-tweet-1895134112689627343",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895134112689627343",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxMjA5NzA4NzMwOTY4Nzg4OTky",
+                                                                        "rest_id": "1209708730968788992",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": false,
+                                                                            "can_media_tag": false,
+                                                                            "created_at": "Wed Dec 25 05:33:42 +0000 2019",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "\ud835\udc03\ud835\udc1e\ud835\udc1c\ud835\udc28\ud835\udc2b\ud835\udc1a\ud835\udc2d\ud835\udc1e\ud835\udc1d \ud835\udc15\ud835\udc1e\ud835\udc2d\ud835\udc1e\ud835\udc2b\ud835\udc1a\ud835\udc27 \ud835\udc28\ud835\udc1f \ud835\udc2d\ud835\udc21\ud835\udc1e \ud835\udc06\ud835\udc2b\ud835\udc1e\ud835\udc1a\ud835\udc2d \ud835\udc0c\ud835\udc1e\ud835\udc26\ud835\udc1e \ud835\udc16\ud835\udc1a\ud835\udc2b | \ud835\udc05\ud835\udc26\ud835\udc2b. \ud835\udc00\ud835\udc2d\ud835\udc2d\ud835\udc28\ud835\udc2b\ud835\udc27\ud835\udc1e\ud835\udc32 & \ud835\udc13\ud835\udc2b\ud835\udc2e\ud835\udc26\ud835\udc29 \ud835\udfd0\ud835\udfce\ud835\udfcf\ud835\udfd4 \ud835\udc12\ud835\udc2d\ud835\udc1a\ud835\udc1f\ud835\udc1f\ud835\udc1e\ud835\udc2b | \ud835\udc11\ud835\udc16\ud835\udc0e \ud83c\udf0e",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                },
+                                                                                "url": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "retardio.xyz",
+                                                                                            "expanded_url": "http://retardio.xyz",
+                                                                                            "url": "https://t.co/UqHYwbHJSZ",
+                                                                                            "indices": [
+                                                                                                0,
+                                                                                                23
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 63554,
+                                                                            "followers_count": 5067,
+                                                                            "friends_count": 1179,
+                                                                            "has_custom_timelines": false,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 52,
+                                                                            "location": "Check Raising the Devil \u2660\ufe0f",
+                                                                            "media_count": 4960,
+                                                                            "name": "\u20bf\ud835\udc28\ud835\udc1b\ud835\udc1c\ud835\udc1a\ud835\udc2d \ud83e\udef5\ud83e\udd21 (Gaza Mode)",
+                                                                            "normal_followers_count": 5067,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1796237712145674295"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1209708730968788992/1735000683",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1892779723643564032/qt0ZUou__normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "BowTiedBobcat",
+                                                                            "statuses_count": 29089,
+                                                                            "translator_type": "none",
+                                                                            "url": "https://t.co/UqHYwbHJSZ",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {
+                                                                            "is_enabled": true,
+                                                                            "bitcoin_handle": "bc1q2t4gxyrnra8gqufau5djy06tn0z0w0rvd35lum",
+                                                                            "ethereum_handle": "0x93D61a711BA2F95fA5AEE90a85628C22f228446F"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895134112689627343"
+                                                                ],
+                                                                "editable_until_msecs": "1740673757000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "388",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 15:29:17 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    30
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 6,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot Nice pickup \ud83e\udef5\ud83e\udd21",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "en",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "1209708730968788992",
+                                                                "id_str": "1895134112689627343"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFQgKiCADgAUKAAIAAAAAFADACAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895135022002094183",
+                                "sortIndex": "7328238150401727925",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895135022002094183-tweet-1895135022002094183",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895135022002094183",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoyMzE2NzYwNDM5",
+                                                                        "rest_id": "2316760439",
+                                                                        "affiliates_highlighted_label": {
+                                                                            "label": {
+                                                                                "url": {
+                                                                                    "url": "https://twitter.com/BagsApp",
+                                                                                    "urlType": "DeepLink"
+                                                                                },
+                                                                                "badge": {
+                                                                                    "url": "https://pbs.twimg.com/profile_images/1887942238178525184/KpFwckOG_bigger.jpg"
+                                                                                },
+                                                                                "description": "BAGS",
+                                                                                "userLabelType": "BusinessLabel",
+                                                                                "userLabelDisplayType": "Badge"
+                                                                            }
+                                                                        },
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Fri Jan 31 19:53:33 +0000 2014",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "Shitpost demon, SOL glazer, TIME\u2019s person of the year 1942. @Rxtardio is my only TG. @BagsApp",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                },
+                                                                                "url": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "linktr.ee/rxtardio",
+                                                                                            "expanded_url": "https://linktr.ee/rxtardio",
+                                                                                            "url": "https://t.co/8T9AJDD39b",
+                                                                                            "indices": [
+                                                                                                0,
+                                                                                                23
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 35642,
+                                                                            "followers_count": 18029,
+                                                                            "friends_count": 4018,
+                                                                            "has_custom_timelines": false,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 30,
+                                                                            "location": "\u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+                                                                            "media_count": 688,
+                                                                            "name": "Rx",
+                                                                            "normal_followers_count": 18029,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1835887052707029253"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2316760439/1738135190",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1894968317594447872/d4FUhs3Y_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "Rxtardio",
+                                                                            "statuses_count": 20899,
+                                                                            "translator_type": "none",
+                                                                            "url": "https://t.co/8T9AJDD39b",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895135022002094183"
+                                                                ],
+                                                                "editable_until_msecs": "1740673973000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "308",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 15:32:53 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    39
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 6,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot Hella fuckable and FREE",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "en",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "2316760439",
+                                                                "id_str": "1895135022002094183"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFQg6iCADgAUKAAIAAAAAFACECAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895135664397787250",
+                                "sortIndex": "7328238150401727915",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895135664397787250-tweet-1895135664397787250",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895135664397787250",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxNjMyMjczNzE4NTkxMjUwNDMz",
+                                                                        "rest_id": "1632273718591250433",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Sun Mar 05 06:56:14 +0000 2023",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "faith advocate @retardiosolana | divinely protected",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 39585,
+                                                                            "followers_count": 1710,
+                                                                            "friends_count": 555,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 6,
+                                                                            "location": "",
+                                                                            "media_count": 212,
+                                                                            "name": "rev\u269c\ufe0f",
+                                                                            "normal_followers_count": 1710,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1861893238337982659"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1632273718591250433/1740583131",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1875857369671819264/nJH4G3Lx_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "returnedtogod",
+                                                                            "statuses_count": 6390,
+                                                                            "translator_type": "none",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895135664397787250"
+                                                                ],
+                                                                "editable_until_msecs": "1740674126000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "364",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 15:35:26 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    20
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 7,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot lmao",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "ht",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "1632273718591250433",
+                                                                "id_str": "1895135664397787250"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFIgCiCADgAUKAAIAAAAAFACBCAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895194266785456162",
+                                "sortIndex": "7328238150401727905",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895194266785456162-tweet-1895194266785456162",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895194266785456162",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxNzM0Nzc2MzE4ODM3ODI1NTM2",
+                                                                        "rest_id": "1734776318837825536",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Wed Dec 13 03:25:03 +0000 2023",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "\ud80c\udef9 \u2022 the hunger steady grows \u2022 Bull 21\u2019 \u2022 RWO \u2022 2x 80\u2019s + 1x 60 = 1B \u2022 ( -_\u2022) \ufe3b\u30c7\u2550\u4e00 \ud83d\udca5",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 27560,
+                                                                            "followers_count": 2132,
+                                                                            "friends_count": 5393,
+                                                                            "has_custom_timelines": false,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 12,
+                                                                            "location": "Lavender town ",
+                                                                            "media_count": 5499,
+                                                                            "name": "rxlyvt (cobie arc)",
+                                                                            "normal_followers_count": 2132,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1844784086260297802"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1734776318837825536/1731890315",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1882572435179933696/y3ZU_f7V_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "rxlyvtt",
+                                                                            "statuses_count": 25580,
+                                                                            "translator_type": "none",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895194266785456162"
+                                                                ],
+                                                                "editable_until_msecs": "1740688098000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "82",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 19:28:18 +0000 2025",
+                                                                "conversation_id_str": "1895133886453047802",
+                                                                "display_text_range": [
+                                                                    16,
+                                                                    25
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1778099628132519936",
+                                                                            "name": "Retardio Sales Bot",
+                                                                            "screen_name": "retardionftbot",
+                                                                            "indices": [
+                                                                                0,
+                                                                                15
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 0,
+                                                                "favorited": false,
+                                                                "full_text": "@retardionftbot Whatttttt",
+                                                                "in_reply_to_screen_name": "retardionftbot",
+                                                                "in_reply_to_status_id_str": "1895133886453047802",
+                                                                "in_reply_to_user_id_str": "1778099628132519936",
+                                                                "is_quote_status": false,
+                                                                "lang": "en",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "1734776318837825536",
+                                                                "id_str": "1895194266785456162"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFIQKiCADgAUKAAIAAAAAFACASAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "cursor-bottom-2925909852077120967",
+                                "sortIndex": "7328238150401727904",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTimelineCursor",
+                                        "__typename": "TimelineTimelineCursor",
+                                        "value": "ZAAAAPBVHBmm5IHV2ZH278w0xIDVwZ_Jis00wICxqcqa8cw0-ILVuev3yM001IXVhcaT78w0zoGyvd_Q78w0-IO8paiPgM00gICxua638cw0noO5yeib78w04IGx_a2278w0JQISFQQAAA",
+                                        "cursorType": "Bottom"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TimelineTerminateTimeline",
+                        "direction": "Top"
+                    }
+                ]
+            }
+        }
+    }
+]

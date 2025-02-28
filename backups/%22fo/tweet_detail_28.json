@@ -1,0 +1,915 @@
+[
+    {
+        "data": {
+            "threaded_conversation_with_injections_v2": {
+                "instructions": [
+                    {
+                        "type": "TimelineAddEntries",
+                        "entries": [
+                            {
+                                "entryId": "tweet-1895187605668667670",
+                                "sortIndex": "7328184431186108137",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895187605668667670",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNjUxNjY5NDc4NjAwNTcyOTI5",
+                                                            "rest_id": "1651669478600572929",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": true,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Thu Apr 27 19:28:06 +0000 2023",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "Artist\u25aa\ufe0ecollector\u25aa\ufe0elove art \ud83c\udfa8 my art available on~\n (https://t.co/WvsL26wtGA)\u25aa\ufe0e\n(https://t.co/lRBrxb2P6m)",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "foundation.app/@mystery_nft1?\u2026",
+                                                                                "expanded_url": "https://foundation.app/@mystery_nft1?username=mystery_nft1",
+                                                                                "url": "https://t.co/WvsL26wtGA",
+                                                                                "indices": [
+                                                                                    53,
+                                                                                    76
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "display_url": "walletbubbles.com/goldmystery",
+                                                                                "expanded_url": "https://walletbubbles.com/goldmystery",
+                                                                                "url": "https://t.co/lRBrxb2P6m",
+                                                                                "indices": [
+                                                                                    81,
+                                                                                    104
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "url": {
+                                                                        "urls": [
+                                                                            {
+                                                                                "display_url": "opensea.io/0xec71fc452870\u2026",
+                                                                                "expanded_url": "https://opensea.io/0xec71fc452870658bc7ae06cc7fc389125375f51b",
+                                                                                "url": "https://t.co/6ty7yLDw3M",
+                                                                                "indices": [
+                                                                                    0,
+                                                                                    23
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 67395,
+                                                                "followers_count": 1961,
+                                                                "friends_count": 1825,
+                                                                "has_custom_timelines": false,
+                                                                "is_translator": false,
+                                                                "listed_count": 6,
+                                                                "location": "",
+                                                                "media_count": 6713,
+                                                                "name": "goldmystery \ud83e\udef6",
+                                                                "normal_followers_count": 1961,
+                                                                "pinned_tweet_ids_str": [
+                                                                    "1831322129280766430"
+                                                                ],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1651669478600572929/1732527971",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1860983310685487104/Oa_WOpHj_normal.jpg",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "mystery_nft1",
+                                                                "statuses_count": 76696,
+                                                                "translator_type": "none",
+                                                                "url": "https://t.co/6ty7yLDw3M",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "professional": {
+                                                                "rest_id": "1705941869870346403",
+                                                                "professional_type": "Creator",
+                                                                "category": [
+                                                                    {
+                                                                        "id": 1017,
+                                                                        "name": "Artist",
+                                                                        "icon_name": "IconBriefcaseStroke"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "tipjar_settings": {
+                                                                "is_enabled": true
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895187605668667670"
+                                                    ],
+                                                    "editable_until_msecs": "1740686510000",
+                                                    "is_edit_eligible": true,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "31",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                                "grok_analysis_button": false,
+                                                "legacy": {
+                                                    "bookmark_count": 0,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 19:01:50 +0000 2025",
+                                                    "conversation_id_str": "1895187605668667670",
+                                                    "display_text_range": [
+                                                        0,
+                                                        250
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [],
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/quYuhwZzuV",
+                                                                "expanded_url": "https://x.com/mystery_nft1/status/1895187605668667670/photo/1",
+                                                                "id_str": "1895187598521298944",
+                                                                "indices": [
+                                                                    251,
+                                                                    274
+                                                                ],
+                                                                "media_key": "3_1895187598521298944",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gk0PFGiWcAA4hUC.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/quYuhwZzuV",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "all": {
+                                                                        "tags": [
+                                                                            {
+                                                                                "user_id": "1302227903174725633",
+                                                                                "name": "Barbz",
+                                                                                "screen_name": "cs_barbz",
+                                                                                "type": "user"
+                                                                            },
+                                                                            {
+                                                                                "user_id": "528619187",
+                                                                                "name": "Sendrock",
+                                                                                "screen_name": "sendr0ck",
+                                                                                "type": "user"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "large": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 297,
+                                                                                "y": 161,
+                                                                                "h": 390,
+                                                                                "w": 390
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 297,
+                                                                                "y": 161,
+                                                                                "h": 390,
+                                                                                "w": 390
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 187,
+                                                                                "y": 101,
+                                                                                "h": 245,
+                                                                                "w": 245
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 297,
+                                                                                "y": 161,
+                                                                                "h": 390,
+                                                                                "w": 390
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1079,
+                                                                        "w": 1080,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1079,
+                                                                        "w": 1080,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 679,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1079,
+                                                                    "width": 1080,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 48,
+                                                                            "w": 1080,
+                                                                            "h": 605
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1079,
+                                                                            "h": 1079
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 946,
+                                                                            "h": 1079
+                                                                        },
+                                                                        {
+                                                                            "x": 188,
+                                                                            "y": 0,
+                                                                            "w": 540,
+                                                                            "h": 1079
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1080,
+                                                                            "h": 1079
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895187598521298944"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "foundation.app/mint/base/0xD8\u2026",
+                                                                "expanded_url": "https://foundation.app/mint/base/0xD80f04f1EeA3eE8bF87b3047eA8415F435e1933F/5",
+                                                                "url": "https://t.co/CFVW1m1odU",
+                                                                "indices": [
+                                                                    227,
+                                                                    250
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "user_mentions": [
+                                                            {
+                                                                "id_str": "1232540254457847808",
+                                                                "name": "Foundation \ud83c\udf10",
+                                                                "screen_name": "foundation",
+                                                                "indices": [
+                                                                    9,
+                                                                    20
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    "extended_entities": {
+                                                        "media": [
+                                                            {
+                                                                "display_url": "pic.x.com/quYuhwZzuV",
+                                                                "expanded_url": "https://x.com/mystery_nft1/status/1895187605668667670/photo/1",
+                                                                "id_str": "1895187598521298944",
+                                                                "indices": [
+                                                                    251,
+                                                                    274
+                                                                ],
+                                                                "media_key": "3_1895187598521298944",
+                                                                "media_url_https": "https://pbs.twimg.com/media/Gk0PFGiWcAA4hUC.jpg",
+                                                                "type": "photo",
+                                                                "url": "https://t.co/quYuhwZzuV",
+                                                                "ext_media_availability": {
+                                                                    "status": "Available"
+                                                                },
+                                                                "features": {
+                                                                    "all": {
+                                                                        "tags": [
+                                                                            {
+                                                                                "user_id": "1302227903174725633",
+                                                                                "name": "Barbz",
+                                                                                "screen_name": "cs_barbz",
+                                                                                "type": "user"
+                                                                            },
+                                                                            {
+                                                                                "user_id": "528619187",
+                                                                                "name": "Sendrock",
+                                                                                "screen_name": "sendr0ck",
+                                                                                "type": "user"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "large": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 297,
+                                                                                "y": 161,
+                                                                                "h": 390,
+                                                                                "w": 390
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "medium": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 297,
+                                                                                "y": 161,
+                                                                                "h": 390,
+                                                                                "w": 390
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "small": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 187,
+                                                                                "y": 101,
+                                                                                "h": 245,
+                                                                                "w": 245
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "orig": {
+                                                                        "faces": [
+                                                                            {
+                                                                                "x": 297,
+                                                                                "y": 161,
+                                                                                "h": 390,
+                                                                                "w": 390
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                },
+                                                                "sizes": {
+                                                                    "large": {
+                                                                        "h": 1079,
+                                                                        "w": 1080,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "medium": {
+                                                                        "h": 1079,
+                                                                        "w": 1080,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "small": {
+                                                                        "h": 679,
+                                                                        "w": 680,
+                                                                        "resize": "fit"
+                                                                    },
+                                                                    "thumb": {
+                                                                        "h": 150,
+                                                                        "w": 150,
+                                                                        "resize": "crop"
+                                                                    }
+                                                                },
+                                                                "original_info": {
+                                                                    "height": 1079,
+                                                                    "width": 1080,
+                                                                    "focus_rects": [
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 48,
+                                                                            "w": 1080,
+                                                                            "h": 605
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1079,
+                                                                            "h": 1079
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 946,
+                                                                            "h": 1079
+                                                                        },
+                                                                        {
+                                                                            "x": 188,
+                                                                            "y": 0,
+                                                                            "w": 540,
+                                                                            "h": 1079
+                                                                        },
+                                                                        {
+                                                                            "x": 0,
+                                                                            "y": 0,
+                                                                            "w": 1080,
+                                                                            "h": 1079
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "media_results": {
+                                                                    "result": {
+                                                                        "media_key": "3_1895187598521298944"
+                                                                    }
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    "favorite_count": 3,
+                                                    "favorited": false,
+                                                    "full_text": "Harmony\n\n@foundation\n\nHarmony is an empathetic soul who uses music as a way to connect with others and express her emotions. She believes that music has the power to heal, inspire, and bring people together in harmony.\n\nLink\u25aa\ufe0e\nhttps://t.co/CFVW1m1odU https://t.co/quYuhwZzuV",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 0,
+                                                    "reply_count": 1,
+                                                    "retweet_count": 3,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1651669478600572929",
+                                                    "id_str": "1895187605668667670"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet",
+                                        "hasModeratedReplies": false
+                                    }
+                                }
+                            },
+                            {
+                                "entryId": "conversationthread-1895189206462538219",
+                                "sortIndex": "7328184431186108127",
+                                "content": {
+                                    "entryType": "TimelineTimelineModule",
+                                    "__typename": "TimelineTimelineModule",
+                                    "items": [
+                                        {
+                                            "entryId": "conversationthread-1895189206462538219-tweet-1895189206462538219",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895189206462538219",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxNTk1MTAxNzkzNzI5NjI2MTEy",
+                                                                        "rest_id": "1595101793729626112",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": false,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": false,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Tue Nov 22 17:08:10 +0000 2022",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "I am Sahar | painter | designer | \nNFT art creator & small collector \ud83d\udc7b \nMy arts are just on OBJKT & foundation & ExchangeArt website \ud83e\ude77",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                },
+                                                                                "url": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "linktr.ee/Sahar.dsigner",
+                                                                                            "expanded_url": "https://linktr.ee/Sahar.dsigner",
+                                                                                            "url": "https://t.co/FDktge7q40",
+                                                                                            "indices": [
+                                                                                                0,
+                                                                                                23
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 258636,
+                                                                            "followers_count": 4338,
+                                                                            "friends_count": 6323,
+                                                                            "has_custom_timelines": false,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 22,
+                                                                            "location": "web3",
+                                                                            "media_count": 4694,
+                                                                            "name": "Sahar.NFT",
+                                                                            "normal_followers_count": 4338,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1895189632943632672"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1595101793729626112/1669137151",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1595102114749054976/OnbIgA04_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "sahar08446234",
+                                                                            "statuses_count": 309262,
+                                                                            "translator_type": "none",
+                                                                            "url": "https://t.co/FDktge7q40",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "professional": {
+                                                                            "rest_id": "1657616123616010244",
+                                                                            "professional_type": "Creator",
+                                                                            "category": [
+                                                                                {
+                                                                                    "id": 1017,
+                                                                                    "name": "Artist",
+                                                                                    "icon_name": "IconBriefcaseStroke"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "tipjar_settings": {
+                                                                            "is_enabled": true,
+                                                                            "bitcoin_handle": "bc1q0aqsthzn7fwtf4qlkfgzxy5xluq5eyckjr2xd9",
+                                                                            "ethereum_handle": "0x7B49AcB51d1434586A91Cd0636b73B75d68196b8"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895189206462538219"
+                                                                ],
+                                                                "editable_until_msecs": "1740686892000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "10",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 19:08:12 +0000 2025",
+                                                                "conversation_id_str": "1895187605668667670",
+                                                                "display_text_range": [
+                                                                    46,
+                                                                    67
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1651669478600572929",
+                                                                            "name": "goldmystery \ud83e\udef6",
+                                                                            "screen_name": "mystery_nft1",
+                                                                            "indices": [
+                                                                                0,
+                                                                                13
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id_str": "1232540254457847808",
+                                                                            "name": "Foundation \ud83c\udf10",
+                                                                            "screen_name": "foundation",
+                                                                            "indices": [
+                                                                                14,
+                                                                                25
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id_str": "1302227903174725633",
+                                                                            "name": "Barbz",
+                                                                            "screen_name": "cs_barbz",
+                                                                            "indices": [
+                                                                                26,
+                                                                                35
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id_str": "528619187",
+                                                                            "name": "Sendrock",
+                                                                            "screen_name": "sendr0ck",
+                                                                            "indices": [
+                                                                                36,
+                                                                                45
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 1,
+                                                                "favorited": false,
+                                                                "full_text": "@mystery_nft1 @foundation @cs_barbz @sendr0ck Beautiful art work \u2665\ufe0f",
+                                                                "in_reply_to_screen_name": "mystery_nft1",
+                                                                "in_reply_to_status_id_str": "1895187605668667670",
+                                                                "in_reply_to_user_id_str": "1651669478600572929",
+                                                                "is_quote_status": false,
+                                                                "lang": "en",
+                                                                "quote_count": 0,
+                                                                "reply_count": 1,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "1595101793729626112",
+                                                                "id_str": "1895189206462538219"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFIAKCGAHgBUKAAIAAAAABADACAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "entryId": "conversationthread-1895189206462538219-tweet-1895189930206195861",
+                                            "item": {
+                                                "itemContent": {
+                                                    "itemType": "TimelineTweet",
+                                                    "__typename": "TimelineTweet",
+                                                    "tweet_results": {
+                                                        "result": {
+                                                            "__typename": "Tweet",
+                                                            "rest_id": "1895189930206195861",
+                                                            "has_birdwatch_notes": false,
+                                                            "core": {
+                                                                "user_results": {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxNjUxNjY5NDc4NjAwNTcyOTI5",
+                                                                        "rest_id": "1651669478600572929",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": false,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Thu Apr 27 19:28:06 +0000 2023",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "Artist\u25aa\ufe0ecollector\u25aa\ufe0elove art \ud83c\udfa8 my art available on~\n (https://t.co/WvsL26wtGA)\u25aa\ufe0e\n(https://t.co/lRBrxb2P6m)",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "foundation.app/@mystery_nft1?\u2026",
+                                                                                            "expanded_url": "https://foundation.app/@mystery_nft1?username=mystery_nft1",
+                                                                                            "url": "https://t.co/WvsL26wtGA",
+                                                                                            "indices": [
+                                                                                                53,
+                                                                                                76
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "display_url": "walletbubbles.com/goldmystery",
+                                                                                            "expanded_url": "https://walletbubbles.com/goldmystery",
+                                                                                            "url": "https://t.co/lRBrxb2P6m",
+                                                                                            "indices": [
+                                                                                                81,
+                                                                                                104
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "url": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "opensea.io/0xec71fc452870\u2026",
+                                                                                            "expanded_url": "https://opensea.io/0xec71fc452870658bc7ae06cc7fc389125375f51b",
+                                                                                            "url": "https://t.co/6ty7yLDw3M",
+                                                                                            "indices": [
+                                                                                                0,
+                                                                                                23
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 67395,
+                                                                            "followers_count": 1961,
+                                                                            "friends_count": 1825,
+                                                                            "has_custom_timelines": false,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 6,
+                                                                            "location": "",
+                                                                            "media_count": 6713,
+                                                                            "name": "goldmystery \ud83e\udef6",
+                                                                            "normal_followers_count": 1961,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1831322129280766430"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1651669478600572929/1732527971",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1860983310685487104/Oa_WOpHj_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "mystery_nft1",
+                                                                            "statuses_count": 76696,
+                                                                            "translator_type": "none",
+                                                                            "url": "https://t.co/6ty7yLDw3M",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "professional": {
+                                                                            "rest_id": "1705941869870346403",
+                                                                            "professional_type": "Creator",
+                                                                            "category": [
+                                                                                {
+                                                                                    "id": 1017,
+                                                                                    "name": "Artist",
+                                                                                    "icon_name": "IconBriefcaseStroke"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "tipjar_settings": {
+                                                                            "is_enabled": true
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "unmention_data": {},
+                                                            "edit_control": {
+                                                                "edit_tweet_ids": [
+                                                                    "1895189930206195861"
+                                                                ],
+                                                                "editable_until_msecs": "1740687064000",
+                                                                "is_edit_eligible": false,
+                                                                "edits_remaining": "5"
+                                                            },
+                                                            "is_translatable": false,
+                                                            "views": {
+                                                                "count": "6",
+                                                                "state": "EnabledWithCount"
+                                                            },
+                                                            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                                            "grok_analysis_button": true,
+                                                            "legacy": {
+                                                                "bookmark_count": 0,
+                                                                "bookmarked": false,
+                                                                "created_at": "Thu Feb 27 19:11:04 +0000 2025",
+                                                                "conversation_id_str": "1895187605668667670",
+                                                                "display_text_range": [
+                                                                    47,
+                                                                    48
+                                                                ],
+                                                                "entities": {
+                                                                    "hashtags": [],
+                                                                    "symbols": [],
+                                                                    "timestamps": [],
+                                                                    "urls": [],
+                                                                    "user_mentions": [
+                                                                        {
+                                                                            "id_str": "1595101793729626112",
+                                                                            "name": "Sahar.NFT",
+                                                                            "screen_name": "sahar08446234",
+                                                                            "indices": [
+                                                                                0,
+                                                                                14
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id_str": "1232540254457847808",
+                                                                            "name": "Foundation \ud83c\udf10",
+                                                                            "screen_name": "foundation",
+                                                                            "indices": [
+                                                                                15,
+                                                                                26
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id_str": "1302227903174725633",
+                                                                            "name": "Barbz",
+                                                                            "screen_name": "cs_barbz",
+                                                                            "indices": [
+                                                                                27,
+                                                                                36
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "id_str": "528619187",
+                                                                            "name": "Sendrock",
+                                                                            "screen_name": "sendr0ck",
+                                                                            "indices": [
+                                                                                37,
+                                                                                46
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "favorite_count": 0,
+                                                                "favorited": false,
+                                                                "full_text": "@sahar08446234 @foundation @cs_barbz @sendr0ck \ud83e\udef6",
+                                                                "in_reply_to_screen_name": "sahar08446234",
+                                                                "in_reply_to_status_id_str": "1895189206462538219",
+                                                                "in_reply_to_user_id_str": "1595101793729626112",
+                                                                "is_quote_status": false,
+                                                                "lang": "qme",
+                                                                "quote_count": 0,
+                                                                "reply_count": 0,
+                                                                "retweet_count": 0,
+                                                                "retweeted": false,
+                                                                "user_id_str": "1651669478600572929",
+                                                                "id_str": "1895189930206195861"
+                                                            },
+                                                            "quick_promote_eligibility": {
+                                                                "eligibility": "IneligibleNotProfessional"
+                                                            }
+                                                        }
+                                                    },
+                                                    "tweetDisplayType": "Tweet"
+                                                },
+                                                "clientEventInfo": {
+                                                    "details": {
+                                                        "conversationDetails": {
+                                                            "conversationSection": "HighQuality"
+                                                        },
+                                                        "timelinesDetails": {
+                                                            "controllerData": "DAACDAAEDAABCgABFIACkKIDgYEKAAIAAAAABADACAAAAAA="
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "displayType": "VerticalConversation",
+                                    "clientEventInfo": {
+                                        "details": {
+                                            "conversationDetails": {
+                                                "conversationSection": "HighQuality"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TimelineTerminateTimeline",
+                        "direction": "Top"
+                    }
+                ]
+            }
+        }
+    }
+]

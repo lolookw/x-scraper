@@ -1,0 +1,1475 @@
+[
+    {
+        "data": {
+            "threaded_conversation_with_injections_v2": {
+                "instructions": [
+                    {
+                        "type": "TimelineAddEntries",
+                        "entries": [
+                            {
+                                "entryId": "tweet-1895215665738592558",
+                                "sortIndex": "7328156371116183249",
+                                "content": {
+                                    "entryType": "TimelineTimelineItem",
+                                    "__typename": "TimelineTimelineItem",
+                                    "itemContent": {
+                                        "itemType": "TimelineTweet",
+                                        "__typename": "TimelineTweet",
+                                        "tweet_results": {
+                                            "result": {
+                                                "__typename": "Tweet",
+                                                "rest_id": "1895215665738592558",
+                                                "has_birdwatch_notes": false,
+                                                "core": {
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNjQ2NTM0ODkwNzgyMDg1MTIw",
+                                                            "rest_id": "1646534890782085120",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": true,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Thu Apr 13 15:26:45 +0000 2023",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": []
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 19,
+                                                                "followers_count": 6,
+                                                                "friends_count": 19,
+                                                                "has_custom_timelines": false,
+                                                                "is_translator": false,
+                                                                "listed_count": 0,
+                                                                "location": "",
+                                                                "media_count": 84,
+                                                                "name": "tomasz saczko",
+                                                                "normal_followers_count": 6,
+                                                                "pinned_tweet_ids_str": [],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1646534890782085120/1739838345",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1646535403590266881/zlvbTLLN_normal.png",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "saczko_tom",
+                                                                "statuses_count": 139,
+                                                                "translator_type": "none",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "card": {
+                                                    "rest_id": "https://t.co/e7hexKtQoR",
+                                                    "legacy": {
+                                                        "binding_values": [
+                                                            {
+                                                                "key": "photo_image_full_size_large",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 419,
+                                                                        "width": 800,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=800x419"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "thumbnail_image",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 144,
+                                                                        "width": 144,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=144x144"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "description",
+                                                                "value": {
+                                                                    "string_value": "Spacerek - walking and jogging",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "domain",
+                                                                "value": {
+                                                                    "string_value": "foundation.app",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "thumbnail_image_large",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 320,
+                                                                        "width": 320,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=800x320_1"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "summary_photo_image_small",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 202,
+                                                                        "width": 386,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=386x202"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "thumbnail_image_original",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 960,
+                                                                        "width": 960,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=orig"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "site",
+                                                                "value": {
+                                                                    "scribe_key": "publisher_id",
+                                                                    "type": "USER",
+                                                                    "user_value": {
+                                                                        "id_str": "1232540254457847808",
+                                                                        "path": []
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "photo_image_full_size_small",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 202,
+                                                                        "width": 386,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=386x202"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "summary_photo_image_large",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 419,
+                                                                        "width": 800,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=800x419"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "thumbnail_image_small",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 100,
+                                                                        "width": 100,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=100x100"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "thumbnail_image_x_large",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 960,
+                                                                        "width": 960,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=png&name=2048x2048_2_exp"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "photo_image_full_size_original",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 960,
+                                                                        "width": 960,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=orig"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "vanity_url",
+                                                                "value": {
+                                                                    "scribe_key": "vanity_url",
+                                                                    "string_value": "foundation.app",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "photo_image_full_size",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 314,
+                                                                        "width": 600,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=600x314"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "thumbnail_image_color",
+                                                                "value": {
+                                                                    "image_color_value": {
+                                                                        "palette": [
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 227,
+                                                                                    "green": 117,
+                                                                                    "red": 99
+                                                                                },
+                                                                                "percentage": 57.37
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 94,
+                                                                                    "green": 47,
+                                                                                    "red": 40
+                                                                                },
+                                                                                "percentage": 23.97
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 102,
+                                                                                    "green": 232,
+                                                                                    "red": 239
+                                                                                },
+                                                                                "percentage": 5.87
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 244,
+                                                                                    "green": 240,
+                                                                                    "red": 245
+                                                                                },
+                                                                                "percentage": 2.78
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 51,
+                                                                                    "green": 205,
+                                                                                    "red": 101
+                                                                                },
+                                                                                "percentage": 2.69
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "type": "IMAGE_COLOR"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "title",
+                                                                "value": {
+                                                                    "string_value": "Spacerek | Foundation",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "summary_photo_image_color",
+                                                                "value": {
+                                                                    "image_color_value": {
+                                                                        "palette": [
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 227,
+                                                                                    "green": 117,
+                                                                                    "red": 99
+                                                                                },
+                                                                                "percentage": 57.37
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 94,
+                                                                                    "green": 47,
+                                                                                    "red": 40
+                                                                                },
+                                                                                "percentage": 23.97
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 102,
+                                                                                    "green": 232,
+                                                                                    "red": 239
+                                                                                },
+                                                                                "percentage": 5.87
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 244,
+                                                                                    "green": 240,
+                                                                                    "red": 245
+                                                                                },
+                                                                                "percentage": 2.78
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 51,
+                                                                                    "green": 205,
+                                                                                    "red": 101
+                                                                                },
+                                                                                "percentage": 2.69
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "type": "IMAGE_COLOR"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "summary_photo_image_x_large",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 960,
+                                                                        "width": 960,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=png&name=2048x2048_2_exp"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "summary_photo_image",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 314,
+                                                                        "width": 600,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=600x314"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "photo_image_full_size_color",
+                                                                "value": {
+                                                                    "image_color_value": {
+                                                                        "palette": [
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 227,
+                                                                                    "green": 117,
+                                                                                    "red": 99
+                                                                                },
+                                                                                "percentage": 57.37
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 94,
+                                                                                    "green": 47,
+                                                                                    "red": 40
+                                                                                },
+                                                                                "percentage": 23.97
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 102,
+                                                                                    "green": 232,
+                                                                                    "red": 239
+                                                                                },
+                                                                                "percentage": 5.87
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 244,
+                                                                                    "green": 240,
+                                                                                    "red": 245
+                                                                                },
+                                                                                "percentage": 2.78
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "blue": 51,
+                                                                                    "green": 205,
+                                                                                    "red": 101
+                                                                                },
+                                                                                "percentage": 2.69
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "type": "IMAGE_COLOR"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "photo_image_full_size_x_large",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 960,
+                                                                        "width": 960,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=png&name=2048x2048_2_exp"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "card_url",
+                                                                "value": {
+                                                                    "scribe_key": "card_url",
+                                                                    "string_value": "https://t.co/e7hexKtQoR",
+                                                                    "type": "STRING"
+                                                                }
+                                                            },
+                                                            {
+                                                                "key": "summary_photo_image_original",
+                                                                "value": {
+                                                                    "image_value": {
+                                                                        "height": 960,
+                                                                        "width": 960,
+                                                                        "url": "https://pbs.twimg.com/card_img/1893585200485105664/pCAWeGdR?format=jpg&name=orig"
+                                                                    },
+                                                                    "type": "IMAGE"
+                                                                }
+                                                            }
+                                                        ],
+                                                        "card_platform": {
+                                                            "platform": {
+                                                                "audience": {
+                                                                    "name": "production"
+                                                                },
+                                                                "device": {
+                                                                    "name": "Swift",
+                                                                    "version": "12"
+                                                                }
+                                                            }
+                                                        },
+                                                        "name": "summary_large_image",
+                                                        "url": "https://t.co/e7hexKtQoR",
+                                                        "user_refs_results": [
+                                                            {
+                                                                "result": {
+                                                                    "__typename": "User",
+                                                                    "id": "VXNlcjoxMjMyNTQwMjU0NDU3ODQ3ODA4",
+                                                                    "rest_id": "1232540254457847808",
+                                                                    "affiliates_highlighted_label": {},
+                                                                    "has_graduated_access": true,
+                                                                    "parody_commentary_fan_label": "None",
+                                                                    "is_blue_verified": false,
+                                                                    "profile_image_shape": "Square",
+                                                                    "legacy": {
+                                                                        "following": false,
+                                                                        "can_dm": true,
+                                                                        "can_media_tag": true,
+                                                                        "created_at": "Wed Feb 26 05:37:57 +0000 2020",
+                                                                        "default_profile": true,
+                                                                        "default_profile_image": false,
+                                                                        "description": "This is the start of something new.",
+                                                                        "entities": {
+                                                                            "description": {
+                                                                                "urls": []
+                                                                            },
+                                                                            "url": {
+                                                                                "urls": [
+                                                                                    {
+                                                                                        "display_url": "foundation.app",
+                                                                                        "expanded_url": "http://foundation.app",
+                                                                                        "url": "https://t.co/hHT2YEqTRp",
+                                                                                        "indices": [
+                                                                                            0,
+                                                                                            23
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "fast_followers_count": 0,
+                                                                        "favourites_count": 29883,
+                                                                        "followers_count": 351403,
+                                                                        "friends_count": 1753,
+                                                                        "has_custom_timelines": true,
+                                                                        "is_translator": false,
+                                                                        "listed_count": 2882,
+                                                                        "location": "Ethereum",
+                                                                        "media_count": 2224,
+                                                                        "name": "Foundation \ud83c\udf10",
+                                                                        "normal_followers_count": 351403,
+                                                                        "pinned_tweet_ids_str": [],
+                                                                        "possibly_sensitive": false,
+                                                                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1232540254457847808/1711030738",
+                                                                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1770817378663665665/mw_dtG6z_normal.jpg",
+                                                                        "profile_interstitial_type": "",
+                                                                        "screen_name": "foundation",
+                                                                        "statuses_count": 10707,
+                                                                        "translator_type": "none",
+                                                                        "url": "https://t.co/hHT2YEqTRp",
+                                                                        "verified": false,
+                                                                        "verified_type": "Business",
+                                                                        "want_retweets": false,
+                                                                        "withheld_in_countries": []
+                                                                    },
+                                                                    "professional": {
+                                                                        "rest_id": "1603009207984431107",
+                                                                        "professional_type": "Business",
+                                                                        "category": []
+                                                                    },
+                                                                    "tipjar_settings": {}
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "unmention_data": {},
+                                                "edit_control": {
+                                                    "edit_tweet_ids": [
+                                                        "1895215665738592558"
+                                                    ],
+                                                    "editable_until_msecs": "1740693200000",
+                                                    "is_edit_eligible": true,
+                                                    "edits_remaining": "5"
+                                                },
+                                                "is_translatable": false,
+                                                "views": {
+                                                    "count": "16",
+                                                    "state": "EnabledWithCount"
+                                                },
+                                                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                                "grok_analysis_button": false,
+                                                "community_results": {
+                                                    "result": {
+                                                        "__typename": "Community",
+                                                        "id_str": "1493414395921248258",
+                                                        "viewer_relationship": {
+                                                            "moderation_state": {
+                                                                "__typename": "CommunityUserDefaultModerationState"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "community_relationship": {
+                                                    "id": "VHdlZXRDb21tdW5pdHlSZWxhdGlvbnNoaXA6MTg5NTIxNTY2NTczODU5MjU1OA==",
+                                                    "rest_id": "1895215665738592558",
+                                                    "moderation_state": {},
+                                                    "actions": {
+                                                        "pin_action_result": {
+                                                            "__typename": "CommunityTweetPinActionUnavailable"
+                                                        },
+                                                        "unpin_action_result": {
+                                                            "__typename": "CommunityTweetUnpinActionUnavailable"
+                                                        }
+                                                    }
+                                                },
+                                                "author_community_relationship": {
+                                                    "community_results": {
+                                                        "result": {
+                                                            "__typename": "Community",
+                                                            "id_str": "1493414395921248258",
+                                                            "name": "NFT Community",
+                                                            "description": "The biggest community in the NFT space by @NFTGalIery \u2022 Spotlight the Community on your profile for a FREE surprise!",
+                                                            "created_at": 1644892712946,
+                                                            "search_tags": [
+                                                                "nft",
+                                                                "artist",
+                                                                "crypto",
+                                                                "btc",
+                                                                "eth",
+                                                                "sol",
+                                                                "opensea",
+                                                                "rarible",
+                                                                "bitcoin",
+                                                                "solana"
+                                                            ],
+                                                            "is_nsfw": false,
+                                                            "primary_community_topic": {
+                                                                "topic_id": "1901",
+                                                                "topic_name": "Cryptocurrency"
+                                                            },
+                                                            "actions": {
+                                                                "delete_action_result": {
+                                                                    "__typename": "CommunityDeleteActionUnavailable",
+                                                                    "reason": "Unavailable"
+                                                                },
+                                                                "join_action_result": {
+                                                                    "__typename": "CommunityJoinAction"
+                                                                },
+                                                                "leave_action_result": {
+                                                                    "__typename": "CommunityLeaveActionUnavailable",
+                                                                    "reason": "ViewerNotMember",
+                                                                    "message": "Not a member."
+                                                                },
+                                                                "pin_action_result": {
+                                                                    "__typename": "CommunityTweetPinActionUnavailable"
+                                                                }
+                                                            },
+                                                            "admin_results": {
+                                                                "result": {
+                                                                    "__typename": "User",
+                                                                    "id": "VXNlcjoxMzk0NDA3MzU4NDg3NDc4Mjc2",
+                                                                    "rest_id": "1394407358487478276",
+                                                                    "affiliates_highlighted_label": {},
+                                                                    "has_graduated_access": true,
+                                                                    "parody_commentary_fan_label": "None",
+                                                                    "is_blue_verified": true,
+                                                                    "profile_image_shape": "Circle",
+                                                                    "legacy": {
+                                                                        "following": false,
+                                                                        "can_dm": true,
+                                                                        "can_media_tag": true,
+                                                                        "created_at": "Mon May 17 21:41:05 +0000 2021",
+                                                                        "default_profile": true,
+                                                                        "default_profile_image": false,
+                                                                        "description": "Helping artists & collectors find each other \n\n\u2022 FREE NFT GUIDES: https://t.co/jCYNHZMY2W",
+                                                                        "entities": {
+                                                                            "description": {
+                                                                                "urls": [
+                                                                                    {
+                                                                                        "display_url": "nftgalleryguides.com",
+                                                                                        "expanded_url": "http://nftgalleryguides.com",
+                                                                                        "url": "https://t.co/jCYNHZMY2W",
+                                                                                        "indices": [
+                                                                                            66,
+                                                                                            89
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "url": {
+                                                                                "urls": [
+                                                                                    {
+                                                                                        "display_url": "nftgallery.bio.link",
+                                                                                        "expanded_url": "https://nftgallery.bio.link/",
+                                                                                        "url": "https://t.co/AB7Yc9v0AV",
+                                                                                        "indices": [
+                                                                                            0,
+                                                                                            23
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "fast_followers_count": 0,
+                                                                        "favourites_count": 22227,
+                                                                        "followers_count": 206431,
+                                                                        "friends_count": 11,
+                                                                        "has_custom_timelines": true,
+                                                                        "is_translator": false,
+                                                                        "listed_count": 578,
+                                                                        "location": "4 FREE Gifts  \u27a4",
+                                                                        "media_count": 223,
+                                                                        "name": "NFTGallery",
+                                                                        "normal_followers_count": 206431,
+                                                                        "pinned_tweet_ids_str": [
+                                                                            "1877147006524604772"
+                                                                        ],
+                                                                        "possibly_sensitive": false,
+                                                                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1394407358487478276/1721672852",
+                                                                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1745577934327365632/ngHFW7zz_normal.jpg",
+                                                                        "profile_interstitial_type": "",
+                                                                        "screen_name": "NFTGalIery",
+                                                                        "statuses_count": 33501,
+                                                                        "translator_type": "none",
+                                                                        "url": "https://t.co/AB7Yc9v0AV",
+                                                                        "verified": false,
+                                                                        "want_retweets": false,
+                                                                        "withheld_in_countries": []
+                                                                    },
+                                                                    "professional": {
+                                                                        "rest_id": "1461344731183472648",
+                                                                        "professional_type": "Creator",
+                                                                        "category": [
+                                                                            {
+                                                                                "id": 1009,
+                                                                                "name": "Community",
+                                                                                "icon_name": "IconBriefcaseStroke"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "tipjar_settings": {
+                                                                        "is_enabled": true,
+                                                                        "bitcoin_handle": "",
+                                                                        "ethereum_handle": "0x68d0efa809bea27e26d16985a7b859d0d0f9f46b"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "creator_results": {
+                                                                "result": {
+                                                                    "__typename": "User",
+                                                                    "id": "VXNlcjoxMzk0NDA3MzU4NDg3NDc4Mjc2",
+                                                                    "rest_id": "1394407358487478276",
+                                                                    "affiliates_highlighted_label": {},
+                                                                    "has_graduated_access": true,
+                                                                    "parody_commentary_fan_label": "None",
+                                                                    "is_blue_verified": true,
+                                                                    "profile_image_shape": "Circle",
+                                                                    "legacy": {
+                                                                        "following": false,
+                                                                        "can_dm": true,
+                                                                        "can_media_tag": true,
+                                                                        "created_at": "Mon May 17 21:41:05 +0000 2021",
+                                                                        "default_profile": true,
+                                                                        "default_profile_image": false,
+                                                                        "description": "Helping artists & collectors find each other \n\n\u2022 FREE NFT GUIDES: https://t.co/jCYNHZMY2W",
+                                                                        "entities": {
+                                                                            "description": {
+                                                                                "urls": [
+                                                                                    {
+                                                                                        "display_url": "nftgalleryguides.com",
+                                                                                        "expanded_url": "http://nftgalleryguides.com",
+                                                                                        "url": "https://t.co/jCYNHZMY2W",
+                                                                                        "indices": [
+                                                                                            66,
+                                                                                            89
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "url": {
+                                                                                "urls": [
+                                                                                    {
+                                                                                        "display_url": "nftgallery.bio.link",
+                                                                                        "expanded_url": "https://nftgallery.bio.link/",
+                                                                                        "url": "https://t.co/AB7Yc9v0AV",
+                                                                                        "indices": [
+                                                                                            0,
+                                                                                            23
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        },
+                                                                        "fast_followers_count": 0,
+                                                                        "favourites_count": 22227,
+                                                                        "followers_count": 206431,
+                                                                        "friends_count": 11,
+                                                                        "has_custom_timelines": true,
+                                                                        "is_translator": false,
+                                                                        "listed_count": 578,
+                                                                        "location": "4 FREE Gifts  \u27a4",
+                                                                        "media_count": 223,
+                                                                        "name": "NFTGallery",
+                                                                        "normal_followers_count": 206431,
+                                                                        "pinned_tweet_ids_str": [
+                                                                            "1877147006524604772"
+                                                                        ],
+                                                                        "possibly_sensitive": false,
+                                                                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1394407358487478276/1721672852",
+                                                                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1745577934327365632/ngHFW7zz_normal.jpg",
+                                                                        "profile_interstitial_type": "",
+                                                                        "screen_name": "NFTGalIery",
+                                                                        "statuses_count": 33501,
+                                                                        "translator_type": "none",
+                                                                        "url": "https://t.co/AB7Yc9v0AV",
+                                                                        "verified": false,
+                                                                        "want_retweets": false,
+                                                                        "withheld_in_countries": []
+                                                                    },
+                                                                    "professional": {
+                                                                        "rest_id": "1461344731183472648",
+                                                                        "professional_type": "Creator",
+                                                                        "category": [
+                                                                            {
+                                                                                "id": 1009,
+                                                                                "name": "Community",
+                                                                                "icon_name": "IconBriefcaseStroke"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "tipjar_settings": {
+                                                                        "is_enabled": true,
+                                                                        "bitcoin_handle": "",
+                                                                        "ethereum_handle": "0x68d0efa809bea27e26d16985a7b859d0d0f9f46b"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "invites_result": {
+                                                                "__typename": "CommunityInvitesUnavailable",
+                                                                "reason": "Unavailable",
+                                                                "message": "Must be a member of the Community to invite others."
+                                                            },
+                                                            "join_policy": "Open",
+                                                            "invites_policy": "MemberInvitesAllowed",
+                                                            "is_pinned": false,
+                                                            "members_facepile_results": [
+                                                                {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxMzk0NDA3MzU4NDg3NDc4Mjc2",
+                                                                        "rest_id": "1394407358487478276",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": true,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Mon May 17 21:41:05 +0000 2021",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "Helping artists & collectors find each other \n\n\u2022 FREE NFT GUIDES: https://t.co/jCYNHZMY2W",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "nftgalleryguides.com",
+                                                                                            "expanded_url": "http://nftgalleryguides.com",
+                                                                                            "url": "https://t.co/jCYNHZMY2W",
+                                                                                            "indices": [
+                                                                                                66,
+                                                                                                89
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "url": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "nftgallery.bio.link",
+                                                                                            "expanded_url": "https://nftgallery.bio.link/",
+                                                                                            "url": "https://t.co/AB7Yc9v0AV",
+                                                                                            "indices": [
+                                                                                                0,
+                                                                                                23
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 22227,
+                                                                            "followers_count": 206431,
+                                                                            "friends_count": 11,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 578,
+                                                                            "location": "4 FREE Gifts  \u27a4",
+                                                                            "media_count": 223,
+                                                                            "name": "NFTGallery",
+                                                                            "normal_followers_count": 206431,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1877147006524604772"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1394407358487478276/1721672852",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1745577934327365632/ngHFW7zz_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "NFTGalIery",
+                                                                            "statuses_count": 33501,
+                                                                            "translator_type": "none",
+                                                                            "url": "https://t.co/AB7Yc9v0AV",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "professional": {
+                                                                            "rest_id": "1461344731183472648",
+                                                                            "professional_type": "Creator",
+                                                                            "category": [
+                                                                                {
+                                                                                    "id": 1009,
+                                                                                    "name": "Community",
+                                                                                    "icon_name": "IconBriefcaseStroke"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "tipjar_settings": {
+                                                                            "is_enabled": true,
+                                                                            "bitcoin_handle": "",
+                                                                            "ethereum_handle": "0x68d0efa809bea27e26d16985a7b859d0d0f9f46b"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxNDQ4Njc1MDQxMTE0MTM2NTg2",
+                                                                        "rest_id": "1448675041114136586",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": false,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Thu Oct 14 15:40:27 +0000 2021",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "Conectando a creadores y artistas con coleccionistas. GU\u00cdAS NFT GRATIS: https://t.co/FA5DkFLzRc",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "nftgalleryguides.com",
+                                                                                            "expanded_url": "http://nftgalleryguides.com",
+                                                                                            "url": "https://t.co/FA5DkFLzRc",
+                                                                                            "indices": [
+                                                                                                72,
+                                                                                                95
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                "url": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "nftgallery.bio.link",
+                                                                                            "expanded_url": "https://nftgallery.bio.link",
+                                                                                            "url": "https://t.co/dWBDPQpecx",
+                                                                                            "indices": [
+                                                                                                0,
+                                                                                                23
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 739,
+                                                                            "followers_count": 5771,
+                                                                            "friends_count": 10,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 13,
+                                                                            "location": "Internacional",
+                                                                            "media_count": 6,
+                                                                            "name": "Galer\u00edaNFT \ud83d\udc8e",
+                                                                            "normal_followers_count": 5771,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1573481709386997771"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1448675041114136586/1641815596",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1480046852364029952/6VzDOrYM_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "GaleriaNFT",
+                                                                            "statuses_count": 11641,
+                                                                            "translator_type": "none",
+                                                                            "url": "https://t.co/dWBDPQpecx",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "professional": {
+                                                                            "rest_id": "1461344938356920326",
+                                                                            "professional_type": "Creator",
+                                                                            "category": [
+                                                                                {
+                                                                                    "id": 1009,
+                                                                                    "name": "Community",
+                                                                                    "icon_name": "IconBriefcaseStroke"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "tipjar_settings": {
+                                                                            "is_enabled": true,
+                                                                            "bitcoin_handle": "",
+                                                                            "ethereum_handle": "0x614cb5f22e5d8a42d23483a7e53544c040467113"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoyNzM2MjE1MjA3",
+                                                                        "rest_id": "2736215207",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": false,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Thu Aug 07 14:26:50 +0000 2014",
+                                                                            "default_profile": false,
+                                                                            "default_profile_image": false,
+                                                                            "description": "Graphic designer & Entrepreneur\n\n\u2022 CEO of @RekonMedia & @NFTGalIery\n\u2022 Working freelance with companies like @ESL & @FNATIC",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                },
+                                                                                "url": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "dcmat.bio.link",
+                                                                                            "expanded_url": "https://dcmat.bio.link",
+                                                                                            "url": "https://t.co/PNjlaKCdC8",
+                                                                                            "indices": [
+                                                                                                0,
+                                                                                                23
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 255356,
+                                                                            "followers_count": 8426,
+                                                                            "friends_count": 500,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 10,
+                                                                            "location": "Buenos Aires, Argentina \ud83c\udde6\ud83c\uddf7 ",
+                                                                            "media_count": 513,
+                                                                            "name": "Dcmat",
+                                                                            "normal_followers_count": 8426,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1639730469062209537"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/2736215207/1659202326",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1553433366443302912/gkwDKnBK_normal.png",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "Dcmat",
+                                                                            "statuses_count": 35764,
+                                                                            "translator_type": "regular",
+                                                                            "url": "https://t.co/PNjlaKCdC8",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "professional": {
+                                                                            "rest_id": "1461345239453429768",
+                                                                            "professional_type": "Creator",
+                                                                            "category": [
+                                                                                {
+                                                                                    "id": 1025,
+                                                                                    "name": "Graphic Designer",
+                                                                                    "icon_name": "IconBriefcaseStroke"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "tipjar_settings": {
+                                                                            "is_enabled": false,
+                                                                            "bitcoin_handle": "16w3znQpYBJcXoYXdFobviCwTVMqs3npp9",
+                                                                            "ethereum_handle": "0x7882c831020f8fb88a29fe0ffa620747a211f250",
+                                                                            "patreon_handle": ""
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjo4ODkyNzAxNTY4NjE1NTg3ODQ=",
+                                                                        "rest_id": "889270156861558784",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": false,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": false,
+                                                                            "created_at": "Sun Jul 23 23:45:02 +0000 2017",
+                                                                            "default_profile": false,
+                                                                            "default_profile_image": false,
+                                                                            "description": "UX/UI Designer \u2022 Tech/Digital Entrepreneur \u2022 Developer at @NFTGalIery \u2192 Contact: nicosterinzon1@gmail.com",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                },
+                                                                                "url": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "behance.net/_NicoSt_",
+                                                                                            "expanded_url": "https://www.behance.net/_NicoSt_",
+                                                                                            "url": "https://t.co/mahxROZ4tn",
+                                                                                            "indices": [
+                                                                                                0,
+                                                                                                23
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 97,
+                                                                            "followers_count": 926,
+                                                                            "friends_count": 617,
+                                                                            "has_custom_timelines": true,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 2,
+                                                                            "location": "Open for work",
+                                                                            "media_count": 2,
+                                                                            "name": "Nicolas S.",
+                                                                            "normal_followers_count": 926,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1377046993651040256"
+                                                                            ],
+                                                                            "possibly_sensitive": true,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/889270156861558784/1641585127",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1479539561650917380/V_THTCcB_normal.jpg",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "_NicoSt_",
+                                                                            "statuses_count": 94,
+                                                                            "translator_type": "none",
+                                                                            "url": "https://t.co/mahxROZ4tn",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "professional": {
+                                                                            "rest_id": "1479556245249998849",
+                                                                            "professional_type": "Business",
+                                                                            "category": []
+                                                                        },
+                                                                        "tipjar_settings": {
+                                                                            "is_enabled": true
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "result": {
+                                                                        "__typename": "User",
+                                                                        "id": "VXNlcjoxNTY4NDAxNjQwOTE0NDAzMzMw",
+                                                                        "rest_id": "1568401640914403330",
+                                                                        "affiliates_highlighted_label": {},
+                                                                        "has_graduated_access": true,
+                                                                        "parody_commentary_fan_label": "None",
+                                                                        "is_blue_verified": false,
+                                                                        "profile_image_shape": "Circle",
+                                                                        "legacy": {
+                                                                            "following": false,
+                                                                            "can_dm": true,
+                                                                            "can_media_tag": true,
+                                                                            "created_at": "Sat Sep 10 00:51:51 +0000 2022",
+                                                                            "default_profile": true,
+                                                                            "default_profile_image": false,
+                                                                            "description": "Connecting apps and businesses with new markets, creators with new opportunities, and users with new experiences \ud83e\udd1d",
+                                                                            "entities": {
+                                                                                "description": {
+                                                                                    "urls": []
+                                                                                },
+                                                                                "url": {
+                                                                                    "urls": [
+                                                                                        {
+                                                                                            "display_url": "rekonmedia.com",
+                                                                                            "expanded_url": "https://rekonmedia.com/",
+                                                                                            "url": "https://t.co/NmdD25owsf",
+                                                                                            "indices": [
+                                                                                                0,
+                                                                                                23
+                                                                                            ]
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "fast_followers_count": 0,
+                                                                            "favourites_count": 28,
+                                                                            "followers_count": 218,
+                                                                            "friends_count": 6,
+                                                                            "has_custom_timelines": false,
+                                                                            "is_translator": false,
+                                                                            "listed_count": 1,
+                                                                            "location": "Worldwide",
+                                                                            "media_count": 19,
+                                                                            "name": "RekonMedia",
+                                                                            "normal_followers_count": 218,
+                                                                            "pinned_tweet_ids_str": [
+                                                                                "1830379141654294694"
+                                                                            ],
+                                                                            "possibly_sensitive": false,
+                                                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1568401640914403330/1668324797",
+                                                                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1585482050152415240/okmXflKB_normal.png",
+                                                                            "profile_interstitial_type": "",
+                                                                            "screen_name": "RekonMedia",
+                                                                            "statuses_count": 38,
+                                                                            "translator_type": "none",
+                                                                            "url": "https://t.co/NmdD25owsf",
+                                                                            "verified": false,
+                                                                            "want_retweets": false,
+                                                                            "withheld_in_countries": []
+                                                                        },
+                                                                        "professional": {
+                                                                            "rest_id": "1585479695482642435",
+                                                                            "professional_type": "Business",
+                                                                            "category": [
+                                                                                {
+                                                                                    "id": 478,
+                                                                                    "name": "Advertising & Marketing Agency",
+                                                                                    "icon_name": "IconBriefcaseStroke"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "tipjar_settings": {}
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "moderator_count": 5,
+                                                            "member_count": 35633,
+                                                            "role": "NonMember",
+                                                            "rules": [
+                                                                {
+                                                                    "rest_id": "1493414396030300160",
+                                                                    "name": "Be kind and respectful."
+                                                                },
+                                                                {
+                                                                    "rest_id": "1493414396021948423",
+                                                                    "name": "Explore and share."
+                                                                },
+                                                                {
+                                                                    "rest_id": "1500386473375371267",
+                                                                    "name": "Beware of scam and phishing links."
+                                                                },
+                                                                {
+                                                                    "rest_id": "1493451969108787202",
+                                                                    "name": "Do not spam, share your work moderately."
+                                                                },
+                                                                {
+                                                                    "rest_id": "1493451960275587075",
+                                                                    "name": "Do not share scam content or you will be banned."
+                                                                },
+                                                                {
+                                                                    "rest_id": "1493414396030291973",
+                                                                    "name": "Keep Tweets on topic."
+                                                                },
+                                                                {
+                                                                    "rest_id": "1500386673737314305",
+                                                                    "name": "Do not share political propaganda"
+                                                                },
+                                                                {
+                                                                    "rest_id": "1500387322055086084",
+                                                                    "name": "Explicit content without artistic purposes is not allowed"
+                                                                }
+                                                            ],
+                                                            "custom_banner_media": {
+                                                                "media_info": {
+                                                                    "color_info": {
+                                                                        "palette": [
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 238,
+                                                                                    "green": 163,
+                                                                                    "blue": 28
+                                                                                },
+                                                                                "percentage": 43.93
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 5,
+                                                                                    "green": 3,
+                                                                                    "blue": 1
+                                                                                },
+                                                                                "percentage": 34.33
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 108,
+                                                                                    "green": 74,
+                                                                                    "blue": 12
+                                                                                },
+                                                                                "percentage": 17.98
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 61,
+                                                                                    "green": 40,
+                                                                                    "blue": 7
+                                                                                },
+                                                                                "percentage": 3.48
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 255,
+                                                                                    "green": 174,
+                                                                                    "blue": 29
+                                                                                },
+                                                                                "percentage": 0.29
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "original_img_url": "https://pbs.twimg.com/community_banner_img/1814730106507538432/muSIBKsc?format=jpg&name=orig",
+                                                                    "original_img_width": 1500,
+                                                                    "original_img_height": 600,
+                                                                    "salient_rect": {
+                                                                        "left": 739,
+                                                                        "top": 300,
+                                                                        "width": 1,
+                                                                        "height": 1
+                                                                    }
+                                                                }
+                                                            },
+                                                            "default_banner_media": {
+                                                                "media_info": {
+                                                                    "color_info": {
+                                                                        "palette": [
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 118,
+                                                                                    "green": 83,
+                                                                                    "blue": 214
+                                                                                },
+                                                                                "percentage": 68.0
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 250,
+                                                                                    "green": 104,
+                                                                                    "blue": 170
+                                                                                },
+                                                                                "percentage": 12.59
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 152,
+                                                                                    "green": 120,
+                                                                                    "blue": 222
+                                                                                },
+                                                                                "percentage": 8.15
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 83,
+                                                                                    "green": 50,
+                                                                                    "blue": 202
+                                                                                },
+                                                                                "percentage": 3.28
+                                                                            },
+                                                                            {
+                                                                                "rgb": {
+                                                                                    "red": 176,
+                                                                                    "green": 86,
+                                                                                    "blue": 187
+                                                                                },
+                                                                                "percentage": 2.86
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "original_img_url": "https://pbs.twimg.com/media/FECQMglVIAQBwV5.jpg",
+                                                                    "original_img_width": 1200,
+                                                                    "original_img_height": 480
+                                                                }
+                                                            },
+                                                            "viewer_relationship": {
+                                                                "moderation_state": {
+                                                                    "__typename": "CommunityUserDefaultModerationState"
+                                                                }
+                                                            },
+                                                            "join_requests_result": {
+                                                                "__typename": "CommunityJoinRequestsUnavailable"
+                                                            }
+                                                        }
+                                                    },
+                                                    "role": "Member",
+                                                    "user_results": {
+                                                        "result": {
+                                                            "__typename": "User",
+                                                            "id": "VXNlcjoxNjQ2NTM0ODkwNzgyMDg1MTIw",
+                                                            "rest_id": "1646534890782085120",
+                                                            "affiliates_highlighted_label": {},
+                                                            "has_graduated_access": true,
+                                                            "parody_commentary_fan_label": "None",
+                                                            "is_blue_verified": false,
+                                                            "profile_image_shape": "Circle",
+                                                            "legacy": {
+                                                                "following": false,
+                                                                "can_dm": true,
+                                                                "can_media_tag": true,
+                                                                "created_at": "Thu Apr 13 15:26:45 +0000 2023",
+                                                                "default_profile": true,
+                                                                "default_profile_image": false,
+                                                                "description": "",
+                                                                "entities": {
+                                                                    "description": {
+                                                                        "urls": []
+                                                                    }
+                                                                },
+                                                                "fast_followers_count": 0,
+                                                                "favourites_count": 19,
+                                                                "followers_count": 6,
+                                                                "friends_count": 19,
+                                                                "has_custom_timelines": false,
+                                                                "is_translator": false,
+                                                                "listed_count": 0,
+                                                                "location": "",
+                                                                "media_count": 84,
+                                                                "name": "tomasz saczko",
+                                                                "normal_followers_count": 6,
+                                                                "pinned_tweet_ids_str": [],
+                                                                "possibly_sensitive": false,
+                                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1646534890782085120/1739838345",
+                                                                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1646535403590266881/zlvbTLLN_normal.png",
+                                                                "profile_interstitial_type": "",
+                                                                "screen_name": "saczko_tom",
+                                                                "statuses_count": 139,
+                                                                "translator_type": "none",
+                                                                "verified": false,
+                                                                "want_retweets": false,
+                                                                "withheld_in_countries": []
+                                                            },
+                                                            "tipjar_settings": {}
+                                                        }
+                                                    }
+                                                },
+                                                "legacy": {
+                                                    "bookmark_count": 0,
+                                                    "bookmarked": false,
+                                                    "created_at": "Thu Feb 27 20:53:20 +0000 2025",
+                                                    "conversation_id_str": "1895215665738592558",
+                                                    "display_text_range": [
+                                                        0,
+                                                        88
+                                                    ],
+                                                    "entities": {
+                                                        "hashtags": [],
+                                                        "symbols": [],
+                                                        "timestamps": [],
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "foundation.app/mint/eth/0xe18\u2026",
+                                                                "expanded_url": "https://foundation.app/mint/eth/0xe18b5b6014eB7747d09175B1390D63d213FfA04F/15",
+                                                                "url": "https://t.co/e7hexKtQoR",
+                                                                "indices": [
+                                                                    24,
+                                                                    47
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "user_mentions": []
+                                                    },
+                                                    "favorite_count": 0,
+                                                    "favorited": false,
+                                                    "full_text": "Spacerek by Tom Saczko\n\nhttps://t.co/e7hexKtQoR\n\nThe table walks away after a tiring day",
+                                                    "is_quote_status": false,
+                                                    "lang": "en",
+                                                    "possibly_sensitive": false,
+                                                    "possibly_sensitive_editable": true,
+                                                    "quote_count": 0,
+                                                    "reply_count": 0,
+                                                    "retweet_count": 0,
+                                                    "retweeted": false,
+                                                    "user_id_str": "1646534890782085120",
+                                                    "id_str": "1895215665738592558"
+                                                },
+                                                "quick_promote_eligibility": {
+                                                    "eligibility": "IneligibleNotProfessional"
+                                                }
+                                            }
+                                        },
+                                        "tweetDisplayType": "Tweet",
+                                        "hasModeratedReplies": false
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TimelineTerminateTimeline",
+                        "direction": "Top"
+                    }
+                ]
+            }
+        }
+    }
+]
