@@ -10,27 +10,46 @@ from urllib.parse import quote
 from funcs import load_config, login
 
 def load_usernames(filename):
-    with open(filename, "r") as file:
-        return [line.strip() for line in file if line.strip()]
+    """Load Twitter usernames from a file containing tuples."""
+    usernames = []
+    with open(filename, "r", encoding="utf-8") as file:
+        for line in file:
+            line = line.strip()
+            if line:
+                try:
+                    data = eval(line)  # Convert string to tuple
+                    if isinstance(data, tuple) and len(data) >= 2:
+                        usernames.append(data[1])  # Extract the Twitter handle
+                except (SyntaxError, ValueError):
+                    print(f"⚠️ Invalid line format: {line}")
+    return usernames
 
 def open_user_pages(driver, usernames):
+    """Open each username's Twitter page in a new tab, wait for it to close, then continue."""
     for username in usernames:
         driver.execute_script(f"window.open('https://x.com/{username}', '_blank');")
         new_tab = driver.window_handles[-1]  # Get the latest opened tab
         driver.switch_to.window(new_tab)
         
-        # Wait for the tab to be closed
+        print(f"✅ Opened: https://x.com/{username}")
+
+        # Wait for the tab to be closed manually before proceeding
         while new_tab in driver.window_handles:
             time.sleep(1)
-        
-        # Once tab is closed, switch back to the main window
+
+        # Switch back to the main window
         driver.switch_to.window(driver.window_handles[0])
 
 if __name__ == "__main__":
-    mail, username, password, _ = load_config()
+    mail, username, password, *_ = load_config()  # Unpack only needed values
     driver = login(mail, username, password)
+
     if driver:
-        usernames = load_usernames("users_list2.txt")
-        print(usernames)
-        open_user_pages(driver, usernames)
+        usernames = load_usernames("ordered+filtered_users.txt")
+        if usernames:
+            print(f"📌 Loaded {len(usernames)} usernames.")
+            open_user_pages(driver, usernames)
+        else:
+            print("⚠️ No valid usernames found.")
+        
         driver.quit()

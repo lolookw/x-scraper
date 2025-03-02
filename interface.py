@@ -21,6 +21,11 @@ class SearchEntry(ctk.CTkFrame):
         self.query = ctk.CTkEntry(self, width=400, placeholder_text="Enter search query...")
         self.query.grid(row=0, column=1, columnspan=3, padx=5, pady=2, sticky='ew')
         
+        # Allow the query entry to expand when the window does
+        self.grid_columnconfigure(1, weight=1)
+        self.grid_columnconfigure(2, weight=1)
+        self.grid_columnconfigure(3, weight=1)
+        
         self.posts_label = ctk.CTkLabel(self, text="Scroll Posts:")
         self.posts_label.grid(row=1, column=0, padx=5, pady=2, sticky='w')
         self.scroll_posts = ctk.CTkEntry(self, width=100, placeholder_text="1")
@@ -147,7 +152,7 @@ class ScraperGUI(ctk.CTk):
         self.users_btn = ctk.CTkButton(
             self.btn_frame, 
             text="Execute users.py",
-            command=lambda: self.execute_script("users.py")
+            command=lambda: self.execute_script("usuarios.py")
         )
         self.users_btn.pack(side="left", padx=10)
 

@@ -44,7 +44,7 @@ def get_users(busquedas, mail,  username, password):
         scrl_post, scrl_comment, url = busqueda[0], busqueda[1], busqueda[2]
         driver.get(url)
         time.sleep(3)
-        temp_list, user_act = get_data(driver, url[23:28], scrl_post, scrl_comment, user)
+        temp_list, user_act, driver = get_data(driver, url[23:28], scrl_post, scrl_comment, user)
         user = user_act
         #driver.quit()
         temp_list = list(set(tuple(sublist) for sublist in temp_list))
@@ -93,7 +93,9 @@ def get_data(driver, busqueda, scrl_post, scrl_comment, username_act):
             with open(f"./backups/no_data.txt", "a", encoding="utf-8") as f:
                 f.write(f"{post_url}\n")
             if cont > 4:
+                driver.quit()
                 driver, username = change_user(username)
+                cont = 0
             continue
         else:
             cont = 0
@@ -151,7 +153,7 @@ def get_data(driver, busqueda, scrl_post, scrl_comment, username_act):
     with open(f"./backups/{busqueda}/users_list.json", "w", encoding="utf-8") as f:
         json.dump(users_list, f, indent=4)
 
-    return users_list, username
+    return users_list, username, driver
 
 
 
@@ -226,6 +228,7 @@ def element_exists(driver:webdriver, by:By, ref:str, time=4, refresh=False):
 def filter_users():
     tier_A = []
     tier_B = []
+    tier_C = []
     users = []
 
     # Palabras clave que indican que el usuario es un artista NFT
@@ -248,6 +251,11 @@ def filter_users():
         "objkt", "zora", "nifty gateway"
     ]
 
+    artist_websites = [
+        "foundation.app", "superrare.com", "opensea.io", "knownorigin.io", "objkt.com",
+        "manifold.xyz", "zora.co", "niftygateway.com", "makersplace.com"
+    ]
+
     with open("./users_list.txt", encoding="utf-8") as f:
         lines = f.readlines()
 
@@ -257,24 +265,30 @@ def filter_users():
         users.append(data)
 
     for user in users:
-        name, username, followers, following, description, dm = user
+        name, username, followers, following, description, dm, url = user
         
-        if dm and 25 < followers < 50000:
+        if dm and 25 < followers < 15000:
             desc_lower = description.lower()
+            url_lower = url.lower()
 
             is_artist = any(keyword in desc_lower for keyword in keywords_tier_A)
             is_growing = any(phrase in desc_lower for phrase in growth_phrases)
             sells_art = any(market in desc_lower for market in marketplaces)
+            has_artist_website = any(site in url_lower for site in artist_websites)
 
-            if is_artist or is_growing or sells_art:
+            if is_artist or sells_art:
                 tier_A.append(user)
-            else:
+            elif has_artist_website:
                 tier_B.append(user)
+            else:
+                tier_C.append(user)
 
     with open("./ordered+filtered_users.txt", "w", encoding="utf-8") as f:
         for user in tier_A:
             f.write(f"{user}\n")
         for user in tier_B:
+            f.write(f"{user}\n")
+        for user in tier_C:
             f.write(f"{user}\n")
 
     return

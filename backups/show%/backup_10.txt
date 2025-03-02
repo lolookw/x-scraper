@@ -1,5 +1,0 @@
-['Flow 〽️', 'NFTFlow_', 5338, 2450, 'Curating the content of tomorrow |\n\nTeam:  https://t.co/dkfCWYYM9O |     \n\nBrand Ambassador:  https://t.co/ZwgsSpPoWS |', True, '']
-['Jeffrey', 'Jef_NfT', 24675, 4036, 'Fitness addicted Dad | Web3 Marketing | Building and Networking | Co-Founder @TeamElevenX1 | Pro bag holder | Business Development / Outreach Manager | RT=AD', True, 'http://t.me/Jeffreys88']
-['iconito', 'iconitoNFT', 3273, 948, 'Enter the shadows 🏴\nhttps://t.co/gHL26TBnEl', True, 'https://iconito.club/']
-['☠️ZULUINK /DRIP💧☮️/NYC23/24/25/AVAX', 'Z_u_l_u_i_n_k', 18291, 15120, 'Multi-Media ᵖᶳᵞᶜᶣᵒ Artist ☮️🍄🇺🇦💧 \nhttps://t.co/WILS5ghXEp\nhttps://t.co/8qv1SOzNyp\nhttps://t.co/dCEdkWAlj9\nhttps://t.co/VSiYMrD45s', False, 'https://drip.haus/zuluink']
-['☠️ZULUINK /DRIP💧☮️/NYC23/24/25/AVAX', 'Z_u_l_u_i_n_k', 18291, 15120, 'Multi-Media ᵖᶳᵞᶜᶣᵒ Artist ☮️🍄🇺🇦💧 \nhttps://t.co/WILS5ghXEp\nhttps://t.co/8qv1SOzNyp\nhttps://t.co/dCEdkWAlj9\nhttps://t.co/VSiYMrD45s', False, 'https://drip.haus/zuluink']

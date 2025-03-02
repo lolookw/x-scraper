@@ -1,1 +1,0 @@
-['Pawtato Finance | Sui', 'PawtatoFinance', 4196, 977, 'We build to equip the community with powerful utility tools for the Sui-Ecosystem\n\n🖥️  dApp ➤ https://t.co/q0U6GjUtKl\n📱    App ➤ https://t.co/ffrzKn3qha', True, 'http://links.pawtato.app']
