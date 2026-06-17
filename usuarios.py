@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
+import ast
 import time
 import json
 from urllib.parse import quote
@@ -17,11 +18,11 @@ def load_usernames(filename):
             line = line.strip()
             if line:
                 try:
-                    data = eval(line)  # Convert string to tuple
-                    if isinstance(data, tuple) and len(data) >= 2:
+                    data = ast.literal_eval(line)
+                    if isinstance(data, (list, tuple)) and len(data) >= 2:
                         usernames.append(data[1])  # Extract the Twitter handle
                 except (SyntaxError, ValueError):
-                    print(f"⚠️ Invalid line format: {line}")
+                    print("⚠️ Invalid line format skipped.")
     return usernames
 
 def open_user_pages(driver, usernames):
@@ -45,11 +46,12 @@ if __name__ == "__main__":
     driver = login(mail, username, password)
 
     if driver:
-        usernames = load_usernames("ordered+filtered_users.txt")
-        if usernames:
-            print(f"📌 Loaded {len(usernames)} usernames.")
-            open_user_pages(driver, usernames)
-        else:
-            print("⚠️ No valid usernames found.")
-        
-        driver.quit()
+        try:
+            usernames = load_usernames("ordered+filtered_users.txt")
+            if usernames:
+                print(f"📌 Loaded {len(usernames)} usernames.")
+                open_user_pages(driver, usernames)
+            else:
+                print("⚠️ No valid usernames found.")
+        finally:
+            driver.quit()

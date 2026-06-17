@@ -1,0 +1,20 @@
+# Local credentials
+config.json
+
+# Generated scraper outputs
+backups/
+users_list.txt
+checked_users_list.txt
+ordered+filtered_users.txt
+*.log
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor/OS files
+.DS_Store
+.vscode/
+.idea/

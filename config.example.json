@@ -1,0 +1,15 @@
+{
+  "username": "your_x_username",
+  "mail": "your_email@example.com",
+  "password": "your_password",
+  "username2": "optional_second_x_username",
+  "mail2": "optional_second_email@example.com",
+  "password2": "optional_second_password",
+  "busquedas": [
+    {
+      "query": "nft artist",
+      "scroll_posts": 1,
+      "scroll_comments": 1
+    }
+  ]
+}

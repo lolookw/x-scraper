@@ -151,7 +151,7 @@ class ScraperGUI(ctk.CTk):
         
         self.users_btn = ctk.CTkButton(
             self.btn_frame, 
-            text="Execute users.py",
+            text="Execute usuarios.py",
             command=lambda: self.execute_script("usuarios.py")
         )
         self.users_btn.pack(side="left", padx=10)
@@ -228,7 +228,7 @@ class ScraperGUI(ctk.CTk):
         def run():
             try:
                 print(f"Executing {script_name}...")
-                subprocess.run(["python", script_name], check=True)
+                subprocess.run([sys.executable, script_name], check=True)
                 print(f"Finished executing {script_name}.")
             except subprocess.CalledProcessError as e:
                 print(f"Error executing {script_name}: {e}")

@@ -10,10 +10,16 @@ from selenium.webdriver.common.action_chains import ActionChains
 import time
 from urllib.parse import quote
 import os
+import ast
 import json
 import re
 
 def send_messages(driver):
+    """Send a cautious manual-review DM to users listed in checked_users_list.txt.
+
+    This helper is intentionally not called by default from main.py. Keep DM usage
+    consent-based and compliant with X platform rules.
+    """
     with open ("./checked_users_list.txt") as f:
         lines = f.readlines()
         users = [line.strip() for line in lines]
@@ -34,31 +40,45 @@ def send_messages(driver):
         print(f"ERROR en el usuario {user}")
     return
 
-def get_users(busquedas, mail,  username, password):
+def get_users(busquedas, mail, username, password):
+    """Collect user profile data for configured X search URLs."""
     if not os.path.exists('./backups'):
-        os.makedirs('./backups')    
+        os.makedirs('./backups')
+
     final_list = []
     user = username
     driver = login(mail, username, password)
-    for busqueda in busquedas:
-        scrl_post, scrl_comment, url = busqueda[0], busqueda[1], busqueda[2]
-        driver.get(url)
-        time.sleep(3)
-        temp_list, user_act, driver = get_data(driver, url[23:28], scrl_post, scrl_comment, user)
-        user = user_act
-        #driver.quit()
-        temp_list = list(set(tuple(sublist) for sublist in temp_list))
-        final_list.extend(temp_list)
-        with open(f"./backups/{url[23:28]}/final_{url[23:28]}.txt", "w", encoding="utf-8") as f: 
-            for item in temp_list:
-                f.write(f"{item}\n")
+    if driver is None:
+        print("Login failed; user collection was not started.")
+        return None
+
+    try:
+        for busqueda in busquedas:
+            scrl_post, scrl_comment, url = busqueda[0], busqueda[1], busqueda[2]
+            driver.get(url)
+            time.sleep(3)
+
+            temp_list, user_act, driver = get_data(driver, url[23:28], scrl_post, scrl_comment, user)
+            user = user_act
+            temp_list = list(set(tuple(sublist) for sublist in temp_list))
+            final_list.extend(temp_list)
+
+            with open(f"./backups/{url[23:28]}/final_{url[23:28]}.txt", "w", encoding="utf-8") as f:
+                for item in temp_list:
+                    f.write(f"{item}\n")
+    except Exception:
+        driver.quit()
+        raise
+
     concat_total = len(final_list)
     final_list = list(set(final_list))
     concat_unique = len(final_list)
     print(f"Total de usuarios: {concat_total}, Total de usuarios únicos: {concat_unique}")
-    with open("./users_list.txt", "w", encoding="utf-8") as f: 
+
+    with open("./users_list.txt", "w", encoding="utf-8") as f:
         for item in final_list:
-            f.write(f"{item}\n")  
+            f.write(f"{item}\n")
+
     return driver
 
 def get_data(driver, busqueda, scrl_post, scrl_comment, username_act):
@@ -192,7 +212,8 @@ def extract_tweet_detail_from_logs(driver):
 
 
 
-def scroll_down_get(driver: webdriver, iter):
+def scroll_down_get(driver: webdriver, iter: int):
+    """Scroll the current X timeline and collect visible post URLs."""
     posts_list = []
     count_error=0
     feed = element_exists(driver=driver, by=By.XPATH,ref='//div[@aria-label="Home timeline"]',time=20)
@@ -205,9 +226,9 @@ def scroll_down_get(driver: webdriver, iter):
             post_elements = driver.find_elements(By.XPATH, '//article[@data-testid="tweet"]/div/div/div[2]/div[2]/div[1]/div/div[1]/div/div/div[2]/div/div[3]/a')
             post_urls = [element.get_attribute("href") for element in post_elements]
             posts_list.extend(post_urls)
-        except:
+        except Exception as exc:
             count_error+=1
-            print(f"Error en i = {count_error}")
+            print(f"Error en i = {count_error}: {exc}")
             break
     return driver, posts_list
 
@@ -219,13 +240,22 @@ def element_exists(driver:webdriver, by:By, ref:str, time=4, refresh=False):
             driver.refresh()
         try:
             ret = WebDriverWait(driver, time).until(EC.presence_of_element_located((by,ref)))
-        except :
+        except TimeoutException:
             pass
     except TimeoutException:
         pass
     return ret
 
+def parse_user_record(line: str):
+    """Safely parse a saved user record without executing arbitrary code."""
+    data = ast.literal_eval(line.strip())
+    if isinstance(data, (list, tuple)) and len(data) >= 7:
+        return data
+    raise ValueError("Expected a user record with at least 7 fields")
+
+
 def filter_users():
+    """Rank collected users into simple portfolio-demo tiers."""
     tier_A = []
     tier_B = []
     tier_C = []
@@ -260,9 +290,10 @@ def filter_users():
         lines = f.readlines()
 
     for line in lines:
-        line = line.strip("()\n ")
-        data = eval(line)
-        users.append(data)
+        try:
+            users.append(parse_user_record(line))
+        except (SyntaxError, ValueError) as exc:
+            print(f"Skipping invalid user record: {exc}")
 
     for user in users:
         name, username, followers, following, description, dm, url = user
@@ -318,9 +349,12 @@ def login(mail, username, password):
 
         try:
             we_email=element_exists(driver=driver,by=By.XPATH, ref='//input[@autocomplete="on"]',time=7)
-            we_email.send_keys(mail)
-            we_email.send_keys(Keys.ENTER)
-        except:
+            if we_email:
+                we_email.send_keys(mail)
+                we_email.send_keys(Keys.ENTER)
+            else:
+                print("No fue necesario ingresar el mail")
+        except TimeoutException:
             print("No fue necesario ingresar el mail")
 
         we_password = element_exists(driver=driver, by=By.XPATH,ref='//input[@name="password"]',time=20)
